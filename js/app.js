@@ -65,7 +65,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v7';
+    var renderSnapshotKey = 'zbls_render_snapshot_v8';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
@@ -613,7 +613,7 @@
         warmThemeImages();
     }
 
-    // 分类页两级选择器：第一行 7 个分类，第二行当前分类的 6 个子分类。
+    // 42 个分类共用两行高的滚动区，每行 11 个。
     function caseCountText(learned, total) { return learned + '/' + total; }
     // 第一行（分类）是否显示魔方图。分类图只有顶面色块、信息量低，暂时关掉；
     // 想恢复就把这里改成 true（行上的 has-thumb 类会自动跟着变）。
@@ -652,7 +652,7 @@
         var subs = cat.subcategories || [], id = activeSubcatId(cat);
         return subs.filter(function (sub) { return sub.id === id; })[0] || subs[0] || null;
     }
-    function renderCaseBar(cat, activeSub) {
+    function renderCaseBar(cat) {
         var data = viewData();
         var html = '<div class="case-bar">';
         html += '<div class="case-bar-row case-bar-categories' + (SHOW_CATEGORY_THUMB ? ' has-thumb' : '') + '">'
@@ -661,14 +661,6 @@
             var counts = caseCounts(item.subcategories);
             html += renderCaseChip('data-case-category="' + escapeHtml(item.id) + '"', item.id,
                 caseCountText(counts.learned, counts.total), item.id === cat.id, SHOW_CATEGORY_THUMB ? item.id : '');
-        });
-        html += '</div></div>';
-        html += '<div class="case-bar-row case-bar-subcategories">'
-            + '<div class="case-bar-scroll" role="group"' + ta('aria-label', '切换子分类') + '>';
-        (cat.subcategories || []).forEach(function (sub) {
-            var learned = sub.formulas.filter(function (formula) { return formula.learned; }).length;
-            html += renderCaseChip('data-case-subcategory="' + escapeHtml(sub.id) + '"', sub.id,
-                caseCountText(learned, sub.formulas.length), !!activeSub && sub.id === activeSub.id, sub.id);
         });
         html += '</div></div>';
         html += '</div>';
@@ -686,7 +678,6 @@
         var theme = document.documentElement.getAttribute('data-theme');
         var paths = [];
         if (SHOW_CATEGORY_THUMB) (viewData().categories || []).forEach(function (item) { paths.push(categoryImagePath(item.id, theme)); });
-        (cat.subcategories || []).forEach(function (sub) { paths.push(categoryImagePath(sub.id, theme)); });
         (activeSub ? [activeSub] : (cat.subcategories || [])).forEach(function (sub) {
             (sub.formulas || []).forEach(function (formula) { if (formula.image) paths.push(formula.image); });
         });
@@ -755,7 +746,7 @@
         var activeSub = activeSubcatOf(cat);
         // 横栏放在 .container 外面（全宽，像 Word 的功能区）；只给读屏用的一级标题留在容器里。
         // 不再有可见的面包屑与标题：进页面就是吸顶选择器。
-        var html = renderCaseBar(cat, activeSub);
+        var html = renderCaseBar(cat);
         html += '<div class="container container-flush"><h1 class="visually-hidden">' + escapeHtml(cat.id) + ' Case</h1>';
         if (activeSub) {
             var subTotal = activeSub.formulas.length;
@@ -769,18 +760,19 @@
             html += '</div></div>';
         }
         html += '</div>';
-        // 重建 DOM 前保留两行选择器的横向位置。手机点 U6 等靠右的按钮时，
-        // 不能随着内容重渲染跳回最左侧；切换大类则让新的子分类行从头显示。
-        var rowSelectors = ['.case-bar-categories .case-bar-scroll', '.case-bar-subcategories .case-bar-scroll'];
-        var rowScroll = rowSelectors.map(function (selector, index) {
-            var row = appEl.querySelector(selector);
-            return row && (index === 0 || currentCatId === cat.id) ? row.scrollLeft : 0;
-        });
+        var selector = '.case-bar-categories .case-bar-scroll';
+        var previousBar = appEl.querySelector(selector);
+        var barScroll = previousBar ? { top: previousBar.scrollTop, left: previousBar.scrollLeft } : { top: 0, left: 0 };
         commitHtml(html);
-        rowSelectors.forEach(function (selector, index) {
-            var row = appEl.querySelector(selector);
-            if (row) row.scrollLeft = rowScroll[index];
-        });
+        var bar = appEl.querySelector(selector);
+        bar.scrollTop = barScroll.top;
+        bar.scrollLeft = barScroll.left;
+        // 从首页或链接进入后面的分类时，只滚动分类区以露出当前项。
+        var selected = bar.querySelector('.is-current');
+        if (selected.offsetTop < bar.scrollTop) bar.scrollTop = selected.offsetTop;
+        else if (selected.offsetTop + selected.offsetHeight > bar.scrollTop + bar.clientHeight) {
+            bar.scrollTop = selected.offsetTop + selected.offsetHeight - bar.clientHeight;
+        }
         currentCatId = cat.id;
         currentSubId = activeSub ? activeSub.id : '';
         initOwnMarkHints();
@@ -1679,7 +1671,7 @@
         promptDefaultPublicDrag();
     }, true);
     document.addEventListener('click', function (e) {
-        // 两级选择器：第一行切分类（走 hash 路由），第二行切子分类（原地重渲染）。
+        // 分类选择器通过 hash 路由切换内容。
         var caseChip = e.target.closest('.case-chip');
         if (caseChip) {
             var requestId = ++selectionRequestId, hash = location.hash, data = viewData();
@@ -1741,14 +1733,16 @@
         selectFormulaLine(formulaLine);
     });
     document.addEventListener('keydown', function (e) {
-        if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+        if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].indexOf(e.key) === -1) return;
         var chip = e.target.closest ? e.target.closest('.case-chip') : null;
         if (!chip) return;
         var buttons = Array.prototype.slice.call(chip.parentNode.querySelectorAll('.case-chip'));
         var index = buttons.indexOf(chip);
         if (index < 0) return;
         e.preventDefault();
-        var nextIndex = (index + (e.key === 'ArrowRight' ? 1 : -1) + buttons.length) % buttons.length;
+        var step = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -11, ArrowDown: 11 }[e.key];
+        var nextIndex = (index + step + buttons.length) % buttons.length;
+        if (Math.abs(step) === 11 && (index + step < 0 || index + step >= buttons.length)) nextIndex = index;
         buttons.forEach(function (item, i) { item.setAttribute('tabindex', i === nextIndex ? '0' : '-1'); });
         buttons[nextIndex].focus();
     });

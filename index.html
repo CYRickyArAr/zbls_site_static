@@ -11,7 +11,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link href="css/fonts.css?v=1" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css?v=274" rel="stylesheet">
+    <link href="css/style.css?v=275" rel="stylesheet">
     <script>
         (function () {
             if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
@@ -27,7 +27,7 @@
                 var hasAnchor = !!localStorage.getItem(key + '_anchor');
                 var y = parseInt(localStorage.getItem(key), 10) || 0;
                 if (hasAnchor || y > 0) document.documentElement.setAttribute('data-scroll-restore', 'pending');
-                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v7');
+                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v8');
                 if (snapshotRaw) {
                     var snapshot = JSON.parse(snapshotRaw);
                     if (snapshot && snapshot.language === ZBLS_I18N.language() && snapshot.hash === hash && snapshot.appHtml) {
@@ -146,7 +146,7 @@
         (function () {
             try {
                 ZBLS_I18N.translate(document);
-                var raw = sessionStorage.getItem('zbls_render_snapshot_v7');
+                var raw = sessionStorage.getItem('zbls_render_snapshot_v8');
                 if (!raw) return;
                 var snapshot = JSON.parse(raw);
                 var hash = location.hash || '#/';
@@ -237,6 +237,6 @@
     <!-- 数据 + 逻辑 -->
     <script defer src="data.js?v=714778f8809a"></script>
     <script defer src="js/workspace.js?v=19"></script>
-    <script defer src="js/app.js?v=181"></script>
+    <script defer src="js/app.js?v=182"></script>
 </body>
 </html>
