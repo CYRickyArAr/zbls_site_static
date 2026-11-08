@@ -2,6 +2,7 @@
 import hashlib
 import re
 import sys
+sys.dont_write_bytecode = True
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'database'))
 from store import ROOT, data_script, write
