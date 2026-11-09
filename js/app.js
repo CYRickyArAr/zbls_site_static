@@ -72,7 +72,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v14';
+    var renderSnapshotKey = 'zbls_render_snapshot_v15';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
@@ -208,6 +208,8 @@
             wcaMap[item.label] = item.wca || '';
         });
         // Supplement export metadata without changing raw marks or personal library snapshots.
+        wcaMap['耿'] = '2023GENG02';
+        wcaMap['连'] = '2025LIAN01';
         wcaMap['余'] = '2023YUHA01';
         (data.categories || []).forEach(function (cat) {
             (cat.subcategories || []).forEach(function (sub) {
