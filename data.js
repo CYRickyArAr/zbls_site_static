@@ -453,12 +453,6 @@ window.ZBLS_DATA = {
                   ]
                 },
                 {
-                  "alg": "y U U2 L' U' L U2 L F' L' F",
-                  "marks": [
-                    "耿"
-                  ]
-                },
-                {
                   "alg": "y U' L' U' L U2 L F' L' F",
                   "marks": [
                     "耿"
@@ -1528,7 +1522,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 9-6",
               "lines": [
                 {
-                  "alg": "y U U' L F' L' F U2 L' U' L U L' U' L",
+                  "alg": "y L F' L' F U2 L' U' L U L' U' L",
                   "marks": [
                     "耿"
                   ]
@@ -2277,7 +2271,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 14-6",
               "lines": [
                 {
-                  "alg": "y U' U L' U L U' L F' L' F L' U L",
+                  "alg": "y L' U L U' L F' L' F L' U L",
                   "marks": [
                     "耿"
                   ]
@@ -3219,7 +3213,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 21-2",
               "lines": [
                 {
-                  "alg": "y U U L F' L' F L' U' L2 F' L' F",
+                  "alg": "y U2 L F' L' F L' U' L2 F' L' F",
                   "marks": [
                     "耿"
                   ]
@@ -3365,7 +3359,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 22-2",
               "lines": [
                 {
-                  "alg": "y U2 U F' L F L2 U L U' L' U' L",
+                  "alg": "y U' F' L F L2 U L U' L' U' L",
                   "marks": [
                     "耿"
                   ]
@@ -4135,7 +4129,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 27-2",
               "lines": [
                 {
-                  "alg": "y U U F U R U R' U F'",
+                  "alg": "y U2 F U R U R' U F'",
                   "marks": [
                     "耿"
                   ]
@@ -4872,12 +4866,6 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 31-7",
               "lines": [
                 {
-                  "alg": "y U' U2 L F' L' F L' U L",
-                  "marks": [
-                    "耿"
-                  ]
-                },
-                {
                   "alg": "y U L F' L' F L' U L",
                   "marks": [
                     "耿"
@@ -5011,7 +4999,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 32-6",
               "lines": [
                 {
-                  "alg": "y U2 U' D U' R U' R' U R U' R2 F R F' D'",
+                  "alg": "y U R U' R' U R U' R2 F R F'",
                   "marks": [
                     "耿"
                   ]
@@ -5696,12 +5684,7 @@ window.ZBLS_DATA = {
               "name": "C37-4",
               "image": "images/C37-4.svg?v=vh1",
               "notes": "ZBLS 37-4",
-              "lines": [
-                {
-                  "alg": "Résolu",
-                  "marks": []
-                }
-              ]
+              "lines": []
             }
           ]
         }
