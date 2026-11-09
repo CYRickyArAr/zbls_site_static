@@ -552,11 +552,13 @@
         try {
             var navOpen = document.getElementById('workspace-open');
             var anchor = firstVisibleAnchor();
+            var categoryScroll = appEl.querySelector('.case-bar-categories .case-bar-scroll');
             var snapshot = {
                 language: I18N.language(),
                 hash: location.hash || '#/',
                 scrollY: window.pageYOffset || window.scrollY || 0,
                 anchor: anchor,
+                caseBarScroll: categoryScroll ? { top: categoryScroll.scrollTop, left: categoryScroll.scrollLeft } : null,
                 appHtml: appEl.innerHTML,
                 nav: {
                     workspaceOpenHtml: navOpen ? navOpen.innerHTML : '',

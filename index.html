@@ -171,6 +171,17 @@
                 var app = document.getElementById('app');
                 if (!app) return;
                 app.innerHTML = snapshot.appHtml;
+                // Nested scroll offsets are not included in the saved HTML.
+                var categoryScroll = app.querySelector('.case-bar-categories .case-bar-scroll');
+                if (categoryScroll) {
+                    if (snapshot.caseBarScroll) {
+                        categoryScroll.scrollTop = Number(snapshot.caseBarScroll.top) || 0;
+                        categoryScroll.scrollLeft = Number(snapshot.caseBarScroll.left) || 0;
+                    } else {
+                        var selected = categoryScroll.querySelector('.is-current');
+                        if (selected) categoryScroll.scrollTop = Math.max(0, selected.offsetTop + selected.offsetHeight - categoryScroll.clientHeight);
+                    }
+                }
                 if (snapshot.nav) {
                     var workspaceOpen = document.getElementById('workspace-open');
                     if (workspaceOpen && snapshot.nav.workspaceOpenHtml) {
@@ -254,6 +265,6 @@
     <!-- 数据 + 逻辑 -->
     <script defer src="data.js?v=10798b1e60bf"></script>
     <script defer src="js/workspace.js?v=21"></script>
-    <script defer src="js/app.js?v=192"></script>
+    <script defer src="js/app.js?v=193"></script>
 </body>
 </html>
