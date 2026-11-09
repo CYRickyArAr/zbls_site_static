@@ -72,7 +72,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v15';
+    var renderSnapshotKey = 'zbls_render_snapshot_v16';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
@@ -236,7 +236,20 @@
     function imageSource(path) { return imageLibrary ? imageLibrary.source(path) : path; }
     function bundledImage(path) { return !!(imageLibrary && imageLibrary.has(path)); }
     function categoryImagePath(categoryId, theme) {
-        return 'images/' + encodeURIComponent(categoryId) + '.svg';
+        return 'images/' + (theme === 'light' ? 'light/' : '') + encodeURIComponent(categoryId) + '.svg?v=theme1';
+    }
+    function caseImageId(path) {
+        var match = /^images\/(?:light\/)?(C\d+-\d+)\.svg(?:\?[^#]*)?$/.exec(path || '');
+        return match ? match[1] : '';
+    }
+    function formulaImagePath(path, theme) {
+        var id = caseImageId(path);
+        return id ? categoryImagePath(id, theme || document.documentElement.getAttribute('data-theme')) : path;
+    }
+    function formulaImageAttributes(path) {
+        var id = caseImageId(path);
+        return (path ? ' src="' + escapeHtml(imageSource(formulaImagePath(path))) + '"' : ' hidden')
+            + (id ? ' data-case-image="' + escapeHtml(id) + '"' : '');
     }
     var allThemeImagesScheduled = false;
     var themeSwitchId = 0;
@@ -244,12 +257,12 @@
         return preloadFormulaImage(path);
     }
     function visibleThemeImagePaths(theme) {
-        return Array.prototype.map.call(appEl.querySelectorAll('.category-thumb[data-category], .case-thumb[data-thumb]'), function (image) {
+        return Array.prototype.map.call(appEl.querySelectorAll('.category-thumb[data-category], .case-thumb[data-thumb], img[data-case-image]'), function (image) {
             return categoryImagePath(themeImageId(image), theme);
         });
     }
     function themeImageId(image) {
-        return image.getAttribute('data-category') || image.getAttribute('data-thumb');
+        return image.getAttribute('data-category') || image.getAttribute('data-thumb') || image.getAttribute('data-case-image');
     }
     function scheduleRemainingThemeImages() {
         if ((imageLibrary && imageLibrary.state !== 'fallback') || allThemeImagesScheduled || lowDataMode() || slowLink()) return;
@@ -276,7 +289,7 @@
     function applyTheme(theme, persist) {
         theme = theme === 'dark' ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', theme);
-        appEl.querySelectorAll('.category-thumb[data-category], .case-thumb[data-thumb]').forEach(function (image) {
+        appEl.querySelectorAll('.category-thumb[data-category], .case-thumb[data-thumb], img[data-case-image]').forEach(function (image) {
             image.src = imageSource(categoryImagePath(themeImageId(image), theme));
         });
         if (persist) { try { localStorage.setItem(themeKey, theme); } catch (e) {} }
@@ -387,7 +400,7 @@
     function formulaPathsOf(subs) {
         var paths = [];
         (subs || []).forEach(function (sub) {
-            (sub.formulas || []).forEach(function (formula) { if (formula.image) paths.push(formula.image); });
+            (sub.formulas || []).forEach(function (formula) { if (formula.image) paths.push(formulaImagePath(formula.image)); });
         });
         return paths;
     }
@@ -727,7 +740,7 @@
         var paths = [];
         if (SHOW_CATEGORY_THUMB) (viewData().categories || []).forEach(function (item) { paths.push(categoryImagePath(item.id, theme)); });
         (activeSub ? [activeSub] : (cat.subcategories || [])).forEach(function (sub) {
-            (sub.formulas || []).forEach(function (formula) { if (formula.image) paths.push(formula.image); });
+            (sub.formulas || []).forEach(function (formula) { if (formula.image) paths.push(formulaImagePath(formula.image, theme)); });
         });
         return paths;
     }
@@ -846,10 +859,10 @@
         if (editing) {
             var editImage = inlineEditor.imageCleared ? '' : (inlineEditor.selectedImage || formula.image || '');
             html += '<div class="inline-image-editor"><label class="drag-area inline-image-drop"' + ta('title', '点击选择图片') + '>';
-            html += '<img class="inline-image-preview"' + ta('alt', '图片预览') + (editImage ? ' src="' + escapeHtml(imageSource(editImage)) + '"' : ' hidden') + '>';
+            html += '<img class="inline-image-preview"' + ta('alt', '图片预览') + formulaImageAttributes(editImage) + '>';
             html += '<span class="inline-image-prompt"' + (editImage ? ' hidden' : '') + '>📷<small>' + tx('选择图片') + '</small></span>';
             html += '<input type="file" class="inline-image-input d-none" accept="image/png,image/jpeg,image/gif,image/svg+xml"></label></div>';
-        } else if (formula.image) html += '<img src="' + escapeHtml(imageSource(formula.image)) + '" class="formula-image" alt="' + escapeHtml(id) + '">';
+        } else if (formula.image) html += '<img' + formulaImageAttributes(formula.image) + ' class="formula-image" alt="' + escapeHtml(id) + '">';
         else html += '<div class="formula-image d-flex align-items-center justify-content-center bg-light"><span class="text-muted">' + tx('无图') + '</span></div>';
         html += '</div><div class="col-8"><div class="formula-id">' + escapeHtml(id) + '</div>';
         if (editing) {
@@ -1390,7 +1403,9 @@
     function syncInlineImage(editor) {
         if (!editor) return;
         var path = currentInlineImage(), image = editor.querySelector('.inline-image-preview');
-        if (path) image.src = imageSource(path); else image.removeAttribute('src');
+        if (path) image.src = imageSource(formulaImagePath(path)); else image.removeAttribute('src');
+        var id = caseImageId(path);
+        if (id) image.setAttribute('data-case-image', id); else image.removeAttribute('data-case-image');
         image.hidden = !path;
         editor.querySelector('.inline-image-prompt').hidden = !!path;
         var button = editor.closest('.formula-card').querySelector('.inline-image-clear');

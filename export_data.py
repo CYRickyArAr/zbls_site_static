@@ -5,10 +5,11 @@ import sys
 sys.dont_write_bytecode = True
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'database'))
-from store import ROOT, data_script, write
+from store import ROOT, data_script, write, export_theme_images
 
 
 def main():
+    export_theme_images()
     script = data_script()
     write(ROOT / 'static' / 'data.js', script)
     path = ROOT / 'static' / 'index.html'
