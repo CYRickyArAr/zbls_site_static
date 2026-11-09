@@ -41,7 +41,7 @@
                 var hasAnchor = !!localStorage.getItem(key + '_anchor');
                 var y = parseInt(localStorage.getItem(key), 10) || 0;
                 if (hasAnchor || y > 0) document.documentElement.setAttribute('data-scroll-restore', 'pending');
-                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v17');
+                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v18');
                 if (snapshotRaw) {
                     var snapshot = JSON.parse(snapshotRaw);
                     if (snapshot && snapshot.language === ZBLS_I18N.language() && snapshot.hash === hash && snapshot.appHtml) {
@@ -163,7 +163,7 @@
         (function () {
             try {
                 ZBLS_I18N.translate(document);
-                var raw = sessionStorage.getItem('zbls_render_snapshot_v17');
+                var raw = sessionStorage.getItem('zbls_render_snapshot_v18');
                 if (!raw) return;
                 var snapshot = JSON.parse(raw);
                 var hash = location.hash || '#/';
@@ -265,6 +265,6 @@
     <!-- 数据 + 逻辑 -->
     <script defer src="data.js?v=7df822d7e093"></script>
     <script defer src="js/workspace.js?v=21"></script>
-    <script defer src="js/app.js?v=193"></script>
+    <script defer src="js/app.js?v=194"></script>
 </body>
 </html>

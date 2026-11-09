@@ -59,10 +59,13 @@
         return;
     }
 
-    var CAT_BADGE = {
-        'U': 'bg-primary', 'T': 'bg-danger', 'L': 'bg-warning text-dark',
-        'Pi': 'bg-success', 'S': 'bg-orange', 'AS': 'bg-dark', 'H': 'bg-secondary'
-    };
+    var CAT_BADGE = {};
+    [
+        [1, 8, 'bg-primary'], [9, 16, 'bg-danger'], [17, 24, 'bg-warning text-dark'],
+        [25, 32, 'bg-success'], [33, 36, 'bg-orange'], [37, 42, 'bg-dark']
+    ].forEach(function (group) {
+        for (var n = group[0]; n <= group[1]; n++) CAT_BADGE['C' + n] = group[2];
+    });
     function solverText(mark) { return '<span data-solver-label="' + escapeHtml(mark) + '">' + escapeHtml(I18N.mark(mark)) + '</span>'; }
     function solverBadge(mark) {
         return '<span class="formula-marks" data-solver-title="' + escapeHtml(mark) + '" title="' + escapeHtml(I18N.fullName(mark)) + '">' + solverText(mark) + '</span>';
@@ -72,7 +75,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v17';
+    var renderSnapshotKey = 'zbls_render_snapshot_v18';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
