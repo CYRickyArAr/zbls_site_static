@@ -16,8 +16,8 @@
     <link href="css/fonts.css?v=1" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css?v=278" rel="stylesheet">
-    <link rel="preload" href="images/image-library.json.gz?v=8f4594b4d7ef87e9" as="fetch" crossorigin>
-    <script defer src="js/image-library.js?v=1" data-bundle="images/image-library.json.gz?v=8f4594b4d7ef87e9" data-fallback="images/image-library.json?v=8f4594b4d7ef87e9"></script>
+    <link rel="preload" href="images/image-library.json.gz?v=f6385c3655ecd6df" as="fetch" crossorigin>
+    <script defer src="js/image-library.js?v=1" data-bundle="images/image-library.json.gz?v=f6385c3655ecd6df" data-fallback="images/image-library.json?v=f6385c3655ecd6df"></script>
     <script>
         if (document.fonts) {
             document.documentElement.classList.add('fonts-loading');
@@ -41,7 +41,7 @@
                 var hasAnchor = !!localStorage.getItem(key + '_anchor');
                 var y = parseInt(localStorage.getItem(key), 10) || 0;
                 if (hasAnchor || y > 0) document.documentElement.setAttribute('data-scroll-restore', 'pending');
-                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v19');
+                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v20');
                 if (snapshotRaw) {
                     var snapshot = JSON.parse(snapshotRaw);
                     if (snapshot && snapshot.language === ZBLS_I18N.language() && snapshot.hash === hash && snapshot.appHtml) {
@@ -163,7 +163,7 @@
         (function () {
             try {
                 ZBLS_I18N.translate(document);
-                var raw = sessionStorage.getItem('zbls_render_snapshot_v19');
+                var raw = sessionStorage.getItem('zbls_render_snapshot_v20');
                 if (!raw) return;
                 var snapshot = JSON.parse(raw);
                 var hash = location.hash || '#/';
@@ -263,8 +263,8 @@
 
     <script>ZBLS_I18N.translate(document);</script>
     <!-- 数据 + 逻辑 -->
-    <script defer src="data.js?v=58c1bfa36e64"></script>
-    <script defer src="js/workspace.js?v=21"></script>
-    <script defer src="js/app.js?v=195"></script>
+    <script defer src="data.js?v=ce1116c682a1"></script>
+    <script defer src="js/workspace.js?v=22"></script>
+    <script defer src="js/app.js?v=196"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 window.ZBLS_DATA = {
   "meta": {
-    "totalFormulas": 306,
+    "totalFormulas": 305,
     "categoryOrder": [
       "C1",
       "C2",
@@ -192,7 +192,7 @@ window.ZBLS_DATA = {
       },
       {
         "id": "C37",
-        "total": 4
+        "total": 3
       },
       {
         "id": "C38",
@@ -5678,13 +5678,6 @@ window.ZBLS_DATA = {
                   "marks": []
                 }
               ]
-            },
-            {
-              "id": "C37-4",
-              "name": "C37-4",
-              "image": "images/C37-4.svg?v=vh1",
-              "notes": "ZBLS 37-4",
-              "lines": []
             }
           ]
         }

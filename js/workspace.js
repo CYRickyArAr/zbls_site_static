@@ -145,13 +145,25 @@
     function syncSources(workspace, data) {
         validateV2(workspace);
         var current = catalog(data), fingerprint = data.meta && data.meta.fingerprint || '';
-        var linked = new Set();
-        cases(workspace, function (f) { if (f.sourceCaseKey) linked.add(f.sourceCaseKey); });
-        if (workspace.sourceFingerprint === fingerprint && JSON.stringify(workspace.sources) === JSON.stringify(current) && current.every(function (s) { return linked.has(s.key); })) return null;
+        var linked = new Set(), retiredKey = caseKey('C37', 'C37', 'C37-4'), hasRetired = false;
+        cases(workspace, function (f, cat, sub) {
+            if (f.sourceCaseKey) linked.add(f.sourceCaseKey);
+            if (f.sourceCaseKey === retiredKey || (cat.id === 'C37' && sub.id === 'C37' && f.id === 'C37-4')) hasRetired = true;
+        });
+        if (!hasRetired && workspace.sourceFingerprint === fingerprint && JSON.stringify(workspace.sources) === JSON.stringify(current) && current.every(function (s) { return linked.has(s.key); })) return null;
         var result = clone(workspace), oldSources = new Map(workspace.sources.map(function (s) { return [s.key, s]; }));
         var currentSources = new Map(current.map(function (s) { return [s.key, s]; }));
         // Retain unresolvable historical cases rather than deleting someone's personal content.
         result.sources = current.concat(clone(workspace.sources.filter(function (s) { return !currentSources.has(s.key); })));
+        // Explicitly retire the solved case; retain all other historical/personal cases.
+        result.sources = result.sources.filter(function (s) { return s.key !== retiredKey; });
+        result.categories.forEach(function (cat) {
+            cat.subcategories.forEach(function (sub) {
+                sub.formulas = sub.formulas.filter(function (f) {
+                    return f.sourceCaseKey !== retiredKey && !(cat.id === 'C37' && sub.id === 'C37' && f.id === 'C37-4');
+                });
+            });
+        });
         result.sourceFingerprint = fingerprint;
         var seen = new Set(), usedUids = new Set();
         cases(result, function (f, cat, sub) {

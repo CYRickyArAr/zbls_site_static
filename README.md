@@ -1,6 +1,6 @@
 # ZBLS 公式库
 
-42 类、306 个子情况、1081 条公式。支持按分类浏览、个人公式库、学习状态、主题切换和 `.zbls` 备份。
+42 类、305 个子情况、1080 条公式。支持按分类浏览、个人公式库、学习状态、主题切换和 `.zbls` 备份。
 
 公式来源：[SpeedCubingTips.eu](https://www.speedcubingtips.eu/zbls-zborowski-bruchem-last-slot/)。分类图由 [VisualCube](https://cyrickyarar.github.io/visualcube/) 的渲染接口生成，`stage=f2l`；子情况图使用 `stage=vh`。本地保留原始来源及状态校验修正记录。
 

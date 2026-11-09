@@ -75,7 +75,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v19';
+    var renderSnapshotKey = 'zbls_render_snapshot_v20';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
