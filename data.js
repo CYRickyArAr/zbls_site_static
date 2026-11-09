@@ -238,8 +238,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C1-2",
@@ -263,8 +262,7 @@ window.ZBLS_DATA = {
                   "alg": "U S' R U' R' S",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C1-3",
@@ -280,8 +278,7 @@ window.ZBLS_DATA = {
                   "alg": "U2 R U' R' U' R' F R F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C1-4",
@@ -301,8 +298,7 @@ window.ZBLS_DATA = {
                   "alg": "U R U R' U2 M' U R U' r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C1-5",
@@ -328,8 +324,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C1-6",
@@ -343,8 +338,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C1-7",
@@ -358,8 +352,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C1-8",
@@ -379,8 +372,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -404,8 +396,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C2-2",
@@ -426,8 +417,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C2-3",
@@ -447,8 +437,7 @@ window.ZBLS_DATA = {
                   "alg": "R U2 R D r' U' r D' R2",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C2-4",
@@ -474,8 +463,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C2-5",
@@ -495,8 +483,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C2-6",
@@ -510,8 +497,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C2-7",
@@ -531,8 +517,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C2-8",
@@ -546,8 +531,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -577,8 +561,7 @@ window.ZBLS_DATA = {
                   "alg": "R' F R2 U' M' U2 r' U' F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C3-2",
@@ -592,8 +575,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C3-3",
@@ -609,8 +591,7 @@ window.ZBLS_DATA = {
                   "alg": "U R2 D r' U' r D' R2",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C3-4",
@@ -626,8 +607,7 @@ window.ZBLS_DATA = {
                   "alg": "y' S' R' U' R S",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C3-5",
@@ -641,8 +621,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C3-6",
@@ -668,8 +647,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C3-7",
@@ -689,8 +667,7 @@ window.ZBLS_DATA = {
                   "alg": "U' R' F R U R U' R2 F' R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C3-8",
@@ -710,8 +687,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -735,8 +711,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C4-2",
@@ -760,8 +735,7 @@ window.ZBLS_DATA = {
                   "alg": "R U' R' F2 r U r' F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C4-3",
@@ -781,8 +755,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C4-4",
@@ -802,8 +775,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C4-5",
@@ -827,8 +799,7 @@ window.ZBLS_DATA = {
                   "alg": "R U R' F R U R' U' F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C4-6",
@@ -842,8 +813,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C4-7",
@@ -857,8 +827,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C4-8",
@@ -872,8 +841,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -899,8 +867,7 @@ window.ZBLS_DATA = {
                   "alg": "U' r U' r' U2 r U r' R U2 R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C5-2",
@@ -914,8 +881,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C5-3",
@@ -929,8 +895,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C5-4",
@@ -944,8 +909,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C5-5",
@@ -965,8 +929,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C5-6",
@@ -980,8 +943,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C5-7",
@@ -995,8 +957,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C5-8",
@@ -1016,8 +977,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -1041,8 +1001,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C6-2",
@@ -1066,8 +1025,7 @@ window.ZBLS_DATA = {
                   "alg": "R2 D r' U' r D' R' U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C6-3",
@@ -1081,8 +1039,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C6-4",
@@ -1102,8 +1059,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C6-5",
@@ -1117,8 +1073,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C6-6",
@@ -1138,8 +1093,7 @@ window.ZBLS_DATA = {
                   "alg": "R' D' F r U2 r' F D R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C6-7",
@@ -1153,8 +1107,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C6-8",
@@ -1174,8 +1127,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -1211,8 +1163,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C7-2",
@@ -1226,8 +1177,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C7-3",
@@ -1242,8 +1192,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C7-4",
@@ -1267,8 +1216,7 @@ window.ZBLS_DATA = {
                   "alg": "r' F' R2 U R' U2 R U' R2 F r",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C7-5",
@@ -1283,8 +1231,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C7-6",
@@ -1298,8 +1245,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C7-7",
@@ -1314,8 +1260,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C7-8",
@@ -1327,8 +1272,7 @@ window.ZBLS_DATA = {
                   "alg": "U' R U2 R' U' R U2 R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             }
           ]
         }
@@ -1358,8 +1302,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C8-2",
@@ -1373,8 +1316,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C8-3",
@@ -1394,8 +1336,7 @@ window.ZBLS_DATA = {
                   "alg": "y U L' U2 L U' L F' L' F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C8-4",
@@ -1419,8 +1360,7 @@ window.ZBLS_DATA = {
                   "alg": "x' R2 U' R' U F' l' U R' F R F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C8-5",
@@ -1434,8 +1374,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C8-6",
@@ -1449,8 +1388,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C8-7",
@@ -1470,8 +1408,7 @@ window.ZBLS_DATA = {
                   "alg": "U2 R U' R' F' U' F U' R U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C8-8",
@@ -1487,8 +1424,7 @@ window.ZBLS_DATA = {
                   "alg": "y' U R' U2 R U2 R' U R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             }
           ]
         }
@@ -1518,8 +1454,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C9-2",
@@ -1533,8 +1468,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C9-3",
@@ -1548,8 +1482,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C9-4",
@@ -1563,8 +1496,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C9-5",
@@ -1578,8 +1510,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C9-6",
@@ -1599,8 +1530,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C9-7",
@@ -1614,8 +1544,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C9-8",
@@ -1635,8 +1564,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -1660,8 +1588,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C10-2",
@@ -1675,8 +1602,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C10-3",
@@ -1690,8 +1616,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C10-4",
@@ -1715,8 +1640,7 @@ window.ZBLS_DATA = {
                   "alg": "R' F' R U R U' R' F' r U r' F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C10-5",
@@ -1730,8 +1654,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C10-6",
@@ -1763,8 +1686,7 @@ window.ZBLS_DATA = {
                   "alg": "U' r' D' r U' r' D r2 U' r' U' r U r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C10-7",
@@ -1788,8 +1710,7 @@ window.ZBLS_DATA = {
                   "alg": "r' D' r U r' D R r U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C10-8",
@@ -1801,8 +1722,7 @@ window.ZBLS_DATA = {
                   "alg": "U' R U R' U R U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             }
           ]
         }
@@ -1826,8 +1746,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C11-2",
@@ -1841,8 +1760,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C11-3",
@@ -1856,8 +1774,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C11-4",
@@ -1871,8 +1788,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C11-5",
@@ -1888,8 +1804,7 @@ window.ZBLS_DATA = {
                   "alg": "U' R U2 R' y' U R' U' R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C11-6",
@@ -1909,8 +1824,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C11-7",
@@ -1924,8 +1838,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C11-8",
@@ -1939,8 +1852,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -1970,8 +1882,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C12-2",
@@ -1985,8 +1896,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C12-3",
@@ -2006,8 +1916,7 @@ window.ZBLS_DATA = {
                   "alg": "R d' R U2 R' U2 F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C12-4",
@@ -2021,8 +1930,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C12-5",
@@ -2036,8 +1944,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C12-6",
@@ -2057,8 +1964,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C12-7",
@@ -2078,8 +1984,7 @@ window.ZBLS_DATA = {
                   "alg": "R U' r' U R U' R' U' r U2 R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C12-8",
@@ -2093,8 +1998,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -2118,8 +2022,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C13-2",
@@ -2133,8 +2036,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C13-3",
@@ -2158,8 +2060,7 @@ window.ZBLS_DATA = {
                   "alg": "R' F R F' U' R' F R F' R U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C13-4",
@@ -2183,8 +2084,7 @@ window.ZBLS_DATA = {
                   "alg": "U2' r U2' r' U' r U r' U r U2' r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C13-5",
@@ -2198,8 +2098,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C13-6",
@@ -2213,8 +2112,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C13-7",
@@ -2238,8 +2136,7 @@ window.ZBLS_DATA = {
                   "alg": "U R U' R' U R U' R' U' y' R' U R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C13-8",
@@ -2253,8 +2150,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -2292,8 +2188,7 @@ window.ZBLS_DATA = {
                   "alg": "U R2 D r' U r D' R2' U2' R U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C14-2",
@@ -2307,8 +2202,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C14-3",
@@ -2322,8 +2216,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C14-4",
@@ -2347,8 +2240,7 @@ window.ZBLS_DATA = {
                   "alg": "U' R U' R' U' r U' r' U' r U r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C14-5",
@@ -2368,8 +2260,7 @@ window.ZBLS_DATA = {
                   "alg": "U2 R U R' U R U2 R2 F R F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C14-6",
@@ -2383,8 +2274,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C14-7",
@@ -2405,8 +2295,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C14-8",
@@ -2421,8 +2310,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -2460,8 +2348,7 @@ window.ZBLS_DATA = {
                   "alg": "r' U' R U M' U' R' F U R U' F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C15-2",
@@ -2487,8 +2374,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C15-3",
@@ -2504,8 +2390,7 @@ window.ZBLS_DATA = {
                   "alg": "R U R' U2 R U' R2 x U R U' x'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C15-4",
@@ -2525,8 +2410,7 @@ window.ZBLS_DATA = {
                   "alg": "M U R U R' U' r U' R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C15-5",
@@ -2554,8 +2438,7 @@ window.ZBLS_DATA = {
                   "alg": "y' R2' F R F' R U2' R' U R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C15-6",
@@ -2575,8 +2458,7 @@ window.ZBLS_DATA = {
                   "alg": "U R' F R F' U R U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C15-7",
@@ -2600,8 +2482,7 @@ window.ZBLS_DATA = {
                   "alg": "F D R U R U' R2 D' F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C15-8",
@@ -2615,8 +2496,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -2646,8 +2526,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C16-2",
@@ -2661,8 +2540,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C16-3",
@@ -2683,8 +2561,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C16-4",
@@ -2698,8 +2575,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C16-5",
@@ -2719,8 +2595,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C16-6",
@@ -2734,8 +2609,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C16-7",
@@ -2749,8 +2623,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C16-8",
@@ -2777,8 +2650,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -2802,8 +2674,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C17-2",
@@ -2817,8 +2688,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C17-3",
@@ -2838,8 +2708,7 @@ window.ZBLS_DATA = {
                   "alg": "R U2 R' F U R U' R2 F' R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C17-4",
@@ -2863,8 +2732,7 @@ window.ZBLS_DATA = {
                   "alg": "R U' M' U' R' U' R U r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C17-5",
@@ -2878,8 +2746,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C17-6",
@@ -2893,8 +2760,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C17-7",
@@ -2908,8 +2774,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C17-8",
@@ -2923,8 +2788,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -2954,8 +2818,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C18-2",
@@ -2969,8 +2832,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C18-3",
@@ -2984,8 +2846,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C18-4",
@@ -2999,8 +2860,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C18-5",
@@ -3015,8 +2875,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C18-6",
@@ -3044,8 +2903,7 @@ window.ZBLS_DATA = {
                   "alg": "U R' F R F' R U' R' U F' U' F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C18-7",
@@ -3065,8 +2923,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C18-8",
@@ -3080,8 +2937,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -3105,8 +2961,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C19-2",
@@ -3121,8 +2976,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C19-3",
@@ -3136,8 +2990,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C19-4",
@@ -3151,8 +3004,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C19-5",
@@ -3166,8 +3018,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C19-6",
@@ -3181,8 +3032,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C19-7",
@@ -3196,8 +3046,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C19-8",
@@ -3209,8 +3058,7 @@ window.ZBLS_DATA = {
                   "alg": "U R U2 R' U R U' R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             }
           ]
         }
@@ -3234,8 +3082,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C20-2",
@@ -3249,8 +3096,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C20-3",
@@ -3278,8 +3124,7 @@ window.ZBLS_DATA = {
                   "alg": "F D R2 U' R' U2 R U R2 D' F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C20-4",
@@ -3299,8 +3144,7 @@ window.ZBLS_DATA = {
                   "alg": "R' F2 R U' F U R' F2 R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C20-5",
@@ -3314,8 +3158,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C20-6",
@@ -3329,8 +3172,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C20-7",
@@ -3344,8 +3186,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C20-8",
@@ -3359,8 +3200,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -3384,8 +3224,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C21-2",
@@ -3405,8 +3244,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C21-3",
@@ -3420,8 +3258,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C21-4",
@@ -3435,8 +3272,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C21-5",
@@ -3464,8 +3300,7 @@ window.ZBLS_DATA = {
                   "alg": "U2 F' r U R' U' r' F2 R F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C21-6",
@@ -3485,8 +3320,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C21-7",
@@ -3500,8 +3334,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C21-8",
@@ -3516,8 +3349,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -3551,8 +3383,7 @@ window.ZBLS_DATA = {
                   "alg": "M' U R U' r' F2 r U r' U2 F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C22-2",
@@ -3566,8 +3397,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C22-3",
@@ -3581,8 +3411,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C22-4",
@@ -3602,8 +3431,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C22-5",
@@ -3623,8 +3451,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C22-6",
@@ -3638,8 +3465,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C22-7",
@@ -3659,8 +3485,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C22-8",
@@ -3674,8 +3499,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -3713,8 +3537,7 @@ window.ZBLS_DATA = {
                   "alg": "U' F2 r U r' U' r' F' r2 U' r' F2",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C23-2",
@@ -3728,8 +3551,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C23-3",
@@ -3744,8 +3566,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C23-4",
@@ -3759,8 +3580,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C23-5",
@@ -3774,8 +3594,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C23-6",
@@ -3799,8 +3618,7 @@ window.ZBLS_DATA = {
                   "alg": "F U R U' R' F' U' F' U' F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C23-7",
@@ -3820,8 +3638,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C23-8",
@@ -3835,8 +3652,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -3860,8 +3676,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C24-2",
@@ -3875,8 +3690,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C24-3",
@@ -3904,8 +3718,7 @@ window.ZBLS_DATA = {
                   "alg": "r U' r' U' r U r' F' U2' F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C24-4",
@@ -3919,8 +3732,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C24-5",
@@ -3935,8 +3747,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C24-6",
@@ -3950,8 +3761,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C24-7",
@@ -3965,8 +3775,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C24-8",
@@ -3981,8 +3790,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -4016,8 +3824,7 @@ window.ZBLS_DATA = {
                   "alg": "U R2 D r' U r D' R' U' R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C25-2",
@@ -4037,8 +3844,7 @@ window.ZBLS_DATA = {
                   "alg": "U2 r U2' R' U R U' R' U2' R U' r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C25-3",
@@ -4062,8 +3868,7 @@ window.ZBLS_DATA = {
                   "alg": "U2 F' L' U' L U R U R' U' R' F R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C25-4",
@@ -4077,8 +3882,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C25-5",
@@ -4092,8 +3896,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C25-6",
@@ -4113,8 +3916,7 @@ window.ZBLS_DATA = {
                   "alg": "L D R' F R F' D' L'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C25-7",
@@ -4128,8 +3930,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C25-8",
@@ -4143,8 +3944,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -4178,8 +3978,7 @@ window.ZBLS_DATA = {
                   "alg": "U R U R D r' U' r D' R2'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C26-2",
@@ -4203,8 +4002,7 @@ window.ZBLS_DATA = {
                   "alg": "R' D' R U' M' U r' D R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C26-3",
@@ -4218,8 +4016,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C26-4",
@@ -4239,8 +4036,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C26-5",
@@ -4264,8 +4060,7 @@ window.ZBLS_DATA = {
                   "alg": "F U' r U M U' R' U F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C26-6",
@@ -4281,8 +4076,7 @@ window.ZBLS_DATA = {
                   "alg": "U F' U2 L' U' L U2 F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C26-7",
@@ -4306,8 +4100,7 @@ window.ZBLS_DATA = {
                   "alg": "R2 U R' U' R' F R F' R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C26-8",
@@ -4321,8 +4114,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -4347,8 +4139,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C27-2",
@@ -4368,8 +4159,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C27-3",
@@ -4383,8 +4173,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C27-4",
@@ -4404,8 +4193,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C27-5",
@@ -4425,8 +4213,7 @@ window.ZBLS_DATA = {
                   "alg": "R U' r' U R U' R' U' M'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C27-6",
@@ -4446,8 +4233,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C27-7",
@@ -4467,8 +4253,7 @@ window.ZBLS_DATA = {
                   "alg": "R U' R2 F R2 U R' U' F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C27-8",
@@ -4480,8 +4265,7 @@ window.ZBLS_DATA = {
                   "alg": "R U' R' U R U' R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             }
           ]
         }
@@ -4505,8 +4289,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C28-2",
@@ -4530,8 +4313,7 @@ window.ZBLS_DATA = {
                   "alg": "R U R' F R U R' U' F2 U' F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C28-3",
@@ -4545,8 +4327,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C28-4",
@@ -4567,8 +4348,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C28-5",
@@ -4588,8 +4368,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C28-6",
@@ -4609,8 +4388,7 @@ window.ZBLS_DATA = {
                   "alg": "R U2 l U' R' U l'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C28-7",
@@ -4624,8 +4402,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C28-8",
@@ -4645,8 +4422,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -4676,8 +4452,7 @@ window.ZBLS_DATA = {
                   "alg": "M' U' M U2 r U' R' U R U' r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C29-2",
@@ -4701,8 +4476,7 @@ window.ZBLS_DATA = {
                   "alg": "F' r2 D2 r' U r D2 r' U2 r' F2",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C29-3",
@@ -4722,8 +4496,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C29-4",
@@ -4743,8 +4516,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C29-5",
@@ -4776,8 +4548,7 @@ window.ZBLS_DATA = {
                   "alg": "R U' R2' D' r U' r' D F R F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C29-6",
@@ -4791,8 +4562,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C29-7",
@@ -4806,8 +4576,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C29-8",
@@ -4827,8 +4596,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -4858,8 +4626,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C30-2",
@@ -4879,8 +4646,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C30-3",
@@ -4900,8 +4666,7 @@ window.ZBLS_DATA = {
                   "alg": "R U R' U r U' r' U' r U r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C30-4",
@@ -4915,8 +4680,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C30-5",
@@ -4930,8 +4694,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C30-6",
@@ -4951,8 +4714,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C30-7",
@@ -4966,8 +4728,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C30-8",
@@ -4987,8 +4748,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -5022,8 +4782,7 @@ window.ZBLS_DATA = {
                   "alg": "x U2 L U L2 x' U' L F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C31-2",
@@ -5037,8 +4796,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C31-3",
@@ -5059,8 +4817,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C31-4",
@@ -5080,8 +4837,7 @@ window.ZBLS_DATA = {
                   "alg": "R U2 R2 D' r U' r' D R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C31-5",
@@ -5102,8 +4858,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C31-6",
@@ -5118,8 +4873,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C31-7",
@@ -5139,8 +4893,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C31-8",
@@ -5160,8 +4913,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -5185,8 +4937,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C32-2",
@@ -5218,8 +4969,7 @@ window.ZBLS_DATA = {
                   "alg": "r U' R2 U' R U' R' U2 R2 U r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C32-3",
@@ -5233,8 +4983,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C32-4",
@@ -5248,8 +4997,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C32-5",
@@ -5273,8 +5021,7 @@ window.ZBLS_DATA = {
                   "alg": "U2 R U2 R' U2 R U' R2 F R F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C32-6",
@@ -5288,8 +5035,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C32-7",
@@ -5317,8 +5063,7 @@ window.ZBLS_DATA = {
                   "alg": "U R U' R' U R U' r' U R U' R' U' M'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C32-8",
@@ -5332,8 +5077,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -5357,8 +5101,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C33-2",
@@ -5378,8 +5121,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C33-3",
@@ -5393,8 +5135,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C33-4",
@@ -5408,8 +5149,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C33-5",
@@ -5423,8 +5163,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C33-6",
@@ -5438,8 +5177,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C33-7",
@@ -5453,8 +5191,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C33-8",
@@ -5468,8 +5205,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -5499,8 +5235,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C34-2",
@@ -5520,8 +5255,7 @@ window.ZBLS_DATA = {
                   "alg": "F U' R2 D2 R' U' R D2 R2 U F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C34-3",
@@ -5553,8 +5287,7 @@ window.ZBLS_DATA = {
                   "alg": "F U R2 D2 R' U' R D2 R2 F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C34-4",
@@ -5568,8 +5301,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C34-5",
@@ -5593,8 +5325,7 @@ window.ZBLS_DATA = {
                   "alg": "U2 R U' R' U r U' R' U' R U r'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C34-6",
@@ -5609,8 +5340,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C34-7",
@@ -5624,8 +5354,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C34-8",
@@ -5639,8 +5368,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -5670,8 +5398,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C35-2",
@@ -5697,8 +5424,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C35-3",
@@ -5712,8 +5438,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C35-4",
@@ -5727,8 +5452,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C35-5",
@@ -5743,8 +5467,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C35-6",
@@ -5758,8 +5481,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C35-7",
@@ -5774,8 +5496,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C35-8",
@@ -5799,8 +5520,7 @@ window.ZBLS_DATA = {
                   "alg": "R2 D R' U2 R D' R2 F' U' F",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             }
           ]
         }
@@ -5824,8 +5544,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C36-2",
@@ -5839,8 +5558,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C36-3",
@@ -5854,8 +5572,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C36-4",
@@ -5869,8 +5586,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C36-5",
@@ -5884,8 +5600,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C36-6",
@@ -5899,8 +5614,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C36-7",
@@ -5914,8 +5628,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C36-8",
@@ -5929,8 +5642,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -5952,8 +5664,7 @@ window.ZBLS_DATA = {
                   "alg": "R U2 R2 F R F' U2 R' F R F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C37-2",
@@ -5967,8 +5678,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C37-3",
@@ -5980,8 +5690,7 @@ window.ZBLS_DATA = {
                   "alg": "F R U R' U' F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C37-4",
@@ -5993,8 +5702,7 @@ window.ZBLS_DATA = {
                   "alg": "Résolu",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             }
           ]
         }
@@ -6018,8 +5726,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C38-2",
@@ -6033,8 +5740,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -6076,8 +5782,7 @@ window.ZBLS_DATA = {
                   "alg": "R U' R' U2 R2 D r' U' r D' R' U' R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C39-2",
@@ -6097,8 +5802,7 @@ window.ZBLS_DATA = {
                   "alg": "F R' F' R2 U2' R' U' R U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C39-3",
@@ -6112,8 +5816,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C39-4",
@@ -6127,8 +5830,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }
@@ -6152,8 +5854,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C40-2",
@@ -6168,8 +5869,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C40-3",
@@ -6185,8 +5885,7 @@ window.ZBLS_DATA = {
                   "alg": "R U2' R' U R' F R2 U R' U' R' F' R",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C40-4",
@@ -6202,8 +5901,7 @@ window.ZBLS_DATA = {
                   "alg": "R U2 R' U R U' R' U R U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             }
           ]
         }
@@ -6233,8 +5931,7 @@ window.ZBLS_DATA = {
                   "alg": "R' F R D R U R U' R2 D' F'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             },
             {
               "id": "C41-2",
@@ -6258,8 +5955,7 @@ window.ZBLS_DATA = {
                   "alg": "F2 r U r' F U2' R U R'",
                   "marks": []
                 }
-              ],
-              "learned": false
+              ]
             }
           ]
         }
@@ -6283,8 +5979,7 @@ window.ZBLS_DATA = {
                     "耿"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             },
             {
               "id": "C42-2",
@@ -6298,8 +5993,7 @@ window.ZBLS_DATA = {
                     "连"
                   ]
                 }
-              ],
-              "learned": true
+              ]
             }
           ]
         }

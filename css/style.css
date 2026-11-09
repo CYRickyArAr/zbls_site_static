@@ -185,6 +185,8 @@ body.zbls-has-snapshot:not(.zbls-ready) .image-library-status { display: none; }
     gap: 10px;
 }
 
+.navbar-center[hidden] { display: none; }
+
 .navbar-center {
     display: flex;
     align-items: center;

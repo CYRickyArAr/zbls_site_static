@@ -72,7 +72,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v12';
+    var renderSnapshotKey = 'zbls_render_snapshot_v13';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
@@ -102,11 +102,11 @@
     function isEditableView() { return true; }
     function canEditFormulaContent() { return isWorkspace(); }
     function canShowFormulaEditor() { return true; }
-    function usesLearnedStats() { return true; }
+    function usesLearnedStats() { return isWorkspace(); }
     function updateWorkspaceNav() {
         var nav = document.getElementById('workspace-open');
-        // 右上角按钮跟随当前选中的库：默认来源版，或用户自己的公式库名。
-        var publicLabel = t('默认来源版');
+        // 右上角按钮跟随当前选中的库：默认大神版，或用户自己的公式库名。
+        var publicLabel = t('默认大神版');
         if (nav) {
             var navText = activeWorkspace ? activeWorkspace.name : publicLabel;
             var label = nav.querySelector('.workspace-nav-label');
@@ -139,7 +139,7 @@
     }
     async function ensureEditableData() {
         if (activeWorkspace) return activeWorkspace;
-        if (!window.confirm(t('当前是默认来源版（仅预览）。创建自己的公式库后即可修改，是否创建？'))) return null;
+        if (!window.confirm(t('当前是默认大神版（仅预览）。创建自己的公式库后即可修改，是否创建？'))) return null;
         await createWorkspace();
         return activeWorkspace;
     }
@@ -467,6 +467,7 @@
     function applyZbllFilter(filter) {
         filter = filter === 'learned' || filter === 'unlearned' ? filter : 'all';
         var actualFilter = usesLearnedStats() ? filter : 'all';
+        document.querySelector('.navbar-center').hidden = !usesLearnedStats();
         document.documentElement.setAttribute('data-zbls-filter', actualFilter);
         document.querySelectorAll('.zbls-filter-btn').forEach(function (btn) {
             btn.classList.toggle('active', btn.getAttribute('data-filter') === actualFilter);
@@ -659,7 +660,7 @@
     }
 
     // 42 个分类共用两行高的滚动区，每行 11 个。
-    function caseCountText(learned, total) { return learned + '/' + total; }
+    function caseCountText(learned, total) { return usesLearnedStats() ? learned + '/' + total : String(total); }
     // 第一行（分类）是否显示魔方图。分类图只有顶面色块、信息量低，暂时关掉；
     // 想恢复就把这里改成 true（行上的 has-thumb 类会自动跟着变）。
     var SHOW_CATEGORY_THUMB = true;
@@ -671,8 +672,8 @@
             : '';
         return '<button type="button" class="case-chip' + (current ? ' is-current' : '') + '" ' + attrs
             + ' aria-current="' + (current ? 'true' : 'false') + '"'
-            + ta('aria-label', '{label}，已学习 {count}', { label: label, count: countText })
-            + ta('title', '{label}（已学习 {count}）', { label: label, count: countText })
+            + ta('aria-label', usesLearnedStats() ? '{label}，已学习 {count}' : '{label}，{count}个情况', { label: label, count: countText })
+            + ta('title', usesLearnedStats() ? '{label}（已学习 {count}）' : '{label}（{count}个情况）', { label: label, count: countText })
             + ' tabindex="' + (current ? '0' : '-1') + '">'
             + thumb
             + '<span class="case-chip-label">' + escapeHtml(label) + '</span>'
@@ -837,7 +838,7 @@
         var canEditContent = canEditFormulaContent();
         var editing = !!inlineEditor && inlineEditor.catId === catId && inlineEditor.subId === subId && inlineEditor.uid === uid;
         var note = splitNotes(formula.notes, formula, subId);
-        html += '<div class="formula-card' + (formula.learned ? ' learned' : '') + ' learning-enabled has-card-editor' + (canEditContent ? ' content-editable' : '') + (editing ? ' inline-editing' : '') + '">';
+        html += '<div class="formula-card' + (usesLearnedStats() && formula.learned ? ' learned' : '') + (usesLearnedStats() ? ' learning-enabled' : '') + ' has-card-editor' + (canEditContent ? ' content-editable' : '') + (editing ? ' inline-editing' : '') + '">';
         if (isEditableView()) html += '<div class="drag-handle"' + ta('title', '拖动排序') + ta('aria-label', '拖动排序') + '>⋮⋮</div>';
         html += '<div class="row"><div class="col-4">';
         if (editing) {
@@ -896,9 +897,9 @@
             html += '<div class="action-buttons">';
             html += '<div class="action-buttons-row"><button type="button" class="btn btn-outline-secondary btn-sm workspace-action" data-action="edit-formula" data-category="' + escapeHtml(catId) + '" data-subcategory="' + escapeHtml(subId) + '" data-uid="' + escapeHtml(uid) + '">' + tx('编辑') + '</button></div></div>';
         }
-        var autoLearned = formula.lines.some(function (line) { return line.marks.length; });
+        var autoLearned = localEditable && formula.lines.some(function (line) { return line.marks.length; });
         var learnedTitle = autoLearned ? '已有姓名标注，自动已学' : (formula.learned ? '取消已学' : '标记已学');
-        html += '<button type="button" class="learn-btn workspace-action' + (formula.learned ? ' learned' : '') + '" data-action="toggle-learned" data-category="' + escapeHtml(catId) + '" data-subcategory="' + escapeHtml(subId) + '" data-uid="' + escapeHtml(uid) + '"' + (autoLearned ? ' disabled' : '') + ta('title', learnedTitle) + ta('aria-label', learnedTitle) + '><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg></button>';
+        if (usesLearnedStats()) html += '<button type="button" class="learn-btn workspace-action' + (formula.learned ? ' learned' : '') + '" data-action="toggle-learned" data-category="' + escapeHtml(catId) + '" data-subcategory="' + escapeHtml(subId) + '" data-uid="' + escapeHtml(uid) + '"' + (autoLearned ? ' disabled' : '') + ta('title', learnedTitle) + ta('aria-label', learnedTitle) + '><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg></button>';
         html += '</div></div>';
         return html;
     }
@@ -1043,7 +1044,7 @@
                 onChoose: function () {
                     if (!activeWorkspace) {
                         openWorkspaceManager().then(function () {
-                            setWorkspaceMessage('默认来源版不能保存排序，请先选择或新建公式库。', true);
+                            setWorkspaceMessage('默认大神版不能保存排序，请先选择或新建公式库。', true);
                         });
                         return false;
                     }
@@ -1140,7 +1141,7 @@
         var listEl = document.getElementById('workspace-list');
         if (!listEl) return;
         var list = await WS.list();
-        listEl.innerHTML = '<div class="workspace-list-row"><button type="button" class="workspace-list-item' + (!activeWorkspace || isLocalLibrary() ? ' active' : '') + '" data-public-library="default">' + tx(localEditable ? '本地默认库' : '默认来源版') + '<small>' + tx(localEditable ? '可编辑' : '仅预览') + '</small></button><span class="workspace-item-lock"' + (localEditable ? ' hidden' : '') + ta('aria-label', '默认来源版仅预览') + ta('title', '默认来源版仅预览') + '><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></span></div>' +
+        listEl.innerHTML = '<div class="workspace-list-row"><button type="button" class="workspace-list-item' + (!activeWorkspace || isLocalLibrary() ? ' active' : '') + '" data-public-library="default">' + tx(localEditable ? '本地默认库' : '默认大神版') + '<small>' + tx(localEditable ? '可编辑' : '仅预览') + '</small></button><span class="workspace-item-lock"' + (localEditable ? ' hidden' : '') + ta('aria-label', '默认大神版仅预览') + ta('title', '默认大神版仅预览') + '><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></span></div>' +
             list.map(function (item) {
                 return '<div class="workspace-list-row"><button type="button" class="workspace-list-item' + (activeWorkspace && activeWorkspace.id === item.id ? ' active' : '') + '" data-workspace-id="' + escapeHtml(item.id) + '"><span>' + escapeHtml(item.name) + '</span><small data-local-date="' + escapeHtml(item.updatedAt) + '">' + escapeHtml(new Date(item.updatedAt).toLocaleString(I18N.language() === 'en' ? 'en-US' : 'zh-CN')) + '</small></button><button type="button" class="workspace-item-menu-trigger" data-workspace-menu="custom" data-target-id="' + escapeHtml(item.id) + '" aria-haspopup="menu"' + ta('aria-label', '{name}的更多操作', { name: item.name }) + ta('title', '更多操作') + '>…</button></div>';
             }).join('');
@@ -1448,7 +1449,7 @@
         if (action === 'edit-formula' && ref) return openFormulaEditor(catId, subId, ref.formula);
         if (!ref) return;
         if (action === 'toggle-learned') {
-            if (ref.formula.lines.some(function (line) { return line.marks.length; })) return;
+            if (localEditable && ref.formula.lines.some(function (line) { return line.marks.length; })) return;
             var wasLearned = ref.formula.learned;
             ref.formula.learned = !wasLearned;
             button.disabled = true;
@@ -1674,6 +1675,7 @@
         if (pendingSelectionScroll) { pendingSelectionScroll = false; scrollToContentTop(); }
         else restoreScroll(nextView);
         updateWorkspaceNav();
+        applyZbllFilter(getZbllFilter());
     }
     function initWorkspace() {
         // IndexedDB 与图片合集并行准备，不等待几百次独立图片请求。
@@ -1683,7 +1685,7 @@
             if (!activeWorkspace && id) await WS.activate(null);
             if (!activeWorkspace && localEditable) activeWorkspace = localLibrary(DATA);
             router();
-        }).catch(function (error) { console.warn(error); activeWorkspace = null; router(); window.alert(t('本地公式库暂时不可用，已保留原数据，本次只能浏览默认来源版。\n{detail}', { detail: I18N.errorText(error, '请重试') })); }).finally(async function () {
+        }).catch(function (error) { console.warn(error); activeWorkspace = null; router(); window.alert(t('本地公式库暂时不可用，已保留原数据，本次只能浏览默认大神版。\n{detail}', { detail: I18N.errorText(error, '请重试') })); }).finally(async function () {
             // 只解码当前屏幕要显示的图；其余图片的字节已经在内存中。
             var images = Array.prototype.slice.call(appEl.querySelectorAll('img'));
             await Promise.race([

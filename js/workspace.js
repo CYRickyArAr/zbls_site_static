@@ -44,7 +44,7 @@
         }));
     }
     function normalizeSelection(workspace, formula) {
-        if (visibleLines(workspace, formula).some(function (line) { return line.marks.length; })) formula.learned = true;
+        if (window.ZBLS_DATA.meta.localEditable && visibleLines(workspace, formula).some(function (line) { return line.marks.length; })) formula.learned = true;
         if (formula.selectedLineId && !visibleLines(workspace, formula).some(function (line) { return line.id === formula.selectedLineId; })) delete formula.selectedLineId;
     }
     // Derived lines remain compatible with rendering/statistics, but never enter persistence/export.
@@ -70,7 +70,7 @@
             f.uid = f.uid || f.id || makeId();
             f.sourceCaseKey = caseKey(cat.id, sub.id, f.id);
             f.visibleSourceLineIds = sourceLines(result, f).map(function (line) { return line.id; });
-            f.customLines = []; f.learned = !!f.learned;
+            f.customLines = []; f.learned = !!(window.ZBLS_DATA.meta.localEditable && f.learned);
             delete f.lines; delete f.selectedLineAlg; delete f.selectedLineIndex; delete f.selectedLineId;
         });
         return hydrate(result);
