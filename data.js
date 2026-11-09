@@ -463,6 +463,12 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿"
                   ]
+                },
+                {
+                  "alg": "U R' D' r U' r' D R",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -1779,7 +1785,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "F' U L' U2 L U2 F",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -2029,6 +2036,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "y U2 R' F R U L' U2 L R' F R",
+                  "marks": [
+                    "连"
+                  ]
+                },
+                {
+                  "alg": "U R' F R F' U2 F' U2 L' U L U' F",
                   "marks": [
                     "连"
                   ]
@@ -2735,6 +2748,12 @@ window.ZBLS_DATA = {
                   "alg": "R U2 R' U r U' r' U' r U r'",
                   "marks": [
                     "耿"
+                  ]
+                },
+                {
+                  "alg": "y U' L' U L2 F' L' F L F' L' F",
+                  "marks": [
+                    "连"
                   ]
                 }
               ]
@@ -4967,24 +4986,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 32-7",
               "lines": [
                 {
-                  "alg": "U' F' U L' U2 L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 r U S' r' U r S U' r'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U r' U R U R' U' r U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R2 F2 r U r' F R2 U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R' U R U' r' U R U' R' U' M'",
-                  "marks": []
+                  "alg": "y U' L' U L U' L' U L2 F' L' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
