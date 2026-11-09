@@ -72,7 +72,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v13';
+    var renderSnapshotKey = 'zbls_render_snapshot_v14';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
@@ -102,7 +102,7 @@
     function isEditableView() { return true; }
     function canEditFormulaContent() { return isWorkspace(); }
     function canShowFormulaEditor() { return true; }
-    function usesLearnedStats() { return isWorkspace(); }
+    function usesLearnedStats() { return true; }
     function updateWorkspaceNav() {
         var nav = document.getElementById('workspace-open');
         // 右上角按钮跟随当前选中的库：默认大神版，或用户自己的公式库名。

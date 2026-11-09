@@ -39,7 +39,7 @@
                 var hasAnchor = !!localStorage.getItem(key + '_anchor');
                 var y = parseInt(localStorage.getItem(key), 10) || 0;
                 if (hasAnchor || y > 0) document.documentElement.setAttribute('data-scroll-restore', 'pending');
-                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v13');
+                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v14');
                 if (snapshotRaw) {
                     var snapshot = JSON.parse(snapshotRaw);
                     if (snapshot && snapshot.language === ZBLS_I18N.language() && snapshot.hash === hash && snapshot.appHtml) {
@@ -59,7 +59,7 @@
         <div class="navbar-left">
             <a href="#/" class="navbar-logo"><img class="navbar-logo-icon" src="images/icons/zbls-icon.svg" width="28" height="28" alt=""><span class="navbar-logo-text" data-i18n="nav.brand">ZBLS 公式库</span></a>
         </div>
-        <div class="navbar-center" hidden>
+        <div class="navbar-center">
             <div class="zbls-filter" role="group" aria-label="公式筛选" data-i18n-aria-label="公式筛选">
                 <button type="button" class="zbls-filter-btn" data-filter="all" data-i18n="全部">全部</button>
                 <button type="button" class="zbls-filter-btn" data-filter="learned" data-i18n="已学">已学</button>
@@ -158,7 +158,7 @@
         (function () {
             try {
                 ZBLS_I18N.translate(document);
-                var raw = sessionStorage.getItem('zbls_render_snapshot_v13');
+                var raw = sessionStorage.getItem('zbls_render_snapshot_v14');
                 if (!raw) return;
                 var snapshot = JSON.parse(raw);
                 var hash = location.hash || '#/';
@@ -249,6 +249,6 @@
     <!-- 数据 + 逻辑 -->
     <script defer src="data.js?v=e55ed6c85ac1"></script>
     <script defer src="js/workspace.js?v=21"></script>
-    <script defer src="js/app.js?v=188"></script>
+    <script defer src="js/app.js?v=189"></script>
 </body>
 </html>
