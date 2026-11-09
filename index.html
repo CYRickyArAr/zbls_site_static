@@ -9,10 +9,22 @@
     <link rel="icon" type="image/svg+xml" href="images/icons/zbls-icon.svg">
     <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
+    <link rel="preload" href="fonts/lato-300.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/lato-400.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/lato-700.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/lato-900.ttf" as="font" type="font/ttf" crossorigin>
     <link href="css/fonts.css?v=1" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css?v=275" rel="stylesheet">
+    <link href="css/style.css?v=277" rel="stylesheet">
     <script>
+        if (document.fonts) {
+            document.documentElement.classList.add('fonts-loading');
+            Promise.allSettled([300, 400, 700, 900].map(function (weight) {
+                return document.fonts.load(weight + ' 16px Lato');
+            })).then(function () {
+                document.documentElement.classList.remove('fonts-loading');
+            });
+        }
         (function () {
             if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
             try {
@@ -27,7 +39,7 @@
                 var hasAnchor = !!localStorage.getItem(key + '_anchor');
                 var y = parseInt(localStorage.getItem(key), 10) || 0;
                 if (hasAnchor || y > 0) document.documentElement.setAttribute('data-scroll-restore', 'pending');
-                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v8');
+                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v12');
                 if (snapshotRaw) {
                     var snapshot = JSON.parse(snapshotRaw);
                     if (snapshot && snapshot.language === ZBLS_I18N.language() && snapshot.hash === hash && snapshot.appHtml) {
@@ -146,7 +158,7 @@
         (function () {
             try {
                 ZBLS_I18N.translate(document);
-                var raw = sessionStorage.getItem('zbls_render_snapshot_v8');
+                var raw = sessionStorage.getItem('zbls_render_snapshot_v12');
                 if (!raw) return;
                 var snapshot = JSON.parse(raw);
                 var hash = location.hash || '#/';
@@ -235,8 +247,8 @@
 
     <script>ZBLS_I18N.translate(document);</script>
     <!-- 数据 + 逻辑 -->
-    <script defer src="data.js?v=714778f8809a"></script>
-    <script defer src="js/workspace.js?v=19"></script>
-    <script defer src="js/app.js?v=182"></script>
+    <script defer src="data.js?v=4983f283c302"></script>
+    <script defer src="js/workspace.js?v=20"></script>
+    <script defer src="js/app.js?v=187"></script>
 </body>
 </html>

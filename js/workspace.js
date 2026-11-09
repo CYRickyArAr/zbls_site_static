@@ -28,6 +28,7 @@
     function sourceFor(workspace, formula) { return workspace.sources.find(function (s) { return s.key === formula.sourceCaseKey; }); }
     function sourceLines(workspace, formula) { var source = sourceFor(workspace, formula); return source ? source.lines : []; }
     function defaultImage(workspace, formula) {
+        if (workspace.localDefault) return 'images/' + formula.id + '.svg?v=vh1';
         var source = sourceFor(workspace, formula);
         if (!source) return '';
         var cat = window.ZBLS_DATA.categories.find(function (c) { return c.id === source.category; });
@@ -43,6 +44,7 @@
         }));
     }
     function normalizeSelection(workspace, formula) {
+        if (visibleLines(workspace, formula).some(function (line) { return line.marks.length; })) formula.learned = true;
         if (formula.selectedLineId && !visibleLines(workspace, formula).some(function (line) { return line.id === formula.selectedLineId; })) delete formula.selectedLineId;
     }
     // Derived lines remain compatible with rendering/statistics, but never enter persistence/export.
@@ -68,7 +70,7 @@
             f.uid = f.uid || f.id || makeId();
             f.sourceCaseKey = caseKey(cat.id, sub.id, f.id);
             f.visibleSourceLineIds = sourceLines(result, f).map(function (line) { return line.id; });
-            f.customLines = []; f.learned = false;
+            f.customLines = []; f.learned = !!f.learned;
             delete f.lines; delete f.selectedLineAlg; delete f.selectedLineIndex; delete f.selectedLineId;
         });
         return hydrate(result);
@@ -277,10 +279,26 @@
     });
     var api = {
         ready: ready, makeId: makeId, clone: function (w) { return hydrate(clone(w)); }, sourceLines: sourceLines,
+        localLibrary: function (data) {
+            var originals = new Map();
+            cases(data, function (f) { originals.set(f.id, f); });
+            var result = newLibrary(data, '本地默认库');
+            result.localDefault = true;
+            cases(result, function (f) {
+                f.customLines = visibleLines(result, f).map(function (line, index) {
+                    return {id: f.id + '-line-' + index, alg: line.alg, marks: line.marks.slice()};
+                });
+                f.visibleSourceLineIds = [];
+                var index = originals.get(f.id).selectedLineIndex;
+                if (index >= 0 && f.customLines[index]) f.selectedLineId = 'custom:' + f.customLines[index].id;
+            });
+            return hydrate(result);
+        },
         normalizeSelection: normalizeSelection, defaultImage: defaultImage,
         async list() { var db = await ready; var all = await requestResult(db.transaction(STORE).objectStore(STORE).getAll()); return all.map(hydrate).sort(function (a, b) { return String(b.updatedAt).localeCompare(String(a.updatedAt)); }); },
         async get(id) { if (!id) return null; var db = await ready; return hydrate(await requestResult(db.transaction(STORE).objectStore(STORE).get(id))); },
         async put(workspace) {
+            if (workspace.localDefault) throw new Error('本地默认库需要保存到本地数据库');
             cases(workspace, function (f) { normalizeSelection(workspace, f); });
             var output = clone(workspace); validateV2(output); output.updatedAt = new Date().toISOString();
             var db = await ready;

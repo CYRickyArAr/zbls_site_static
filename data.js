@@ -232,26 +232,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 1-1",
               "lines": [
                 {
-                  "alg": "y R' F' R U2 L R' F' L' R",
-                  "marks": []
-                },
-                {
-                  "alg": "y' Rw' U' Rw U2 Rw' R U' R' Rw",
-                  "marks": []
-                },
-                {
                   "alg": "U2 R' F R F' U2 R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y R' F' R U2 M' U' M",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U R U' r2 U2' R U R' U Rw",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C1-2",
@@ -260,7 +248,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 1-2",
               "lines": [
                 {
-                  "alg": "(U2) R U' B U' B' R'",
+                  "alg": "U2 R U' B U' B' R'",
                   "marks": []
                 },
                 {
@@ -275,7 +263,8 @@ window.ZBLS_DATA = {
                   "alg": "U S' R U' R' S",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C1-3",
@@ -291,7 +280,8 @@ window.ZBLS_DATA = {
                   "alg": "U2 R U' R' U' R' F R F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C1-4",
@@ -308,10 +298,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U R U R' U2 M' U R U' Rw'",
+                  "alg": "U R U R' U2 M' U R U' r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C1-5",
@@ -320,30 +311,25 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 1-5",
               "lines": [
                 {
-                  "alg": "(U) R B U' B' R'",
-                  "marks": []
+                  "alg": "U2 R' F R F' U' R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "y U F R U' R' F'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U2' R' F R F' R U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R' F R F2 U F",
-                  "marks": []
-                },
-                {
-                  "alg": "(U2) F2 Rw U Rw' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2' R2' F R F' R",
-                  "marks": []
+                  "alg": "U2 R' F R F' R U2 R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C1-6",
@@ -353,17 +339,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "x R' U R U' x'",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U R U' Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C1-7",
@@ -372,18 +353,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 1-7",
               "lines": [
                 {
-                  "alg": "(U) F' L' U' L F",
-                  "marks": []
-                },
-                {
-                  "alg": "R' U' F U R U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U2 B U B' U' R'",
-                  "marks": []
+                  "alg": "U F' L' U' L F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C1-8",
@@ -392,10 +368,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 1-8",
               "lines": [
                 {
-                  "alg": "(U) R U' R'",
-                  "marks": []
+                  "alg": "U R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
+                },
+                {
+                  "alg": "U2 R U2 R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -414,18 +399,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 2-1",
               "lines": [
                 {
-                  "alg": "L F L' U2 R' L F R L'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U Rw' U2 M' U M",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U Rw' U2 Rw R' U R Rw'",
-                  "marks": []
+                  "alg": "y U2 L F' L' F U2 L F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C2-2",
@@ -434,18 +414,20 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 2-2",
               "lines": [
                 {
-                  "alg": "(U2) F' U L' U L F",
-                  "marks": []
+                  "alg": "U' R' D' r U r' D R",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 },
                 {
-                  "alg": "U' R' D' Rw U Rw' D R",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F2 Rw U Rw' U F",
-                  "marks": []
+                  "alg": "y U' S L' U L S'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C2-3",
@@ -462,10 +444,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R U2 R D Rw' U' Rw D' R2",
+                  "alg": "R U2 R D r' U' r D' R2",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C2-4",
@@ -474,22 +457,25 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 2-4",
               "lines": [
                 {
-                  "alg": "F U R' U' F2 U F R",
-                  "marks": []
+                  "alg": "y U2 U L' U' L U2 L F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y L U F' U' L2 U L F",
-                  "marks": []
+                  "alg": "y U U2 L' U' L U2 L F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U R' D' Rw U' Rw' D R",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R2 D Rw' U Rw D' R2",
-                  "marks": []
+                  "alg": "y U' L' U' L U2 L F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C2-5",
@@ -498,22 +484,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 2-5",
               "lines": [
                 {
-                  "alg": "(U') F' L' U L F",
-                  "marks": []
+                  "alg": "U' r U' r' U r U r'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U' Rw U' Rw' U Rw U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R2 B' R' B R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Lw R U' R' U Lw'",
-                  "marks": []
+                  "alg": "y' U' R' F' U F R",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C2-6",
@@ -523,17 +506,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "F R' F' R",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U R' U' M",
-                  "marks": []
-                },
-                {
-                  "alg": "x U R' U' R x'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C2-7",
@@ -542,22 +520,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 2-7",
               "lines": [
                 {
-                  "alg": "(U') R B U B' R'",
-                  "marks": []
+                  "alg": "U' R U R' U F R' F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "y U' F R U R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "Dw' F R U R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' R U R' U' R' F R F' R U' R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C2-8",
@@ -566,18 +541,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 2-8",
               "lines": [
                 {
-                  "alg": "(U') F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U' R' U R",
-                  "marks": []
-                },
-                {
                   "alg": "y U' L' U L",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -604,10 +574,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R' F R2 U' M' U2 Rw' U' F'",
+                  "alg": "R' F R2 U' M' U2 r' U' F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C3-2",
@@ -616,14 +587,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 3-2",
               "lines": [
                 {
-                  "alg": "U2 F' U' L' U L U F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R' D' Rw U' Rw' D R2 U' R'",
-                  "marks": []
+                  "alg": "U2 R' D' r U' r' D R2 U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C3-3",
@@ -636,10 +606,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U R2 D Rw' U' Rw D' R2",
+                  "alg": "U R2 D r' U' r D' R2",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C3-4",
@@ -652,10 +623,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "y' S' (R' U' R) S",
+                  "alg": "y' S' R' U' R S",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C3-5",
@@ -664,26 +636,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 3-5",
               "lines": [
                 {
-                  "alg": "(U) R U2 R' F R' F' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U2 R' x U R' U' R x'",
-                  "marks": []
-                },
-                {
-                  "alg": "S U R U' R' S'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' F' Rw U' Rw' F2",
-                  "marks": []
-                },
-                {
-                  "alg": "M y' R' U' R U S'",
-                  "marks": []
+                  "alg": "U R U2 R' F R' F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C3-6",
@@ -692,18 +651,25 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 3-6",
               "lines": [
                 {
-                  "alg": "(U) R U2 R' U' F' U F",
-                  "marks": []
+                  "alg": "y U2 U2 L' U' L F' U' L' U L F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U R U2 R' U' y' R' U R",
-                  "marks": []
+                  "alg": "U R U2 R' U' F' U F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "F' Rw U' Rw' F2 R U' R'",
-                  "marks": []
+                  "alg": "y L' U' L F' U' L' U L F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C3-7",
@@ -716,14 +682,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "y' U2 Rw' U Rw U Rw' U' Rw",
+                  "alg": "y' U2 r' U r U r' U' r",
                   "marks": []
                 },
                 {
                   "alg": "U' R' F R U R U' R2 F' R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C3-8",
@@ -732,18 +699,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 3-8",
               "lines": [
                 {
-                  "alg": "F' U' F",
-                  "marks": []
+                  "alg": "y L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "y' R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "y L' U' L",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -762,26 +730,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 4-1",
               "lines": [
                 {
-                  "alg": "R' D' L F L' D R2 U R'",
-                  "marks": []
-                },
-                {
                   "alg": "y L' U L U' F R U R' U F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' Rw U' Rw' D R2 U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' Rw' U Rw U2' Rw' U' Rw U2' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R2' F R F' U2 R' F R F'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C4-2",
@@ -790,7 +745,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 4-2",
               "lines": [
                 {
-                  "alg": "(U2) R U B U' B' U' R'",
+                  "alg": "U2 R U B U' B' U' R'",
                   "marks": []
                 },
                 {
@@ -802,10 +757,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R U' R' F2 Rw U Rw' F",
+                  "alg": "R U' R' F2 r U r' F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C4-3",
@@ -814,22 +770,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 4-3",
               "lines": [
                 {
-                  "alg": "R U2 B U' B' R'",
-                  "marks": []
-                },
-                {
                   "alg": "y F U2 R U' R' F'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U F U R U' R2' F' R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U' Rw' U2 R U R' U Rw",
-                  "marks": []
+                  "alg": "U F U R U' R2 F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C4-4",
@@ -838,26 +791,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 4-4",
               "lines": [
                 {
-                  "alg": "R U B U B' U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U' F R U R' U' F'",
-                  "marks": []
+                  "alg": "S' R U R' S",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "y F U R U R' U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "S' R U R' S",
-                  "marks": []
-                },
-                {
-                  "alg": "R U y R U R' U' F'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C4-5",
@@ -866,7 +812,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 4-5",
               "lines": [
                 {
-                  "alg": "(U') F' U2 F R' F R F'",
+                  "alg": "U' F' U2 F R' F R F'",
                   "marks": []
                 },
                 {
@@ -881,7 +827,8 @@ window.ZBLS_DATA = {
                   "alg": "R U R' F R U R' U' F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C4-6",
@@ -890,18 +837,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 4-6",
               "lines": [
                 {
-                  "alg": "(U') F' U2 F U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U' R' U2 R y U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' F U R U' R' F'",
-                  "marks": []
+                  "alg": "y U' L' U2 L U F U' F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C4-7",
@@ -910,14 +852,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 4-7",
               "lines": [
                 {
-                  "alg": "R U' R' U2 R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Rw U' Rw' U' Rw U Rw'",
-                  "marks": []
+                  "alg": "U2 r U' r' U' r U r'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C4-8",
@@ -926,10 +867,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 4-8",
               "lines": [
                 {
-                  "alg": "R U R'",
-                  "marks": []
+                  "alg": "y F U F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -948,14 +892,15 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 5-1",
               "lines": [
                 {
-                  "alg": "(U') F' U F R B U2 B' U R'",
+                  "alg": "U' F' U F R B U2 B' U R'",
                   "marks": []
                 },
                 {
-                  "alg": "U' Rw U' Rw' U2 Rw U Rw' R U2 R'",
+                  "alg": "U' r U' r' U2 r U r' R U2 R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C5-2",
@@ -964,14 +909,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 5-2",
               "lines": [
                 {
-                  "alg": "(U') L F R' F' L' R2 U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' Rw U R' U' Rw' R2 U2 R'",
-                  "marks": []
+                  "alg": "U' r U R' U' r' R2 U2 R'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C5-3",
@@ -980,22 +924,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 5-3",
               "lines": [
                 {
-                  "alg": "(U2) R B U B' U2 R'",
-                  "marks": []
-                },
-                {
                   "alg": "y U2 F R U R' U2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F R U R' U' F' R U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R' U' R' F R F' R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C5-4",
@@ -1004,14 +939,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 5-4",
               "lines": [
                 {
-                  "alg": "(U') R U R' U R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U' F U R U' R' U F'",
-                  "marks": []
+                  "alg": "U' R U R' U R' F R F'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C5-5",
@@ -1020,18 +954,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 5-5",
               "lines": [
                 {
-                  "alg": "(U2) R' F R F' U2 F' U' F",
-                  "marks": []
+                  "alg": "y U l' U L U' L' U' l",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' U Rw' U R U' R' U' Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U' Rw' U' Rw U Rw' F' Rw U' Rw' F2",
-                  "marks": []
+                  "alg": "y U R' F r U' r' F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C5-6",
@@ -1040,18 +975,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 5-6",
               "lines": [
                 {
-                  "alg": "F' B' U' R' U R B F",
-                  "marks": []
-                },
-                {
-                  "alg": "y F R U2 R' U' R U2 R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U R' D F R F'",
-                  "marks": []
+                  "alg": "U' R U R' U2 F' L' U' L F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C5-7",
@@ -1060,22 +990,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 5-7",
               "lines": [
                 {
-                  "alg": "B L F' U' F U L' B'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 F' L' U2 L U' L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U' R' U2 R U' R' U R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R B2 Rw' U' Rw B' R2",
-                  "marks": []
+                  "alg": "U' R U R' U2 R U R' U2 R' F R F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C5-8",
@@ -1084,10 +1005,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 5-8",
               "lines": [
                 {
-                  "alg": "U' R U R' U' R U2 R'",
-                  "marks": []
+                  "alg": "U' R U R' U2 R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
+                },
+                {
+                  "alg": "y U' F U R U' R' U2 R U' R' F'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -1106,26 +1036,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 6-1",
               "lines": [
                 {
-                  "alg": "(U) R U' R' F' L' U2 L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U Rw' U Rw U2 Rw' U' Rw R' U2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "U M' U M U2 Rw U R' U M",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U R D Rw' U' Rw D' R2' U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R' Dw' L' U L2 F' L' F",
-                  "marks": []
+                  "alg": "U R U' R' F' L' U2 L U' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C6-2",
@@ -1134,11 +1051,11 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 6-2",
               "lines": [
                 {
-                  "alg": "(U) B' R' F R B F2 U2 F",
+                  "alg": "U B' R' F R B F2 U2 F",
                   "marks": []
                 },
                 {
-                  "alg": "y' U Rw' U' R U Rw R2 U2 R",
+                  "alg": "y' U r' U' R U r R2 U2 R",
                   "marks": []
                 },
                 {
@@ -1146,10 +1063,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R2 D Rw' U' Rw D' R' U R'",
+                  "alg": "R2 D r' U' r D' R' U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C6-3",
@@ -1158,26 +1076,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 6-3",
               "lines": [
                 {
-                  "alg": "(U2) F' L' U' L U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 y' R' F' U' F U2' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R' F2 R U' F U' R U2 R' F2",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 F' L' U' L U2' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U R2' F R F' Rw U' Rw' U' Rw U Rw'",
-                  "marks": []
+                  "alg": "U2 F' L' U' L U2 F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C6-4",
@@ -1186,22 +1091,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 6-4",
               "lines": [
                 {
-                  "alg": "(U) F' U' F U' F R' F' R",
-                  "marks": []
+                  "alg": "y U L' U' L U' L F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "U F' U' L' U L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y U L' U' L U' L F' L' F",
-                  "marks": []
-                },
-                {
-                  "alg": "F R U' R' U' R U R' F2 U F",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C6-5",
@@ -1210,14 +1112,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 6-5",
               "lines": [
                 {
-                  "alg": "(U2) F R' F' R U2 R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' Rw U' R' U R U Rw'",
-                  "marks": []
+                  "alg": "y U2 L F' L' F U2 F U F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C6-6",
@@ -1234,10 +1135,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R' D' F Rw U2 Rw' F D R",
+                  "alg": "R' D' F r U2 r' F D R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C6-7",
@@ -1246,22 +1148,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 6-7",
               "lines": [
                 {
-                  "alg": "L' B' R U R' U' B L",
-                  "marks": []
-                },
-                {
-                  "alg": "R' U' R x U R' U' x' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' R' F' U' F U R2 U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "(R U R' U') (R U R' U') F' U' F",
-                  "marks": []
+                  "alg": "y U L' U' L U2 L' U' L U2 L F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C6-8",
@@ -1270,18 +1163,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 6-8",
               "lines": [
                 {
-                  "alg": "(U) F' U' F U2 F' U F",
-                  "marks": []
+                  "alg": "y' U R' U' R U R' U2 R",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' U R' U' R U2 R' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "y F2 R U R' U' F2",
-                  "marks": []
+                  "alg": "U F' U' L' U L U2 L' U L F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -1300,18 +1194,25 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 7-1",
               "lines": [
                 {
+                  "alg": "r R' U' R r' U2 r U' r'",
+                  "marks": [
+                    "耿"
+                  ]
+                },
+                {
                   "alg": "L R' F' L' R U2 L F' L'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "Rw R' U' R Rw' U2 Rw U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U' M U2 Rw U' Rw'",
-                  "marks": []
+                  "alg": "M' U' M U2 r U' r'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C7-2",
@@ -1320,22 +1221,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 7-2",
               "lines": [
                 {
-                  "alg": "(U2) L U F U' F' L' R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y F U R U2 R' U2 R U' R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R' U R' F R F' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R B Rw' U Rw B2 U' R'",
-                  "marks": []
+                  "alg": "U' R U2 R' U2 F' L' U' L F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C7-3",
@@ -1344,18 +1236,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 7-3",
               "lines": [
                 {
-                  "alg": "(U') R U2 R' U R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U' F U2 R U' R' U F'",
-                  "marks": []
-                },
-                {
                   "alg": "U' R U2 R' U R' F R F'",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C7-4",
@@ -1364,7 +1252,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 7-4",
               "lines": [
                 {
-                  "alg": "(U2) R U2 R2 U2 B' R' B U2 R",
+                  "alg": "U2 R U2 R2 U2 B' R' B U2 R",
                   "marks": []
                 },
                 {
@@ -1376,10 +1264,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "Rw' F' R2 U R' U2 R U' R2 F Rw",
+                  "alg": "r' F' R2 U R' U2 R U' R2 F r",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C7-5",
@@ -1388,18 +1277,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 7-5",
               "lines": [
                 {
-                  "alg": "(U) R U B U2 B' U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' Rw U2 R2 U' R2 U' Rw'",
-                  "marks": []
-                },
-                {
                   "alg": "R' D' R U2 R' D F R F'",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C7-6",
@@ -1408,26 +1293,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 7-6",
               "lines": [
                 {
-                  "alg": "(U) R2 U R B' R' B U' R2",
-                  "marks": []
-                },
-                {
-                  "alg": "y' Rw U2 R2 U' R U R U2 Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' Rw U2 Rw' D F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R2' F R F' U R U2' R' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "F2 Rw U Rw' F R U R' U2 R U R'",
-                  "marks": []
+                  "alg": "y l U2 L2 U' L U L U2 l'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C7-7",
@@ -1436,22 +1308,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 7-7",
               "lines": [
                 {
-                  "alg": "R U B U2 B' U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y F U R U2 R' U F'",
-                  "marks": []
-                },
-                {
                   "alg": "R U R' U R U' R2 F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R' F R F' R U' R' U R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C7-8",
@@ -1460,10 +1324,11 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 7-8",
               "lines": [
                 {
-                  "alg": "(U') R U2 R' U' R U2 R'",
+                  "alg": "U' R U2 R' U' R U2 R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             }
           ]
         }
@@ -1482,10 +1347,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 8-1",
               "lines": [
                 {
-                  "alg": "Rw U Rw' U' R U' M' U Rw'",
-                  "marks": []
+                  "alg": "r U r' U' R U' M' U r'",
+                  "marks": [
+                    "耿"
+                  ]
+                },
+                {
+                  "alg": "y r R' U R r' U2 R' F R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C8-2",
@@ -1494,18 +1368,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 8-2",
               "lines": [
                 {
-                  "alg": "(U2) B' U' R' U R B F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "U' Rw' F' Rw U Rw U' Rw2' F2 Rw F",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw' U2 R U R' U Rw2 U' R' U' R U Rw'",
-                  "marks": []
+                  "alg": "F' U' L' U2 L U2 L' U L F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C8-3",
@@ -1514,18 +1383,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 8-3",
               "lines": [
                 {
-                  "alg": "(U) F' U2 F U' F R' F' R",
+                  "alg": "U F' U2 F U' F R' F' R",
                   "marks": []
                 },
                 {
-                  "alg": "Rw' U2 R2 U R2' F' U F Rw",
+                  "alg": "r' U2 R2 U R2' F' U F r",
                   "marks": []
                 },
                 {
-                  "alg": "U y L' U2 L U' L F' L' F",
+                  "alg": "y U L' U2 L U' L F' L' F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C8-4",
@@ -1534,7 +1404,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 8-4",
               "lines": [
                 {
-                  "alg": "(U2) F' U2 F2 U2 L F L' U2 F'",
+                  "alg": "U2 F' U2 F2 U2 L F L' U2 F'",
                   "marks": []
                 },
                 {
@@ -1542,14 +1412,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R2 D R' U' R Rw' U' Rw D' R' U R'",
+                  "alg": "R2 D R' U' R r' U' r D' R' U R'",
                   "marks": []
                 },
                 {
-                  "alg": "(x' R2) U' R' U F' Lw' U R' F R F'",
+                  "alg": "x' R2 U' R' U F' l' U R' F R F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C8-5",
@@ -1558,18 +1429,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 8-5",
               "lines": [
                 {
-                  "alg": "(U') F' U' L' U2 L U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw' U2 R2 U R2' U Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Rw' D' Rw U Rw' D r2 U' R' U R U Rw'",
-                  "marks": []
+                  "alg": "r' U2 R2 U R2 U r",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C8-6",
@@ -1578,18 +1444,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 8-6",
               "lines": [
                 {
-                  "alg": "U R U' R' Dw R' U R U' R' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw' U2 R2 U R' U' R' U2 Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "R Lw U' R' U F' Lw' U2 R U' R'",
-                  "marks": []
+                  "alg": "y U2 U' L' U2 L U' L F' L2 U' L U F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C8-7",
@@ -1609,7 +1470,8 @@ window.ZBLS_DATA = {
                   "alg": "U2 R U' R' F' U' F U' R U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C8-8",
@@ -1618,14 +1480,15 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 8-8",
               "lines": [
                 {
-                  "alg": "(U) F' U2 F U2 F' U F",
+                  "alg": "U F' U2 F U2 F' U F",
                   "marks": []
                 },
                 {
                   "alg": "y' U R' U2 R U2 R' U R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             }
           ]
         }
@@ -1644,30 +1507,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 9-1",
               "lines": [
                 {
-                  "alg": "(U2) B' R B U2 B' F R' F' R' B",
-                  "marks": []
+                  "alg": "U' R' F R2 U R' U' F2 U' F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' U2 Rw' U Rw U2 Rw' R U' R' U' Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw U Rw' U2 M' U M R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R' U' R' F R F' R U2' R2' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R D Rw' U' Rw D' R' U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F2 R2 U' R' U' R' F' R2 U R' F2",
-                  "marks": []
+                  "alg": "U' R U' R' U F' U2 L' U L F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C9-2",
@@ -1677,17 +1529,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "F' U L' U' L U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "F R U R' U' F' U' R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U R2 Rw' U2 M' U Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C9-3",
@@ -1696,22 +1543,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 9-3",
               "lines": [
                 {
-                  "alg": "F' R' F' U' F U R U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U R' U' Rw U' R' U' R U R Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' Rw U2 Rw' U' Rw U' Rw' U Rw U2 Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw U' Rw' U2' Rw U Rw' R U' R'",
-                  "marks": []
+                  "alg": "U r U' r' U2 r U r' R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C9-4",
@@ -1720,18 +1558,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 9-4",
               "lines": [
                 {
-                  "alg": "(U) L R' D' F' D L' R2 U' R'",
-                  "marks": []
-                },
-                {
                   "alg": "F' U L' U' L U L' U L F",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R2 U' R' U' Rw U2 Rw' U' F'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C9-5",
@@ -1740,22 +1573,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 9-5",
               "lines": [
                 {
-                  "alg": "(U') R U' R' U F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2 Rw' U R U R' U' Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' R' Dw R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "F2 Rw U Rw' U' Rw' F Rw U' F",
-                  "marks": []
+                  "alg": "y U2 R' F r U r' F' R",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C9-6",
@@ -1764,22 +1588,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 9-6",
               "lines": [
                 {
-                  "alg": "(U) L F R' F' L' R2 U' R'",
-                  "marks": []
+                  "alg": "y U U' L F' L' F U2 L' U' L U L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U Rw U R' U' R2 Rw' U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw U R' U' M R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R U2 Rw U2 Rw' U2 F'",
-                  "marks": []
+                  "alg": "U M' R U R' U' r' R2 U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C9-7",
@@ -1789,9 +1610,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "F R U R' U' F' R U' R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C9-8",
@@ -1800,26 +1624,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 9-8",
               "lines": [
                 {
-                  "alg": "(U) F' U' F U' F' U' F",
-                  "marks": []
+                  "alg": "y' U2 R' U R U R' U' R",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' U R' U' R U' R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2' R' U R U R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U y' R' U' R U' R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U' R' D R F' U' F",
-                  "marks": []
+                  "alg": "y U2 L' U L U L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -1838,26 +1655,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 10-1",
               "lines": [
                 {
-                  "alg": "(U2) L F' L' U2 L R' F R F L'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Rw U' Rw' U2 Rw R' U R U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U' Rw' U' Rw U Rw' U2' R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R D Rw' U' Rw D' R' U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U M' U Rw' D R2 U R'",
-                  "marks": []
+                  "alg": "y U2 U' L' U L U' F U2 R U' R' F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C10-2",
@@ -1866,22 +1670,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 10-2",
               "lines": [
                 {
-                  "alg": "R U' B U B' U2 R'",
-                  "marks": []
-                },
-                {
                   "alg": "y F U' R U R' U2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F R' F' R U2 R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' F' U F U R U' R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C10-3",
@@ -1890,22 +1685,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 10-3",
               "lines": [
                 {
-                  "alg": "R F R U R' U' F' U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U Rw' U R U R' U' R' Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "R B' R' U' R U B U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U' R' U Rw U' Rw' U' Rw U Rw'",
-                  "marks": []
+                  "alg": "U2 R U' R' U r U' r' U' r U r'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C10-4",
@@ -1914,7 +1700,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 10-4",
               "lines": [
                 {
-                  "alg": "(U') F B' D R D' B F2 U F",
+                  "alg": "U' F B' D R D' B F2 U F",
                   "marks": []
                 },
                 {
@@ -1922,14 +1708,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U' R U R' U' Rw U' Rw' U' Rw U Rw'",
+                  "alg": "U' R U R' U' r U' r' U' r U r'",
                   "marks": []
                 },
                 {
-                  "alg": "R' F' R U R U' R' F' Rw U Rw' F",
+                  "alg": "R' F' R U R U' R' F' r U r' F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C10-5",
@@ -1938,18 +1725,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 10-5",
               "lines": [
                 {
-                  "alg": "(U) F' U F U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Rw U' R' U' R U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R2 F R F' R U R'",
-                  "marks": []
+                  "alg": "U2 r U' R' U' R U r'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C10-6",
@@ -1958,19 +1740,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 10-6",
               "lines": [
                 {
-                  "alg": "(U') B' R' F R B F2 U F",
+                  "alg": "U' B' R' F R B F2 U F",
                   "marks": []
                 },
                 {
-                  "alg": "y' U' Rw' U' R U R2 Rw U R",
+                  "alg": "y' U' r' U' R U R2 r U R",
                   "marks": []
                 },
                 {
-                  "alg": "U' F' U' F Rw U' Rw' U' Rw U Rw'",
+                  "alg": "U' F' U' F r U' r' U' r U r'",
                   "marks": []
                 },
                 {
-                  "alg": "R' D2 Rw U' Rw2' D Rw D2 R",
+                  "alg": "R' D2 r U' r2' D r D2 R",
                   "marks": []
                 },
                 {
@@ -1978,10 +1760,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U' Rw' D' Rw U' Rw' D Rw2 U' Rw' U' Rw U Rw'",
+                  "alg": "U' r' D' r U' r' D r2 U' r' U' r U r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C10-7",
@@ -2002,10 +1785,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "Rw' D' Rw U Rw' D R Rw U R'",
+                  "alg": "r' D' r U r' D R r U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C10-8",
@@ -2014,10 +1798,11 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 10-8",
               "lines": [
                 {
-                  "alg": "(U') R U R' U R U R'",
+                  "alg": "U' R U R' U R U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             }
           ]
         }
@@ -2036,26 +1821,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 11-1",
               "lines": [
                 {
-                  "alg": "(U2) R B U2 B' U R' U' F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' F' U2 L' U2 L U' F",
-                  "marks": []
-                },
-                {
                   "alg": "F R' F' R U' R U' R2 F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U2 R' F R F2 U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U y Rw' F2 Rw2 U' Rw' F",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C11-2",
@@ -2064,26 +1836,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 11-2",
               "lines": [
                 {
-                  "alg": "R U2 R' U' F' L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "y L' U2 F' U' L' U L F L",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' U' Rw U' Rw' U2 Rw U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw' U' R2 U' R2' U2' Rw F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U' R U' R2' F R F2 U' F",
-                  "marks": []
+                  "alg": "U' R U2 R' U' F' U' L' U L U F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C11-3",
@@ -2093,13 +1852,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "F' U L' U2 L U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U Rw' F2 Rw U2 F",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C11-4",
@@ -2108,18 +1866,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 11-4",
               "lines": [
                 {
-                  "alg": "(U2) F' U2 F U' R U' R' F' U' F",
-                  "marks": []
-                },
-                {
                   "alg": "F' L' U' L U' L' U L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' Rw U Rw U R U' Rw2' D",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C11-5",
@@ -2128,14 +1881,15 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 11-5",
               "lines": [
                 {
-                  "alg": "(U') R U2 R' U F' U' F",
+                  "alg": "U' R U2 R' U F' U' F",
                   "marks": []
                 },
                 {
                   "alg": "U' R U2 R' y' U R' U' R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C11-6",
@@ -2144,18 +1898,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 11-6",
               "lines": [
                 {
-                  "alg": "F' U' F2 U2 L F2 L' U2 F'",
-                  "marks": []
+                  "alg": "y L' U L U' L' U L U' L F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' R' U' R2 U2 x U R2 U' x' U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U' R U' R' F' U' F",
-                  "marks": []
+                  "alg": "F R' F' R U' R U' R' U R U' R'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C11-7",
@@ -2164,22 +1919,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 11-7",
               "lines": [
                 {
-                  "alg": "R' U' R2 U' R2 U2 R F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "R' U' R2 U' R2 U2 R y' R' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "(U') R U R' U' R U' R' U' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U R U' R2' F R F' R U' R'",
-                  "marks": []
+                  "alg": "R U' R' U R U' R2 F R F' R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C11-8",
@@ -2188,18 +1934,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 11-8",
               "lines": [
                 {
-                  "alg": "F U2 F2 U' F2 U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R U2 R2 U' R2 U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2' R' U R U R' F' U' F",
-                  "marks": []
+                  "alg": "U' d R U2 R2 U' R2 U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -2218,22 +1959,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 12-1",
               "lines": [
                 {
-                  "alg": "(U2) F' L' U2 L U' F U R U' R'",
-                  "marks": []
-                },
-                {
                   "alg": "U F' U L' U L F U R U' R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "R' D' R U2 M' U Rw' D R2 U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' U' M' U' M U2' Rw U' Rw'",
-                  "marks": []
+                  "alg": "y F' L F L' U L' U L2 F' L' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C12-2",
@@ -2242,18 +1980,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 12-2",
               "lines": [
                 {
-                  "alg": "R U2 F U R U' R' F' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U M' U' M U2 M' U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "(U2) R' F2 Rw U Rw' F R2 U R'",
-                  "marks": []
+                  "alg": "U2 R' F2 r U r' F R2 U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C12-3",
@@ -2270,10 +2003,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R Dw' R U2 R' U2 F'",
+                  "alg": "R d' R U2 R' U2 F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C12-4",
@@ -2282,18 +2016,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 12-4",
               "lines": [
                 {
-                  "alg": "(U2) R U2 R' U F' U F R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y F R U R' U R U' R' U F'",
-                  "marks": []
-                },
-                {
                   "alg": "R U R' U R' F R F' R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C12-5",
@@ -2302,14 +2031,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 12-5",
               "lines": [
                 {
-                  "alg": "(U) F' U2 F U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U R' U2 R y U' R U R'",
-                  "marks": []
+                  "alg": "U F' U2 F U' R U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C12-6",
@@ -2318,22 +2046,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 12-6",
               "lines": [
                 {
-                  "alg": "R U R2 U2 B' R2 B U2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R2 U2 x' U' R2 U x U2 R",
-                  "marks": []
-                },
-                {
                   "alg": "R U' R' U R U' R' U R' F R F'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U Rw U' R' U' R U Rw' U' R U R'",
-                  "marks": []
+                  "alg": "y U2 U2 F' L F L' U L' U L U' L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C12-7",
@@ -2350,10 +2075,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R U' Rw' U R U' R' U' Rw U2 R'",
+                  "alg": "R U' r' U R U' R' U' r U2 R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C12-8",
@@ -2363,13 +2089,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R' U2 R2 U R2 U R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U R U' R' U2 R U' R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -2388,18 +2113,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 13-1",
               "lines": [
                 {
-                  "alg": "(U2) B' R B U' B' F R2 F' R' B",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2 Rw' U Rw U' Rw' R U2 R' U' Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R D Rw' U Rw D' R' U R'",
-                  "marks": []
+                  "alg": "y U2 R' F R U L' U2 L R' F R",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C13-2",
@@ -2408,18 +2128,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 13-2",
               "lines": [
                 {
-                  "alg": "(U) B' U' R' U R B F' U' F",
-                  "marks": []
-                },
-                {
                   "alg": "U2 F' L' U L U' L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U' R U' Rw' U2 Rw U' Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C13-3",
@@ -2436,14 +2151,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R' D' Rw U Rw' D R U R U' R'",
+                  "alg": "R' D' r U r' D R U R U' R'",
                   "marks": []
                 },
                 {
                   "alg": "R' F R F' U' R' F R F' R U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C13-4",
@@ -2452,7 +2168,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 13-4",
               "lines": [
                 {
-                  "alg": "(U) F U R U' R' F2 U' F",
+                  "alg": "U F U R U' R' F2 U' F",
                   "marks": []
                 },
                 {
@@ -2460,14 +2176,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R' F R U2 Rw U' Rw' U2 F'",
+                  "alg": "R' F R U2 r U' r' U2 F'",
                   "marks": []
                 },
                 {
-                  "alg": "U2' Rw U2' Rw' U' Rw U Rw' U Rw U2' Rw'",
+                  "alg": "U2' r U2' r' U' r U r' U r U2' r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C13-5",
@@ -2476,18 +2193,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 13-5",
               "lines": [
                 {
-                  "alg": "(U2) B' F' R' F R' F' R2 F B",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2 Rw' R' U' R U' R' U2 R Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F' Rw U R U2 Rw' F2",
-                  "marks": []
+                  "alg": "y U2 L' U' L U' L' U2 L2 F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C13-6",
@@ -2496,26 +2208,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 13-6",
               "lines": [
                 {
-                  "alg": "(U) F' U B L' F' L' F L F B'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U R' U Rw U' R' U' R U R Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U' R U R' U2 R U' Rw'",
-                  "marks": []
-                },
-                {
                   "alg": "R U' R' U R' F R F' R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U R U' R' F' U' F",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C13-7",
@@ -2539,7 +2238,8 @@ window.ZBLS_DATA = {
                   "alg": "U R U' R' U R U' R' U' y' R' U R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C13-8",
@@ -2548,22 +2248,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 13-8",
               "lines": [
                 {
-                  "alg": "(U) F' U F U' F' U' F",
-                  "marks": []
-                },
-                {
                   "alg": "y' U R' U R U' R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U y' R' U R U' R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U R' D R F' U' F",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -2582,11 +2273,11 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 14-1",
               "lines": [
                 {
-                  "alg": "(U2) L F' L' U L R' F2 R F L'",
+                  "alg": "U2 L F' L' U L R' F2 R F L'",
                   "marks": []
                 },
                 {
-                  "alg": "U2 Rw U' Rw' U Rw R' U2 R U Rw'",
+                  "alg": "U2 r U' r' U r R' U2 R U r'",
                   "marks": []
                 },
                 {
@@ -2594,14 +2285,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U2 Rw U' Rw' U2 Rw U Rw' U R U R'",
+                  "alg": "U2 r U' r' U2 r U r' U R U R'",
                   "marks": []
                 },
                 {
-                  "alg": "U R2 D Rw' U Rw D' R2' U2' R U R'",
+                  "alg": "U R2 D r' U r D' R2' U2' R U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C14-2",
@@ -2610,26 +2302,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 14-2",
               "lines": [
                 {
-                  "alg": "(U') L U F U' F' L' R U R'",
-                  "marks": []
-                },
-                {
                   "alg": "y U2 F R U' R' U R U2 R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U' F' U' F U R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Rw U R' U R U2 Rw' U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R B Rw' U Rw B2 U2' R'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C14-3",
@@ -2638,18 +2317,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 14-3",
               "lines": [
                 {
-                  "alg": "R B' U' R' U R2 B R2",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R U x' R' U' R U x U' R2",
-                  "marks": []
-                },
-                {
                   "alg": "R U R' U' R' F R F' R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C14-4",
@@ -2658,7 +2332,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 14-4",
               "lines": [
                 {
-                  "alg": "(U') R' U' F' U F R2 U R'",
+                  "alg": "U' R' U' F' U F R2 U R'",
                   "marks": []
                 },
                 {
@@ -2666,14 +2340,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "F' Rw U' Rw' F2 U' R U R'",
+                  "alg": "F' r U' r' F2 U' R U R'",
                   "marks": []
                 },
                 {
-                  "alg": "U' R U' R' U' Rw U' Rw' U' Rw U Rw'",
+                  "alg": "U' R U' R' U' r U' r' U' r U r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C14-5",
@@ -2682,18 +2357,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 14-5",
               "lines": [
                 {
-                  "alg": "(U2) L R F R' F R F2 R' L'",
+                  "alg": "U2 L R F R' F R F2 R' L'",
                   "marks": []
                 },
                 {
-                  "alg": "U2 Rw R U R' U R U2 R' Rw'",
+                  "alg": "U2 r R U R' U R U2 R' r'",
                   "marks": []
                 },
                 {
                   "alg": "U2 R U R' U R U2 R2 F R F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C14-6",
@@ -2702,18 +2378,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 14-6",
               "lines": [
                 {
-                  "alg": "(U') R U' L' B R B R' B' R' L",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' Rw' U R U R' U' R' Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U' R U' R' U R U R' U' M",
-                  "marks": []
+                  "alg": "y U' U L' U L U' L F' L' F L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C14-7",
@@ -2722,22 +2393,20 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 14-7",
               "lines": [
                 {
-                  "alg": "F' U F U' R U2 R' F' U' F",
-                  "marks": []
+                  "alg": "y L' U L U' F U2 F' L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "U' R' F R2 U R' U' R' F' R",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw' D' Rw U' Rw' D Rw R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F R U R' D R2 U' R2 D' F'",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C14-8",
@@ -2746,10 +2415,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 14-8",
               "lines": [
                 {
-                  "alg": "(U') R U' R' U R U R'",
-                  "marks": []
+                  "alg": "U' R U' R' U R U R'",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -2768,7 +2441,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 15-1",
               "lines": [
                 {
-                  "alg": "(U') F' U2 F R B U2 B' R'",
+                  "alg": "U' F' U2 F R B U2 B' R'",
                   "marks": []
                 },
                 {
@@ -2776,18 +2449,19 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "Lw U Rw U' Rw2' F Rw U2 Lw'",
+                  "alg": "l U r U' r2' F r U2 l'",
                   "marks": []
                 },
                 {
-                  "alg": "U R U' R D Rw' U Rw D' R' U' R'",
+                  "alg": "U R U' R D r' U r D' R' U' R'",
                   "marks": []
                 },
                 {
-                  "alg": "Rw' U' R U M' U' R' F U R U' F'",
+                  "alg": "r' U' R U M' U' R' F U R U' F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C15-2",
@@ -2797,17 +2471,24 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R U B' R B R' U2 R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "R U x' U' R U R' x U2 R'",
-                  "marks": []
+                  "alg": "y F U R' F R F' U2 F'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "R U2' R2' F R F' U' R U2' R'",
-                  "marks": []
+                  "alg": "R U2 R2 F R F' U' R U2 R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C15-3",
@@ -2823,7 +2504,8 @@ window.ZBLS_DATA = {
                   "alg": "R U R' U2 R U' R2 x U R U' x'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C15-4",
@@ -2832,7 +2514,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 15-4",
               "lines": [
                 {
-                  "alg": "(U2) F' U' F R B U2 B' R'",
+                  "alg": "U2 F' U' F R B U2 B' R'",
                   "marks": []
                 },
                 {
@@ -2840,10 +2522,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "M U R U R' U' Rw U' R'",
+                  "alg": "M U R U R' U' r U' R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C15-5",
@@ -2871,7 +2554,8 @@ window.ZBLS_DATA = {
                   "alg": "y' R2' F R F' R U2' R' U R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C15-6",
@@ -2891,7 +2575,8 @@ window.ZBLS_DATA = {
                   "alg": "U R' F R F' U R U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C15-7",
@@ -2908,14 +2593,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "M U Rw U' Rw' U' M'",
+                  "alg": "M U r U' r' U' M'",
                   "marks": []
                 },
                 {
                   "alg": "F D R U R U' R2 D' F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C15-8",
@@ -2924,26 +2610,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 15-8",
               "lines": [
                 {
-                  "alg": "R F U R' U' R F' U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R' U2 R' U R' U' R U2 R",
-                  "marks": []
-                },
-                {
                   "alg": "R' D' R U' R' D R U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' U R U R' U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U2 R U' R' U R U' R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -2962,18 +2635,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 16-1",
               "lines": [
                 {
-                  "alg": "(U) R U2 R' F' L' U2 L F",
-                  "marks": []
+                  "alg": "y U F U' R U2 R' F' L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U' Rw U' R' U' M U2 Rw U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U2' R' Rw U' Rw' U2' Rw U Rw'",
-                  "marks": []
+                  "alg": "U R U2 R' F' L' U2 L F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C16-2",
@@ -2983,21 +2657,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "F' U' L F' L' F U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R' U' x U R' U' R x' U2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R' D' Rw U' M U' R' D R",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw U' Rw' U2' Rw U Rw' U' R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C16-3",
@@ -3006,22 +2671,20 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 16-3",
               "lines": [
                 {
-                  "alg": "F' U' F U2 F' U F2 R' F' R",
-                  "marks": []
+                  "alg": "y L' U' L U2 L' U L2 F' L' F",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 },
                 {
-                  "alg": "y' R' U' R U2 R' U R2 x' U' R' U x",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U' Rw' U Lw' U2 R U' R' U2 Lw",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Rw' F' Rw U' Rw' F2' r2 U' Rw' U2' Rw U Rw'",
-                  "marks": []
+                  "alg": "r U' r' U l' U2 R U' R' U2 l",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C16-4",
@@ -3030,22 +2693,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 16-4",
               "lines": [
                 {
-                  "alg": "(U2) R U R' F' L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "F' L' U L U2 L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U R U R' U' R' F2 R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R' Rw U' Rw' U2' Rw U Rw'",
-                  "marks": []
+                  "alg": "U2 R U R' F' L' U2 L F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C16-5",
@@ -3054,26 +2708,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 16-5",
               "lines": [
                 {
-                  "alg": "F' B' R' U' R U B F",
-                  "marks": []
-                },
-                {
                   "alg": "y F U' R U' R' U' R U' R' F'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "U F U R U' R' F' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "(Lw R) U' R' U Lw' U2 R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U R' D R F R' F' R",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C16-6",
@@ -3083,13 +2730,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R U' R' U2 F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U2 y' R' U' R",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C16-7",
@@ -3098,22 +2744,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 16-7",
               "lines": [
                 {
-                  "alg": "F' L' B' U B L F",
-                  "marks": []
-                },
-                {
-                  "alg": "U R F R U R' U' F' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U2' R U' R' U' F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' M' U' Rw' U Rw U M",
-                  "marks": []
+                  "alg": "R U' R' U' R U2 R' F R' F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C16-8",
@@ -3122,30 +2759,26 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 16-8",
               "lines": [
                 {
-                  "alg": "F' R' U' F U F' R U F",
-                  "marks": []
+                  "alg": "y L' U' L U2 L' U L U' L' U L",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 },
                 {
-                  "alg": "y' U R U2 R U' R U R' U2 R'",
-                  "marks": []
+                  "alg": "y L' U' L U2 L' U L U' L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "Rw U Rw' U Rw U2 Rw' U' Rw U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U M' U R U' Rw' U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F R' F' R2 U' R' U R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U (R U R' U R U2' R') F",
-                  "marks": []
+                  "alg": "r U r' U r U2 r' U' r U' r'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -3164,22 +2797,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 17-1",
               "lines": [
                 {
-                  "alg": "(U') R U' B U' L U' L' B' R'",
-                  "marks": []
-                },
-                {
                   "alg": "U' F' L' U2 L U' F U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw' D' Rw U2' Rw' D Rw2 U' R' U2' R U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "F' Rw U' Rw' F2 R U2' R2 F R F'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C17-2",
@@ -3188,30 +2812,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 17-2",
               "lines": [
                 {
-                  "alg": "(U') R U2 R' U' F' U' F R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U F R U R' U' R U R' U2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U2 R' U' R U R' U R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F R U R' U' F2 Rw U' Rw' F2",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U2 R' U' F' U' F R U R'",
-                  "marks": []
-                },
-                {
                   "alg": "R U' R' U' F R' F' R U2 R U' R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C17-3",
@@ -3220,7 +2827,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 17-3",
               "lines": [
                 {
-                  "alg": "(U) R U R U2 F R F' U2 R2",
+                  "alg": "U R U R U2 F R F' U2 R2",
                   "marks": []
                 },
                 {
@@ -3231,7 +2838,8 @@ window.ZBLS_DATA = {
                   "alg": "R U2 R' F U R U' R2 F' R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C17-4",
@@ -3240,22 +2848,23 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 17-4",
               "lines": [
                 {
-                  "alg": "(U2) R2 U2 F R F' U2 R2",
+                  "alg": "U2 R2 U2 F R F' U2 R2",
                   "marks": []
                 },
                 {
-                  "alg": "R U2 Rw' U' R U R2 Rw",
+                  "alg": "R U2 r' U' R U R2 r",
                   "marks": []
                 },
                 {
-                  "alg": "R U' R' Rw U' R' U' R U Rw'",
+                  "alg": "R U' R' r U' R' U' R U r'",
                   "marks": []
                 },
                 {
-                  "alg": "R U' M' U' R' U' R U Rw'",
+                  "alg": "R U' M' U' R' U' R U r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C17-5",
@@ -3264,30 +2873,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 17-5",
               "lines": [
                 {
-                  "alg": "F' U F R U R' F R' F' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U F' L' U L U' L' U2 L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U2' F R U R' U2 R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' M U' R' U2 R U' R' U R U2' M'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U Lw' U R' U' R U R' U' Lw",
-                  "marks": []
-                },
-                {
-                  "alg": "B' R U' R U R' U' R2 U B",
-                  "marks": []
+                  "alg": "y L F' L' F L' U L2 F' L' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C17-6",
@@ -3296,18 +2888,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 17-6",
               "lines": [
                 {
-                  "alg": "(U2) R2 B2 L' B' L B' R2",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 x' R2 U2 L' U' L U' R2 x",
-                  "marks": []
-                },
-                {
                   "alg": "R U R' U' F R' F' R2 U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C17-7",
@@ -3316,22 +2903,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 17-7",
               "lines": [
                 {
-                  "alg": "F' U2 L F U F' U' L' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y’ R’ U2 F R U R’ U’ F’ R",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U' F U R U' R' U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2' R' U Rw U' Rw' U' Rw U Rw'",
-                  "marks": []
+                  "alg": "R U2 R' U r U' r' U' r U r'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C17-8",
@@ -3341,9 +2919,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R U2 R' U' R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -3362,22 +2943,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 18-1",
               "lines": [
                 {
-                  "alg": "(U) F' U L' U B' U B L F",
-                  "marks": []
+                  "alg": "y U F R U2 R' U F' U L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U R U' R' U F' U L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "F R' F' R2 U' R' U R U2' R2' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "F R U R' U' F' R U2' R2 F R F'",
-                  "marks": []
+                  "alg": "F R U R' U' F' R U2 R2 F R F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C18-2",
@@ -3386,34 +2964,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 18-2",
               "lines": [
                 {
-                  "alg": "(U) F' U2 F U R U R' F' U' F",
-                  "marks": []
-                },
-                {
                   "alg": "U' F' L' U' L U L' U' L U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U R' U R U Rw' U M' U2 R U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R2 D' Rw U' Rw' D Rw U R2 U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U2 R' D R Rw U' Rw' U2' Rw U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U2 Rw' F2 R U2 Rw U' Rw' U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' Rw U Rw' U2 Rw U R' U R Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C18-3",
@@ -3422,22 +2979,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 18-3",
               "lines": [
                 {
-                  "alg": "(U') F' U' F' U2 R' F' R U2 F2",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U R' U2 R U x R' U R' U' R2 x'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R2' F R F' Rw U' Rw' U' Rw U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D R2 U2' Rw' U2 R U Rw D' R2",
-                  "marks": []
+                  "alg": "y U L' U L U2 L' U2 L2 F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C18-4",
@@ -3446,30 +2994,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 18-4",
               "lines": [
                 {
-                  "alg": "(U2) F2 U2 R' F' R U2 F2",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R' U2 Rw U R' U' R2 Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' Dw' Rw' F Rw2 U' Rw' F",
-                  "marks": []
-                },
-                {
                   "alg": "R U R' F' L' U2 L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R D Rw' U' Rw D' R2' U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F2 Rw U Rw' U F R U2 R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C18-5",
@@ -3478,22 +3009,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 18-5",
               "lines": [
                 {
-                  "alg": "R U' R' F' U' F R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' F R' U R' U' R U R2 U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R F' R U' R2' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U' R U2 R' F' U2 F",
-                  "marks": []
+                  "alg": "R' F R F' R U' R2 F R F'",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C18-6",
@@ -3502,7 +3025,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 18-6",
               "lines": [
                 {
-                  "alg": "(U2) F2 L2 B L B' L F2",
+                  "alg": "U2 F2 L2 B L B' L F2",
                   "marks": []
                 },
                 {
@@ -3521,7 +3044,8 @@ window.ZBLS_DATA = {
                   "alg": "U R' F R F' R U' R' U F' U' F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C18-7",
@@ -3530,22 +3054,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 18-7",
               "lines": [
                 {
-                  "alg": "R U2 B' R' U' R U B R'",
-                  "marks": []
+                  "alg": "y U2 U2 L' U2 L U' l' U l U l' U' l",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "R U R' U' y' R' U R U' R' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' F' U' F U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' Dw' L' U L U' L' U L",
-                  "marks": []
+                  "alg": "y L' U2 L U' R' F R U R' F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C18-8",
@@ -3554,18 +3075,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 18-8",
               "lines": [
                 {
-                  "alg": "F' U2 F U F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R' U2 R U R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R F' R U' R' U R U' R'",
-                  "marks": []
+                  "alg": "y L' U2 L U L' U' L",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -3584,22 +3100,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 19-1",
               "lines": [
                 {
-                  "alg": "(U') R2 B' R' B2 U2 B' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U2 L' U L U F R U2 R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R2' Rw U' M U2' Rw U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' U' F' U F2 R2 U R' U' R' F' R",
-                  "marks": []
+                  "alg": "y U L' U L2 F' L' F U L F' L' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C19-2",
@@ -3608,14 +3115,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 19-2",
               "lines": [
                 {
-                  "alg": "(U) R U2 R2 F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U2 F U2 R U2 R' U F'",
-                  "marks": []
+                  "alg": "U R U2 R2 F R F'",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C19-3",
@@ -3624,18 +3131,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 19-3",
               "lines": [
                 {
-                  "alg": "(U) R U R' F' U' F R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y F U' R U' R' U R U2 R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U (F R U R' U' F') R U R'",
-                  "marks": []
+                  "alg": "U F R U R' U' F' R U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C19-4",
@@ -3644,26 +3146,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 19-4",
               "lines": [
                 {
-                  "alg": "(U) R U2 R' U R B U' B' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y F R U' R' U R U2 R' U2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' Lw R U' R' U x U' R' U2 R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F R' F' R Rw U' R' U R U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "F R' F' R2 U2 R' U2 R U R'",
-                  "marks": []
+                  "alg": "U R U2 R' U F' U F R U' R'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C19-5",
@@ -3672,26 +3161,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 19-5",
               "lines": [
                 {
-                  "alg": "(U) F' U F2 R' F' R F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U' F R U R U' R' U R2 U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U' F U2 R U' R' U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' Rw U' R' U' R U Rw' U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U2' R' U R U R' U2' R' F R F'",
-                  "marks": []
+                  "alg": "U R U2 R' U R U R' U2 R' F R F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C19-6",
@@ -3700,26 +3176,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 19-6",
               "lines": [
                 {
-                  "alg": "(U) R U' R' F' U2 F R U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw U2 R' U R U' R' U R Rw'",
-                  "marks": []
-                },
-                {
                   "alg": "U R' F R F' R U' R' U2 R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U R U R' U' R' F R2 U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U2' Rw' U R U' R' U' M'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C19-7",
@@ -3728,22 +3191,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 19-7",
               "lines": [
                 {
-                  "alg": "(U') R2 B' R' B2 U' B' U' R'",
-                  "marks": []
-                },
-                {
                   "alg": "y U' F U R U R' U' R U2 R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' U R U' R2 F R2 U R' U' R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' R' U Rw U' R' U2' R U Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C19-8",
@@ -3752,10 +3206,11 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 19-8",
               "lines": [
                 {
-                  "alg": "(U) R U2 R' U R U' R'",
+                  "alg": "U R U2 R' U R U' R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             }
           ]
         }
@@ -3774,22 +3229,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 20-1",
               "lines": [
                 {
-                  "alg": "(U) F2 L F L2 U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U' R' U' F' L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' R2' F R F' U' R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R2 F R F2 U' F",
-                  "marks": []
+                  "alg": "U' R U' R2 F R F' U' R' F R F'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C20-2",
@@ -3798,22 +3244,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 20-2",
               "lines": [
                 {
-                  "alg": "(U') F' U2 F2 R' F' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 F' U2 L' U2 L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F' U' Rw U' Rw' F2",
-                  "marks": []
-                },
-                {
                   "alg": "y U' L' U2 L2 F' L' F",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C20-3",
@@ -3822,7 +3259,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 20-3",
               "lines": [
                 {
-                  "alg": "(U') F' U' F R U R' F' U' F",
+                  "alg": "U' F' U' F R U R' F' U' F",
                   "marks": []
                 },
                 {
@@ -3830,18 +3267,19 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "Rw' D' Rw U Rw' D Rw2 U' Rw' U2' Rw U Rw'",
+                  "alg": "r' D' r U r' D r2 U' r' U2' r U r'",
                   "marks": []
                 },
                 {
-                  "alg": "U' R U' Rw' U Rw U2' Rw' U' Rw U R'",
+                  "alg": "U' R U' r' U r U2' r' U' r U R'",
                   "marks": []
                 },
                 {
                   "alg": "F D R2 U' R' U2 R U R2 D' F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C20-4",
@@ -3850,7 +3288,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 20-4",
               "lines": [
                 {
-                  "alg": "(U') F' L' U2 L F U' R U R'",
+                  "alg": "U' F' L' U2 L F U' R U R'",
                   "marks": []
                 },
                 {
@@ -3861,7 +3299,8 @@ window.ZBLS_DATA = {
                   "alg": "R' F2 R U' F U R' F2 R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C20-5",
@@ -3870,14 +3309,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 20-5",
               "lines": [
                 {
-                  "alg": "(U') R U' R2 F R F' R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R' U R U' R' y' R' U' R",
-                  "marks": []
+                  "alg": "U' R U' R2 F R F' R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C20-6",
@@ -3886,22 +3324,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 20-6",
               "lines": [
                 {
-                  "alg": "(U') F' U F R U2 R' F' U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U' Rw' U2 R U' R' U R U' R' Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' R' U R U' R' Dw R' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F2 Rw U2 R U' Rw2' F Rw F",
-                  "marks": []
+                  "alg": "y U' L F' L' F L' U L U2 L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C20-7",
@@ -3910,30 +3339,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 20-7",
               "lines": [
                 {
-                  "alg": "(U) F2 L F L2 U L U F",
-                  "marks": []
-                },
-                {
-                  "alg": "U F' U' L' U' L U L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "R' U' R' F R F' U R2 U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' Rw U' R' U R U Rw' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "x R' U R U' R' U R U2' x' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' R U' R' U F' Rw U' Rw' F2'",
-                  "marks": []
+                  "alg": "y U' L' U2 L U' F R U R' F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C20-8",
@@ -3942,14 +3354,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 20-8",
               "lines": [
                 {
-                  "alg": "(U') F' U2 F U' F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U' R' U2 R U' R' U R",
-                  "marks": []
+                  "alg": "y U' L' U2 L U' L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -3968,22 +3379,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 21-1",
               "lines": [
                 {
-                  "alg": "(U2) F' L' U2 L2 F' L' F2",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 F' L' U2 L2 x U' L' U2 x'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' F' Rw' F2 Rw2 U' Rw' F2",
-                  "marks": []
-                },
-                {
-                  "alg": "U R' F R F2 U' F R U2 R'",
-                  "marks": []
+                  "alg": "U2 F' L' U2 L2 F' L' F2",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C21-2",
@@ -3992,22 +3394,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 21-2",
               "lines": [
                 {
-                  "alg": "(U) F R U R2 U' F' U R",
-                  "marks": []
+                  "alg": "y U U L F' L' F L' U' L2 F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "U F R' F' R2 U' R' U R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' R U Rw' U R U' R' U' M'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw' U2 R' U R2 U' R U2 Rw",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C21-3",
@@ -4016,18 +3415,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 21-3",
               "lines": [
                 {
-                  "alg": "(U) R B U B' U R'",
-                  "marks": []
-                },
-                {
                   "alg": "y U F R U R' U F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 F R U R' U' F' U' R U2 R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C21-4",
@@ -4036,18 +3430,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 21-4",
               "lines": [
                 {
-                  "alg": "R B U2 B' R'",
-                  "marks": []
-                },
-                {
                   "alg": "y F R U2 R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U' R' U2 R U Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C21-5",
@@ -4056,7 +3445,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 21-5",
               "lines": [
                 {
-                  "alg": "(U) R' F R F' U R' F R F'",
+                  "alg": "U R' F R F' U R' F R F'",
                   "marks": []
                 },
                 {
@@ -4072,10 +3461,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U2 F' Rw U R' U' Rw' F2 R F'",
+                  "alg": "U2 F' r U R' U' r' F2 R F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C21-6",
@@ -4084,22 +3474,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 21-6",
               "lines": [
                 {
-                  "alg": "(U2) R U R2 F R F'",
-                  "marks": []
+                  "alg": "U2 R U R2 F R F'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U2 x' R U' R U R2 x",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' R U R2' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R B' R B R2",
-                  "marks": []
+                  "alg": "y U2 F R' F R F2",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C21-7",
@@ -4108,22 +3495,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 21-7",
               "lines": [
                 {
-                  "alg": "R B U' B' U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y F R U' R' U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R' F R F' U' R U2 R'",
-                  "marks": []
-                },
-                {
                   "alg": "U2 F' U' F R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C21-8",
@@ -4132,14 +3510,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 21-8",
               "lines": [
                 {
-                  "alg": "(U2) R U R' U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U2 R U R'",
-                  "marks": []
+                  "alg": "U2 R U R' U R U' R'",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -4158,22 +3536,23 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 22-1",
               "lines": [
                 {
-                  "alg": "(U2) R B U2 B2 R B R2",
+                  "alg": "U2 R B U2 B2 R B R2",
                   "marks": []
                 },
                 {
-                  "alg": "U' R U2 Rw' U Rw U2 Rw' U' Rw U R'",
+                  "alg": "U' R U2 r' U r U2 r' U' r U R'",
                   "marks": []
                 },
                 {
-                  "alg": "U' F R' F' R U2' Rw U' Rw' U Rw U Rw'",
+                  "alg": "U' F R' F' R U2' r U' r' U r U r'",
                   "marks": []
                 },
                 {
-                  "alg": "M' U R U' Rw' F2 Rw U Rw' U2 F",
+                  "alg": "M' U R U' r' F2 r U r' U2 F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C22-2",
@@ -4182,18 +3561,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 22-2",
               "lines": [
                 {
-                  "alg": "F' L' U' L U' F R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' R' F R F' R U R2' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U' Rw' U2 y' R U R U' R'",
-                  "marks": []
+                  "alg": "y U2 U F' L F L2 U L U' L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C22-3",
@@ -4202,14 +3576,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 22-3",
               "lines": [
                 {
-                  "alg": "(U') F' L' U' L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R' F R F2 U' F R U R'",
-                  "marks": []
+                  "alg": "U' F' L' U' L U' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C22-4",
@@ -4219,13 +3592,18 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "F' L' U2 L F",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "Rw U' Rw' U2' Rw U Rw'",
-                  "marks": []
+                  "alg": "y R' F r U2 r' F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C22-5",
@@ -4234,18 +3612,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 22-5",
               "lines": [
                 {
-                  "alg": "(U') F R' F' R U' F R' F' R",
-                  "marks": []
+                  "alg": "y U' L F' L' F U' L F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U R U' R' U' R U' R' y' R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "R2 U2 R2 F R F' R U2 R2",
-                  "marks": []
+                  "alg": "U' F R' F' R U' F R' F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C22-6",
@@ -4254,14 +3633,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 22-6",
               "lines": [
                 {
-                  "alg": "(U2) F' U' F2 R' F' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 F' Rw U' Rw' F2",
-                  "marks": []
+                  "alg": "y U2 L' U' L2 F' L' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C22-7",
@@ -4270,18 +3648,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 22-7",
               "lines": [
                 {
+                  "alg": "y U2 F U F' L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
+                },
+                {
                   "alg": "F' L' U L U F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' R U R' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R' F' U F U R",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C22-8",
@@ -4290,18 +3669,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 22-8",
               "lines": [
                 {
-                  "alg": "(U2) F' U' F U' F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R' U R U2 R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R' F R F' R U R' U R U' R'",
-                  "marks": []
+                  "alg": "y U2 L' U' L U' L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -4320,7 +3694,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 23-1",
               "lines": [
                 {
-                  "alg": "(U') F' L' B' U' B U' L U' F",
+                  "alg": "U' F' L' B' U' B U' L U' F",
                   "marks": []
                 },
                 {
@@ -4332,14 +3706,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U F R' F' R2 Rw' U R U R' U' M'",
+                  "alg": "U F R' F' R2 r' U R U R' U' M'",
                   "marks": []
                 },
                 {
-                  "alg": "(U') F2 Rw U Rw' U' Rw' F' Rw2 U' Rw' F2",
+                  "alg": "U' F2 r U r' U' r' F' r2 U' r' F2",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C23-2",
@@ -4348,22 +3723,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 23-2",
               "lines": [
                 {
-                  "alg": "(U') R U' B U' B' R' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y U F U2 R2 U R' U R U2 R2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "M U2 R U R' U Rw U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' Rw U' Rw' U Rw U Rw' U R U' R'",
-                  "marks": []
+                  "alg": "y U' F U' R U' R' F' L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C23-3",
@@ -4372,22 +3738,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 23-3",
               "lines": [
                 {
-                  "alg": "R U R B' R' B U2 R'",
-                  "marks": []
-                },
-                {
                   "alg": "y F R U' R' U R U R' U2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2' R' U Rw U' R' U' R U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' F' U F U' R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C23-4",
@@ -4396,18 +3754,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 23-4",
               "lines": [
                 {
-                  "alg": "R U R' F' U F R U R'",
-                  "marks": []
-                },
-                {
                   "alg": "U F R' F' R U R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U x U R' U' R x' U R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C23-5",
@@ -4416,22 +3769,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 23-5",
               "lines": [
                 {
-                  "alg": "(U') R B U' B' R' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U L' U2 L U' L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R' U' R U' R2' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U' F U' R U' R' U R U' R'",
-                  "marks": []
+                  "alg": "y U' F R U' R' F' L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C23-6",
@@ -4440,7 +3784,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 23-6",
               "lines": [
                 {
-                  "alg": "(U') F' U2 F' U' L' U L F2",
+                  "alg": "U' F' U2 F' U' L' U L F2",
                   "marks": []
                 },
                 {
@@ -4455,7 +3799,8 @@ window.ZBLS_DATA = {
                   "alg": "F U R U' R' F' U' F' U' F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C23-7",
@@ -4464,22 +3809,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 23-7",
               "lines": [
                 {
-                  "alg": "(U') L F U F' U' L' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U' L' U' L U2 L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R' U' R U' R' U R' F R F'",
-                  "marks": []
-                },
-                {
                   "alg": "U2 R U2 R' U' R U' R2 F R F'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
+                },
+                {
+                  "alg": "y L' U L U' R' F r U' r' F' R",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C23-8",
@@ -4488,14 +3830,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 23-8",
               "lines": [
                 {
-                  "alg": "(U2) R2 U2 R' U' R U' R2",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R2' D' R U2 R' D R",
-                  "marks": []
+                  "alg": "R U' R2 D' R U2 R' D R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -4514,26 +3855,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 24-1",
               "lines": [
                 {
-                  "alg": "(U) R B L U L' U B' U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R' F' U L' U' L U F R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R2 D' Rw U M U R' D R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U2 F' Rw' F2 Rw U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R' U' Rw U2' Rw' U' Rw U' Rw' U Rw U2' Rw'",
-                  "marks": []
+                  "alg": "R U R' U2 F' r' F2 r U' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C24-2",
@@ -4542,38 +3870,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 24-2",
               "lines": [
                 {
-                  "alg": "(U) F' U L' U L F R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F' U2 L2 U' L U' L' U2 L2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' M' U2 R' U' R U' Rw' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw U' Rw' U2' Rw U Rw' R U2' R' U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U' Rw U2 R' U' R U' Rw' U2' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R' F R y' R U2' R U R' U R2",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' R' F' L' U' L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F' U Rw' F Rw U Rw' F Rw U' F",
-                  "marks": []
+                  "alg": "U F' U L' U L F R U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C24-3",
@@ -4590,18 +3893,19 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "Rw U' Rw' U' Rw U Rw2' D' Rw U2' Rw' D Rw",
+                  "alg": "r U' r' U' r U r2' D' r U2' r' D r",
                   "marks": []
                 },
                 {
-                  "alg": "Rw U R' U R U Rw' U' Rw U Rw'",
+                  "alg": "r U R' U R U r' U' r U r'",
                   "marks": []
                 },
                 {
-                  "alg": "Rw U' Rw' U' Rw U Rw' F' U2' F",
+                  "alg": "r U' r' U' r U r' F' U2' F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C24-4",
@@ -4610,22 +3914,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 24-4",
               "lines": [
                 {
-                  "alg": "F' U' F R U' R' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U' x R' U R U' z x' U' R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' R' U Rw U' Rw' U2' Rw U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "F U R U' R' F2 U' F R U' R'",
-                  "marks": []
+                  "alg": "U' R' F R F' U' F' U' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C24-5",
@@ -4634,26 +3929,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 24-5",
               "lines": [
                 {
-                  "alg": "(U) F' L' U L F R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y F U' R U2 R' U R U2 R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' Dw R' U R U' R' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R2 F' U' F U R2 U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F' Rw' F Rw F R U R'",
-                  "marks": []
+                  "alg": "U F' L' U L F R U R'",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C24-6",
@@ -4662,14 +3945,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 24-6",
               "lines": [
                 {
-                  "alg": "(U) R U2 R U B U' B' R2",
-                  "marks": []
-                },
-                {
                   "alg": "F U R U' R' F' R U' R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C24-7",
@@ -4678,18 +3960,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 24-7",
               "lines": [
                 {
-                  "alg": "(U) B' R' U' R U B R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' F R U R U' R2 U R2 U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U Rw U' R' U R U Rw'",
-                  "marks": []
+                  "alg": "R U' R' F R' F' R U2 R U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C24-8",
@@ -4698,18 +3975,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 24-8",
               "lines": [
                 {
-                  "alg": "U2 F2 U2 F U F' U F2",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2 R2 U2 R U R' U R2",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U R2' F R F' R U' R'",
-                  "marks": []
+                  "alg": "U' R U R2 F R F' R U' R'",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -4728,22 +4001,23 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 25-1",
               "lines": [
                 {
-                  "alg": "(U) R2 D L' B L D' R' U' R'",
+                  "alg": "U R2 D L' B L D' R' U' R'",
                   "marks": []
                 },
                 {
-                  "alg": "Rw U2 R' U R Rw' U2 Rw U' Rw'",
+                  "alg": "r U2 R' U R r' U2 r U' r'",
                   "marks": []
                 },
                 {
-                  "alg": "Rw U Rw' U2 Rw U R' U' R U2 Rw'",
+                  "alg": "r U r' U2 r U R' U' R U2 r'",
                   "marks": []
                 },
                 {
-                  "alg": "U R2 D Rw' U Rw D' R' U' R'",
+                  "alg": "U R2 D r' U r D' R' U' R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C25-2",
@@ -4752,18 +4026,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 25-2",
               "lines": [
                 {
-                  "alg": "(U) B' R2 U' R U R2 B",
+                  "alg": "U B' R2 U' R U R2 B",
                   "marks": []
                 },
                 {
-                  "alg": "Rw' U' R' U' R' U R U Rw",
+                  "alg": "r' U' R' U' R' U R U r",
                   "marks": []
                 },
                 {
-                  "alg": "U2 Rw U2' R' U R U' R' U2' R U' Rw'",
+                  "alg": "U2 r U2' R' U R U' R' U2' R U' r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C25-3",
@@ -4776,18 +4051,19 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U Rw U Rw' U R U R' Rw U Rw'",
+                  "alg": "U r U r' U R U R' r U r'",
                   "marks": []
                 },
                 {
-                  "alg": "U2 Rw U' Rw' R U' R' U' Rw U' Rw'",
+                  "alg": "U2 r U' r' R U' R' U' r U' r'",
                   "marks": []
                 },
                 {
                   "alg": "U2 F' L' U' L U R U R' U' R' F R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C25-4",
@@ -4796,22 +4072,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 25-4",
               "lines": [
                 {
-                  "alg": "(U2) R U2 B U2 B' U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Rw' U' R' U' R U R U Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U Rw' U2 Rw U R' U2 R U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "F2 Rw U2 R' U' Rw' F2 R F'",
-                  "marks": []
+                  "alg": "y U2 F U2 R U2 R' U2 F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C25-5",
@@ -4820,18 +4087,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 25-5",
               "lines": [
                 {
-                  "alg": "(U') F' U' F U R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "x R U D' R D R' U' R' x'",
-                  "marks": []
-                },
-                {
-                  "alg": "R2' U R U' R' U F R2 F' R'",
-                  "marks": []
+                  "alg": "U' F' U' F U R U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C25-6",
@@ -4840,7 +4102,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 25-6",
               "lines": [
                 {
-                  "alg": "(U') F' U F U R U' R'",
+                  "alg": "U' F' U F U R U' R'",
                   "marks": []
                 },
                 {
@@ -4848,10 +4110,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "L D (R' F R F') D' L'",
+                  "alg": "L D R' F R F' D' L'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C25-7",
@@ -4860,22 +4123,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 25-7",
               "lines": [
                 {
-                  "alg": "(U') F' U F R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw' R U' R U Rw R' U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' (M' U R U' Rw') R U R'",
-                  "marks": []
-                },
-                {
                   "alg": "U' R' F R F' R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C25-8",
@@ -4884,18 +4138,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 25-8",
               "lines": [
                 {
-                  "alg": "R' U' R' U' R' U R U R",
-                  "marks": []
-                },
-                {
                   "alg": "R' F' R U R U' R' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F' R U R' U' R' F R",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -4914,22 +4163,23 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-1",
               "lines": [
                 {
-                  "alg": "(U) R U R D L' B' L D' R2",
+                  "alg": "U R U R D L' B' L D' R2",
                   "marks": []
                 },
                 {
-                  "alg": "y' Rw' U2 R U' R' Rw U2 Rw' U Rw",
+                  "alg": "y' r' U2 R U' R' r U2 r' U r",
                   "marks": []
                 },
                 {
-                  "alg": "Rw U2 R' U R U' Rw' U2 Rw U' Rw'",
+                  "alg": "r U2 R' U R U' r' U2 r U' r'",
                   "marks": []
                 },
                 {
-                  "alg": "U R U R D Rw' U' Rw D' R2'",
+                  "alg": "U R U R D r' U' r D' R2'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C26-2",
@@ -4938,22 +4188,23 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-2",
               "lines": [
                 {
-                  "alg": "y' (U') F R2 U R' U' R2 F'",
+                  "alg": "y' U' F R2 U R' U' R2 F'",
                   "marks": []
                 },
                 {
-                  "alg": "y' Rw U R U R U' R' U' Rw'",
+                  "alg": "y' r U R U R U' R' U' r'",
                   "marks": []
                 },
                 {
-                  "alg": "Rw U Rw' U2' Rw U' R' U2' R U' Rw'",
+                  "alg": "r U r' U2' r U' R' U2' R U' r'",
                   "marks": []
                 },
                 {
-                  "alg": "R' D' R U' M' U Rw' D R",
+                  "alg": "R' D' R U' M' U r' D R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C26-3",
@@ -4962,30 +4213,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-3",
               "lines": [
                 {
-                  "alg": "y' F R2 U R U' R2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U2' Fw R Fw' U2 Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' Rw U Rw' D R U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F R U' R' Rw U2 Rw' U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D Rw2 U Rw' U' Rw U' Rw2 D' R",
-                  "marks": []
-                },
-                {
-                  "alg": "F2 R U' R2 F R2 U R' F2",
-                  "marks": []
+                  "alg": "y f U2 R U R' U2 f'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C26-4",
@@ -4994,22 +4228,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-4",
               "lines": [
                 {
-                  "alg": "(U2) F' U2 L' U2 L U2 F",
-                  "marks": []
+                  "alg": "y U F' L F L' U L' U' L U2 L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' U2 Rw U R U R' U' R' U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U R' U2 R U Rw' U2 Rw U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U M' U' Rw' D R",
-                  "marks": []
+                  "alg": "U2 F' U2 L' U2 L U2 F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C26-5",
@@ -5018,7 +4249,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-5",
               "lines": [
                 {
-                  "alg": "(U) R U R' U' F' U' F",
+                  "alg": "U R U R' U' F' U' F",
                   "marks": []
                 },
                 {
@@ -5030,10 +4261,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "F U' Rw U M U' R' U F'",
+                  "alg": "F U' r U M U' R' U F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C26-6",
@@ -5042,14 +4274,15 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-6",
               "lines": [
                 {
-                  "alg": "(U) R U' R' U' F' U F",
+                  "alg": "U R U' R' U' F' U F",
                   "marks": []
                 },
                 {
                   "alg": "U F' U2 L' U' L U2 F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C26-7",
@@ -5058,11 +4291,11 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-7",
               "lines": [
                 {
-                  "alg": "(U) R U' R' F R' F' R",
+                  "alg": "U R U' R' F R' F' R",
                   "marks": []
                 },
                 {
-                  "alg": "U R U R Rw' U' R' U R' Rw",
+                  "alg": "U R U R r' U' R' U R' r",
                   "marks": []
                 },
                 {
@@ -5073,7 +4306,8 @@ window.ZBLS_DATA = {
                   "alg": "R2 U R' U' R' F R F' R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C26-8",
@@ -5082,30 +4316,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-8",
               "lines": [
                 {
-                  "alg": "F U F U F U' F' U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R U R U R U' R' U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "L E' L' U L E L'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 L E' L' U' L E L'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U' R' U' Rw U' R' U R U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw2 U2' R2' F R2 U2' Rw2' F",
-                  "marks": []
+                  "alg": "U2 R U' R' U' r U' R' U R U r'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -5125,17 +4342,13 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "y L' U2 L F U' R U' R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' R2 Rw U' M U2 Rw U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' y R' F' R U2 M' U' M",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C27-2",
@@ -5144,22 +4357,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 27-2",
               "lines": [
                 {
-                  "alg": "U Rw' R2 U' R' U Rw U' R'",
-                  "marks": []
+                  "alg": "y U U F U R U R' U F'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U2 Rw U' Rw' U Rw U Rw' R U2' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R2 U' F U R2 U' R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U R U R' U2' R' F R F'",
-                  "marks": []
+                  "alg": "R U' R' U R U R' U2 R' F R F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C27-3",
@@ -5168,14 +4378,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 27-3",
               "lines": [
                 {
-                  "alg": "R U' R2 U' F U R U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R' U R U R2' F R F'",
-                  "marks": []
+                  "alg": "R U' R' U F' L' U' L F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C27-4",
@@ -5184,14 +4393,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 27-4",
               "lines": [
                 {
-                  "alg": "R U' R2 F R F'",
-                  "marks": []
+                  "alg": "y F U' R U' R' F' U2 L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "R U' R2 Rw U R U' Rw'",
-                  "marks": []
+                  "alg": "R U' R2 F R F'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C27-5",
@@ -5208,10 +4422,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R U' Rw' U R U' R' U' M'",
+                  "alg": "R U' r' U R U' R' U' M'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C27-6",
@@ -5220,26 +4435,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 27-6",
               "lines": [
                 {
-                  "alg": "y' R' U2 R' F R F' R",
-                  "marks": []
+                  "alg": "y L' U2 L U' F R U' R' F'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "x' R2 U' R D R' U R2 Uw' z'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F2 Rw U' R U Rw' F2",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U' R' D R U R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U R' D R U' R' F R F'",
-                  "marks": []
+                  "alg": "R U' R' U F' U F R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C27-7",
@@ -5259,7 +4467,8 @@ window.ZBLS_DATA = {
                   "alg": "R U' R2 F R2 U R' U' F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C27-8",
@@ -5271,7 +4480,8 @@ window.ZBLS_DATA = {
                   "alg": "R U' R' U R U' R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             }
           ]
         }
@@ -5290,18 +4500,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 28-1",
               "lines": [
                 {
-                  "alg": "R U2 R2 F R F2 U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw U Rw' U2 M' U M R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' F' U L' U L F",
-                  "marks": []
+                  "alg": "y U L' U L2 l' U l L' U2 l' U l",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C28-2",
@@ -5310,22 +4515,23 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 28-2",
               "lines": [
                 {
-                  "alg": "(U2) F' U' L' U' L U' F",
+                  "alg": "U2 F' U' L' U' L U' F",
                   "marks": []
                 },
                 {
-                  "alg": "y' U' Rw R2 U R U' Rw' U R",
+                  "alg": "y' U' r R2 U R U' r' U R",
                   "marks": []
                 },
                 {
-                  "alg": "R U2 R' U R2 D Rw' U Rw D' R2'",
+                  "alg": "R U2 R' U R2 D r' U r D' R2'",
                   "marks": []
                 },
                 {
                   "alg": "R U R' F R U R' U' F2 U' F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C28-3",
@@ -5334,26 +4540,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 28-3",
               "lines": [
                 {
-                  "alg": "F' U F U' R B U B' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y L' U L2 U F' U' L' U F",
-                  "marks": []
-                },
-                {
                   "alg": "y L' U L U' F R U R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' U' F R U R' U' F2 U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' Rw U' R' U' R Rw' U' Rw U Rw'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C28-4",
@@ -5362,22 +4555,20 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 28-4",
               "lines": [
                 {
-                  "alg": "F' U F2 R' F' R",
-                  "marks": []
+                  "alg": "U F' L' U2 L U' F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' R' U R2 Rw' U' R' U Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "y Rw' F Rw2 U' Rw' F",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U2' Rw U' Rw' F2",
-                  "marks": []
+                  "alg": "y L' U L2 F' L' F",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C28-5",
@@ -5387,17 +4578,18 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R U2 R' F' U2 F",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "R U2 R' y' R' U2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R' F R F' Rw U' Rw' U2' Rw U Rw'",
-                  "marks": []
+                  "alg": "y U U' F U2 F' L' U2 L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C28-6",
@@ -5414,10 +4606,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R U2 Lw U' R' U Lw'",
+                  "alg": "R U2 l U' R' U l'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C28-7",
@@ -5427,25 +4620,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R U R' U F' U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U y' R' U2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' Dw R' U2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' Rw' D' Rw U' Rw' D Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "F U R U' R2 F' R2 U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C28-8",
@@ -5454,14 +4634,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 28-8",
               "lines": [
                 {
-                  "alg": "F' U F U' F' U F",
-                  "marks": []
+                  "alg": "y L' U L U' L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "y' R' U R U' R' U R",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -5480,7 +4665,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 29-1",
               "lines": [
                 {
-                  "alg": "y' (U') R2 F R F2 U' F U2 R",
+                  "alg": "y' U' R2 F R F2 U' F U2 R",
                   "marks": []
                 },
                 {
@@ -5488,10 +4673,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "M' U' M U2 Rw U' R' U R U' Rw'",
+                  "alg": "M' U' M U2 r U' R' U R U' r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C29-2",
@@ -5504,18 +4690,19 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "y' R' U' Rw U R' U' R2 Rw'",
+                  "alg": "y' R' U' r U R' U' R2 r'",
                   "marks": []
                 },
                 {
-                  "alg": "U R2 D Rw' U' Rw D' R2' U' R U2 R'",
+                  "alg": "U R2 D r' U' r D' R2' U' R U2 R'",
                   "marks": []
                 },
                 {
-                  "alg": "F' Rw2 D2 Rw' U Rw D2 Rw' U2 Rw' F2",
+                  "alg": "F' r2 D2 r' U r D2 r' U2 r' F2",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C29-3",
@@ -5524,14 +4711,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 29-3",
               "lines": [
                 {
-                  "alg": "(U) F' U L' U2 L F",
-                  "marks": []
+                  "alg": "U F' U L' U2 L F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U' R U R' U' Rw U' Rw' U2 Rw U Rw'",
-                  "marks": []
+                  "alg": "y U U' L' U' L U' R' F R U R' F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C29-4",
@@ -5540,18 +4732,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 29-4",
               "lines": [
                 {
-                  "alg": "y' (U2) R2 F R F' U2 R",
-                  "marks": []
+                  "alg": "U2 R U' R' F' U2 L' U L F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' U Rw' U' R U Rw R2 U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U R' F R F2 U' F",
-                  "marks": []
+                  "alg": "y U F' L F L2 U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C29-5",
@@ -5580,10 +4773,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R U' R2' D' Rw U' Rw' D F R F'",
+                  "alg": "R U' R2' D' r U' r' D F R F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C29-6",
@@ -5593,13 +4787,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R' F R F' R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "x (R' U R U') (R' U R U') x'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C29-7",
@@ -5608,14 +4801,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 29-7",
               "lines": [
                 {
-                  "alg": "(U2) R U' R' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U' R' y' R' U' R",
-                  "marks": []
+                  "alg": "y U2 F U' F' L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C29-8",
@@ -5624,22 +4816,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 29-8",
               "lines": [
                 {
-                  "alg": "F' U' F U F' U' F",
-                  "marks": []
+                  "alg": "R' F R F' U R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "y' R' U' R U R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R F' U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U R U' Rw' U R U' R'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -5658,26 +4847,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 30-1",
               "lines": [
                 {
-                  "alg": "(U) R2 B' R' y R2 U R' U2 F'",
-                  "marks": []
-                },
-                {
                   "alg": "y U2 L' U L F U R U R' U' F'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "R U R' U' R' D' Rw U Rw' D R2 U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U R' U' R U Rw' U2' M' U M",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F' U2 Rw' F Rw2 U' Rw' F2",
-                  "marks": []
+                  "alg": "R U R' U' R' D' r U r' D R2 U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C30-2",
@@ -5686,14 +4868,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 30-2",
               "lines": [
                 {
-                  "alg": "R U L' B' R B R2 L",
-                  "marks": []
+                  "alg": "y U U L' U L U2 F U R U' R' U' F'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "R U Rw' U' R U R2 Rw",
-                  "marks": []
+                  "alg": "R U R' U' S R U R' U' S'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C30-3",
@@ -5702,7 +4889,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 30-3",
               "lines": [
                 {
-                  "alg": "(U') R U' B U2 B' R'",
+                  "alg": "U' R U' B U2 B' R'",
                   "marks": []
                 },
                 {
@@ -5710,10 +4897,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R U R' U Rw U' Rw' U' Rw U Rw'",
+                  "alg": "R U R' U r U' r' U' r U r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C30-4",
@@ -5722,14 +4910,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 30-4",
               "lines": [
                 {
-                  "alg": "(U') F R' F' R2 U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' Rw U R' U' Rw' R2 U R'",
-                  "marks": []
+                  "alg": "U' F R' F' R2 U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C30-5",
@@ -5738,18 +4925,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 30-5",
               "lines": [
                 {
-                  "alg": "(U) F' U' F U' F' U' F R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F' L' U' L U L' U2 L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R' F R F' R U' R' U2 R U R'",
-                  "marks": []
+                  "alg": "y U L' U' L U' L' U' L F U F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C30-6",
@@ -5759,17 +4941,18 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "F R' F' R F R' F' R",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "x (U R' U' R) (U R' U' R) x'",
-                  "marks": []
-                },
-                {
-                  "alg": "x U R' U' R U R' U' Lw",
-                  "marks": []
+                  "alg": "y L F' L' F L F' L' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C30-7",
@@ -5778,18 +4961,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 30-7",
               "lines": [
                 {
-                  "alg": "(U2) F' U F R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2 R' U R y R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' F U R U' R2 F' R",
-                  "marks": []
+                  "alg": "U2 F' U F R U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C30-8",
@@ -5798,10 +4976,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 30-8",
               "lines": [
                 {
+                  "alg": "y L F' L' F U' L' U L",
+                  "marks": [
+                    "耿"
+                  ]
+                },
+                {
                   "alg": "R U R' U' R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -5828,14 +5015,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "F2 Rw U Rw' U2 F R U' R'",
+                  "alg": "F2 r U r' U2 F R U' R'",
                   "marks": []
                 },
                 {
                   "alg": "x U2 L U L2 x' U' L F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C31-2",
@@ -5844,18 +5032,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 31-2",
               "lines": [
                 {
-                  "alg": "R U' R2 F R F2 U2 F",
-                  "marks": []
-                },
-                {
                   "alg": "y F U' R U' R' F' L' U2 L",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U' Rw' U M' U R U Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C31-3",
@@ -5864,18 +5047,20 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 31-3",
               "lines": [
                 {
-                  "alg": "R2 B' R' y R2 U2 R' U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U' R' U' M U' Rw U Rw'",
-                  "marks": []
-                },
-                {
                   "alg": "F' U L' U L F R U2 R'",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
+                },
+                {
+                  "alg": "y L' U L F U' R U' R' F'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C31-4",
@@ -5892,10 +5077,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "R U2 R2 D' Rw U' Rw' D R",
+                  "alg": "R U2 R2 D' r U' r' D R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C31-5",
@@ -5905,17 +5091,19 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R U' R' F' U2 F",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 },
                 {
-                  "alg": "R U' R' y' R' U2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U y' R' U R",
-                  "marks": []
+                  "alg": "y F U' F' L' U2 L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C31-6",
@@ -5925,17 +5113,13 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "F' U F R U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R' U R y R U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F' R U R U' R' U2 F",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C31-7",
@@ -5944,18 +5128,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 31-7",
               "lines": [
                 {
-                  "alg": "F' U2 F U' R U2 R'",
-                  "marks": []
+                  "alg": "y U' U2 L F' L' F L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' R' U2 R U' y R U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' U' F R' F' R",
-                  "marks": []
+                  "alg": "y U L F' L' F L' U L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C31-8",
@@ -5964,18 +5149,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 31-8",
               "lines": [
                 {
-                  "alg": "R U2 R' U F' U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' U y' R' U2 R",
-                  "marks": []
-                },
-                {
                   "alg": "U' R' F R F' R U' R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
+                },
+                {
+                  "alg": "y U' F' L F L' F U' F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -5994,30 +5180,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 32-1",
               "lines": [
                 {
-                  "alg": "y F R2 U2 F R' F' U2 R2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U R' U2 F' U L' U L F R",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' Rw U2' Rw' U2 Rw U' Rw' U2 Rw U2' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' R' F R F' U2' Rw U' Rw' U2' Rw U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U2 R' F2 R U2' R' F R U2' R' F2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U M U2 Rw R2' U2' R U Rw'",
-                  "marks": []
+                  "alg": "y U2 R' F2 R U2 R' F R U2 R' F2 R",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C32-2",
@@ -6026,7 +5195,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 32-2",
               "lines": [
                 {
-                  "alg": "(U2) R U' B U B' U R'",
+                  "alg": "U2 R U' B U B' U R'",
                   "marks": []
                 },
                 {
@@ -6034,7 +5203,7 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U2 R U' Fw R Fw' U R'",
+                  "alg": "U2 R U' f R f' U R'",
                   "marks": []
                 },
                 {
@@ -6042,14 +5211,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U' Rw U Rw' R' F R F' Rw U' Rw'",
+                  "alg": "U' r U r' R' F R F' r U' r'",
                   "marks": []
                 },
                 {
-                  "alg": "Rw U' R2 U' R U' R' U2 R2 U Rw'",
+                  "alg": "r U' R2 U' R U' R' U2 R2 U r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C32-3",
@@ -6058,14 +5228,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 32-3",
               "lines": [
                 {
-                  "alg": "Rw R U R2 U R2 U2 R' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U R' U' R U R2 F R F'",
-                  "marks": []
+                  "alg": "F R' F' R2 U R' U' R U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C32-4",
@@ -6075,21 +5244,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "U2 F' U L' U' L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U R' F R F' Dw R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 F' U Rw' F' Rw U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R' F R F2 Rw U' Rw' F2",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C32-5",
@@ -6113,7 +5273,8 @@ window.ZBLS_DATA = {
                   "alg": "U2 R U2 R' U2 R U' R2 F R F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C32-6",
@@ -6122,18 +5283,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 32-6",
               "lines": [
                 {
-                  "alg": "(U) R U' B U2 B' U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U F U' R U2 R' U F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R' U R U' R2 F R F'",
-                  "marks": []
+                  "alg": "y U2 U' D U' R U' R' U R U' R2 F R F' D'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C32-7",
@@ -6146,22 +5302,23 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U2 Rw U S' Rw' U Rw S U' Rw'",
+                  "alg": "U2 r U S' r' U r S U' r'",
                   "marks": []
                 },
                 {
-                  "alg": "U2 R U Rw' U R U R' U' Rw U' R'",
+                  "alg": "U2 R U r' U R U R' U' r U' R'",
                   "marks": []
                 },
                 {
-                  "alg": "R U' R2 F2 Rw U Rw' F R2 U R'",
+                  "alg": "R U' R2 F2 r U r' F R2 U R'",
                   "marks": []
                 },
                 {
-                  "alg": "U R U' R' U R U' Rw' U R U' R' U' M'",
+                  "alg": "U R U' R' U R U' r' U R U' R' U' M'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C32-8",
@@ -6170,14 +5327,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 32-8",
               "lines": [
                 {
-                  "alg": "R2 U R2 U R2 U2 R2",
-                  "marks": []
-                },
-                {
-                  "alg": "(U) R U' R' U R U' R' U R U' R'",
-                  "marks": []
+                  "alg": "U R U' R' U R U' R' U R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -6196,18 +5352,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 33-1",
               "lines": [
                 {
-                  "alg": "(U') F R' F' R2 U2 R2 F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U' R' F' U' L' U L U' F U R",
-                  "marks": []
-                },
-                {
-                  "alg": "D' Rw U' Rw' F2 U R' F R F2 D",
-                  "marks": []
+                  "alg": "U' F R' F' R2 U2 R2 F R F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C33-2",
@@ -6216,18 +5367,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 33-2",
               "lines": [
                 {
-                  "alg": "(U') R U' R' U R' F R F'",
-                  "marks": []
+                  "alg": "U' R U' R' U R' F R F'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
                   "alg": "y U' F U' R U' R' U F'",
-                  "marks": []
-                },
-                {
-                  "alg": "(U') R U' R' U M' U R U' Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C33-3",
@@ -6236,18 +5388,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 33-3",
               "lines": [
                 {
-                  "alg": "y F R2 U R' U R U2 R2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' Rw' R2 U' R' U' R U2 R2 Rw",
-                  "marks": []
-                },
-                {
                   "alg": "U R U' R2 F R F' R U R'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C33-4",
@@ -6256,22 +5403,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 33-4",
               "lines": [
                 {
-                  "alg": "(U) R U B U B' U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U F U R U R' U2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw U' Rw' U Rw U Rw' R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "M' U' R U Rw' U2 Rw U' Rw'",
-                  "marks": []
+                  "alg": "U r U' r' U r U r' R U' R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C33-5",
@@ -6280,22 +5418,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 33-5",
               "lines": [
                 {
-                  "alg": "(U2) R B U2 B' U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F' U2 L' U2 L F",
-                  "marks": []
-                },
-                {
                   "alg": "y U2 F R U2 R' U2 F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U' F' U' F U' R U2 R'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C33-6",
@@ -6304,26 +5433,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 33-6",
               "lines": [
                 {
-                  "alg": "(U2) F' R L' U' L U R' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' Rw' U' Rw U R' U' R Rw' U Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' R' U2' R U R' U2' R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R F' R2 U R' U' R' F R F' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw2 D Rw2 U' R2 Rw' U Rw2 D' R2 Rw'",
-                  "marks": []
+                  "alg": "y' r' U' r U R' U' R r' U r",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C33-7",
@@ -6332,14 +5448,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 33-7",
               "lines": [
                 {
-                  "alg": "U' F' U2 L' U L U F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U M U' R' U Rw U' R'",
-                  "marks": []
+                  "alg": "y U' L' U L F' L F L2 U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C33-8",
@@ -6348,10 +5463,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 33-8",
               "lines": [
                 {
-                  "alg": "(U') R U' R' U2 R U' R'",
-                  "marks": []
+                  "alg": "y R' D R U' R' D' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -6370,22 +5488,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 34-1",
               "lines": [
                 {
-                  "alg": "y U' F R2 U2 F R F' U2 R2 F'",
-                  "marks": []
+                  "alg": "U r U2 r' U2 r U r' U2 r U2 r'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "y' R' U' F' U L' U L U F U2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw U2' Rw' U2' Rw U Rw' U2' Rw U2' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R D Rw' U Rw D' R' U' R'",
-                  "marks": []
+                  "alg": "y U F' L F L2 U2 L2 F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C34-2",
@@ -6394,18 +5509,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 34-2",
               "lines": [
                 {
-                  "alg": "(U') F' U' L' U' L U2 F",
+                  "alg": "U' F' U' L' U' L U2 F",
                   "marks": []
                 },
                 {
-                  "alg": "U R U M' U' Rw' U' Rw U Rw'",
+                  "alg": "U R U M' U' r' U' r U r'",
                   "marks": []
                 },
                 {
                   "alg": "F U' R2 D2 R' U' R D2 R2 U F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C34-3",
@@ -6414,15 +5530,15 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 34-3",
               "lines": [
                 {
-                  "alg": "(U) R F' U' L' U L F R'",
+                  "alg": "U R F' U' L' U L F R'",
                   "marks": []
                 },
                 {
-                  "alg": "y' U Rw R2 U R U R' U2 R2 Rw'",
+                  "alg": "y' U r R2 U R U R' U2 R2 r'",
                   "marks": []
                 },
                 {
-                  "alg": "U Rw U' R' U R U Rw' U' R U R'",
+                  "alg": "U r U' R' U R U r' U' R U R'",
                   "marks": []
                 },
                 {
@@ -6437,7 +5553,8 @@ window.ZBLS_DATA = {
                   "alg": "F U R2 D2 R' U' R D2 R2 F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C34-4",
@@ -6446,22 +5563,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 34-4",
               "lines": [
                 {
-                  "alg": "(U) F' U F U' F R' F' R",
-                  "marks": []
-                },
-                {
                   "alg": "U F' U L' U L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y U L' U L U' L F' L' F",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw' D' Rw U2 Rw' U' F2 U F2 D Rw",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C34-5",
@@ -6470,7 +5578,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 34-5",
               "lines": [
                 {
-                  "alg": "(U) R U2 B U2 B' R'",
+                  "alg": "U R U2 B U2 B' R'",
                   "marks": []
                 },
                 {
@@ -6482,10 +5590,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U2 R U' R' U Rw U' R' U' R U Rw'",
+                  "alg": "U2 R U' R' U r U' R' U' R U r'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C34-6",
@@ -6494,30 +5603,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 34-6",
               "lines": [
                 {
-                  "alg": "(U) R U2 B U' B' U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U F U2 R U' R' U' F'",
-                  "marks": []
-                },
-                {
                   "alg": "U R U' R' F R' F' R2 U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U2' R' U' Rw U' Rw' U' Rw U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U' R' F R F' U R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U Rw' U R U2 R' U Rw U' Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C34-7",
@@ -6526,18 +5619,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 34-7",
               "lines": [
                 {
-                  "alg": "(U) F D R U R' U' D' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U Rw' U' R U R' Rw U' Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U R' U' Rw U' R' U' R U Rw'",
-                  "marks": []
+                  "alg": "y U2 U' L' U L U2 L' U' L U2 L F' L' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C34-8",
@@ -6546,18 +5634,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 34-8",
               "lines": [
                 {
-                  "alg": "U' R U2 R' U R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R' D' R U R' D R",
-                  "marks": []
-                },
-                {
-                  "alg": "(U) R' D' R U' R' D R",
-                  "marks": []
+                  "alg": "y U L' U L U2 L' U L",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -6576,18 +5659,19 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 35-1",
               "lines": [
                 {
-                  "alg": "y' R2 D' L F' L' D R U' R",
-                  "marks": []
+                  "alg": "y U2 F U F' L F' L2 U' L U F",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U2 Rw U' Rw' U Rw U2 R' U' R Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "(U2) R U' R D Rw' U' Rw D' R2",
-                  "marks": []
+                  "alg": "U2 R U' R' U' F' U2 L' U L F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C35-2",
@@ -6596,18 +5680,25 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 35-2",
               "lines": [
                 {
-                  "alg": "(U') R U R2 U' F' U F2 R F'",
-                  "marks": []
+                  "alg": "U' R U R2 U' F' U F2 R F'",
+                  "marks": [
+                    "耿"
+                  ]
                 },
                 {
-                  "alg": "U R U' R' F' U2 L' U2 L U2 F",
-                  "marks": []
+                  "alg": "U' R U R' U F' U2 L' U L F",
+                  "marks": [
+                    "连"
+                  ]
                 },
                 {
-                  "alg": "R' D' Rw U' Rw' D R U R U' R'",
-                  "marks": []
+                  "alg": "y U' L' U L F U R U R' U F'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C35-3",
@@ -6616,22 +5707,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 35-3",
               "lines": [
                 {
-                  "alg": "(U) R' D' L F L' D R2 U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U F' U L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "(U) R' D' Rw U Rw' D R2 U2' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R F' U2' R' F R F' R U R'",
-                  "marks": []
+                  "alg": "U R' D' L F L' D R2 U2 R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C35-4",
@@ -6640,22 +5722,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 35-4",
               "lines": [
                 {
-                  "alg": "R U R' U R' F R F2 U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U F' U L' U L U F",
-                  "marks": []
-                },
-                {
-                  "alg": "R2 D Rw' U' Rw D' R2 U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Rw U' Rw' U R' F R F' Rw U2' Rw'",
-                  "marks": []
+                  "alg": "y U U L F' L' F R' F R U R' F' R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C35-5",
@@ -6664,18 +5737,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 35-5",
               "lines": [
                 {
-                  "alg": "(U2) R U R' U' F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R' U' y' R' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' Rw U' Rw' D F R F'",
-                  "marks": []
+                  "alg": "U2 R U R' U' F' U F",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C35-6",
@@ -6684,30 +5753,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 35-6",
               "lines": [
                 {
-                  "alg": "(U') R U R' U F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U Rw R' U R U' Rw' R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U R' Dw R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "U M' U R U' M U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R2 F R F' R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' Lw' U R U' R' U R U' x'",
-                  "marks": []
+                  "alg": "U' R U R' U F' U' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C35-7",
@@ -6716,18 +5768,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 35-7",
               "lines": [
                 {
-                  "alg": "(U2) R U' R' U' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U' R' U' y' R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R2 F R F' U R U' R'",
-                  "marks": []
+                  "alg": "U2 R U' R' U' F' U' F",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C35-8",
@@ -6736,11 +5784,11 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 35-8",
               "lines": [
                 {
-                  "alg": "(U2) R U R' F R' F' R",
+                  "alg": "U2 R U R' F R' F' R",
                   "marks": []
                 },
                 {
-                  "alg": "U2 R U R' Rw U R' U' R Rw'",
+                  "alg": "U2 R U R' r U R' U' R r'",
                   "marks": []
                 },
                 {
@@ -6751,7 +5799,8 @@ window.ZBLS_DATA = {
                   "alg": "R2 D R' U2 R D' R2 F' U' F",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             }
           ]
         }
@@ -6770,18 +5819,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 36-1",
               "lines": [
                 {
-                  "alg": "F' U' F U' F R' F' R2 U R'",
-                  "marks": []
-                },
-                {
                   "alg": "y L' U' L U' F U' R U' R' U' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R' F R F' Rw U' Rw' U' Rw U Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C36-2",
@@ -6790,30 +5834,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 36-2",
               "lines": [
                 {
-                  "alg": "F R' F' R2 U2 R' U2 F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y L' U' L U' F U' R U2 R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R2 D Rw' U' Rw D' R2' U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F' Rw U2 Rw' F2 R2 U2' R' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U2' Rw' F2 Rw2 U' Rw' F U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R2 D R' U2 R Rw' U' Rw D' R' U R'",
-                  "marks": []
+                  "alg": "U2 R U2 R' F' L' U2 L U' F",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C36-3",
@@ -6822,34 +5849,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 36-3",
               "lines": [
                 {
-                  "alg": "(U') R2 U2 F R F' U2 R2 F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R' F' U' L' U' L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U M' U2 Fw R Fw' U2 Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F' U' F2 U R U' R2' F' R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R2' D' Rw U Rw' D R U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R2' D' Rw U' Rw' D R U R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F2 D' F' D R U R U' R2 F' R",
-                  "marks": []
+                  "alg": "y U2 U' L' U' L U' F U2 R U' R' F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C36-4",
@@ -6858,18 +5864,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 36-4",
               "lines": [
                 {
-                  "alg": "R2 D L' B L D' R' U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2 Rw' U Rw U' Rw' U2 R U R' Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "R2 D Rw' U Rw D' R' U R'",
-                  "marks": []
+                  "alg": "y2 y' U' U U2 L' U L U F U2 R U' R' F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C36-5",
@@ -6878,14 +5879,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 36-5",
               "lines": [
                 {
-                  "alg": "(U) F' U' F U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U' Rw' R U' R' U Rw R' U R",
-                  "marks": []
+                  "alg": "y U L' U' L U' F U F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C36-6",
@@ -6894,26 +5894,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 36-6",
               "lines": [
                 {
-                  "alg": "(U2) F' U' F U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2 R' U' R U y R U' R'",
-                  "marks": []
-                },
-                {
                   "alg": "U2 F' U' F U R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' U R U' R' Dw' Rw' F Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' F U2' Rw U Rw' U2' F'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C36-7",
@@ -6922,26 +5909,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 36-7",
               "lines": [
                 {
-                  "alg": "(U2) F' U' F R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2 R' U' R Rw' U' R U R' Rw",
-                  "marks": []
-                },
-                {
-                  "alg": "U2' R' F R F' U2 R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' F R S R' F' R S' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R2 U' R F' R' U R F",
-                  "marks": []
+                  "alg": "U2 F' U' F R' F R F'",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C36-8",
@@ -6950,22 +5924,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 36-8",
               "lines": [
                 {
-                  "alg": "(U2) F' U F U R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U2 R' U R U y R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U' F R U R' U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R U R' U' R' F R F' R'",
-                  "marks": []
+                  "alg": "U2 F' U F U R U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -6987,7 +5952,8 @@ window.ZBLS_DATA = {
                   "alg": "R U2 R2 F R F' U2 R' F R F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C37-2",
@@ -6997,9 +5963,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "F U R U' R' F'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C37-3",
@@ -7011,7 +5980,8 @@ window.ZBLS_DATA = {
                   "alg": "F R U R' U' F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C37-4",
@@ -7023,7 +5993,8 @@ window.ZBLS_DATA = {
                   "alg": "Résolu",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             }
           ]
         }
@@ -7042,30 +6013,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 38-1",
               "lines": [
                 {
-                  "alg": "R2 B' R' U' y R2 U' R2 U2 R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F2 L F U L2 U L2 U2 L' F",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw U' Rw' R U R' U Rw U' Rw' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R' F R F' U F' U2' F U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R' F R F2 U' F U' R U R' U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U R' F R F2 U2 F R U R'",
-                  "marks": []
+                  "alg": "y U' U2 L' U L U' F U2 R U' R' U F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C38-2",
@@ -7074,42 +6028,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 38-2",
               "lines": [
                 {
-                  "alg": "R U' R U2 F R2 F' U2 R2",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 Rw' U' R2 U' R2 U2 Rw R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R F' R U' R' U R U' R' U2 R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R F' R' U2' R2 U R2' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U M' U2 M U R' F' R S R' F R S' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 L E' L' U' L E L2' E2 L U L' E2 L",
-                  "marks": []
-                },
-                {
-                  "alg": "L E' L' U L E L2' E2 L U' L' E2 L",
-                  "marks": []
-                },
-                {
-                  "alg": "U3 R2 U R' U' R' U2' Rw U R U' Rw' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U' R' B' R' U' R2 U R' B",
-                  "marks": []
+                  "alg": "U2 R U2 R' U R U2 R' U F' U' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -7136,22 +6061,23 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "M' U R U' R' U' R U' Rw' U2 Rw U' Rw'",
+                  "alg": "M' U R U' R' U' R U' r' U2 r U' r'",
                   "marks": []
                 },
                 {
-                  "alg": "R U' R' U' Rw U' Rw' U2' Rw U Rw' R U2 R'",
+                  "alg": "R U' R' U' r U' r' U2' r U r' R U2 R'",
                   "marks": []
                 },
                 {
-                  "alg": "R U2' B2 Rw' U' Rw B' R2 F R F'",
+                  "alg": "R U2' B2 r' U' r B' R2 F R F'",
                   "marks": []
                 },
                 {
-                  "alg": "R U' R' U2 R2 D Rw' U' Rw D' R' U' R'",
+                  "alg": "R U' R' U2 R2 D r' U' r D' R' U' R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C39-2",
@@ -7164,14 +6090,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U Rw R U2 R' U' R U' Rw' U2 R'",
+                  "alg": "U r R U2 R' U' R U' r' U2 R'",
                   "marks": []
                 },
                 {
                   "alg": "F R' F' R2 U2' R' U' R U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C39-3",
@@ -7180,22 +6107,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 39-3",
               "lines": [
                 {
-                  "alg": "R U' R' U' R U B U' B' U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F' L' U2 L U' L' U2 L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' U' R U R' U R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R' F R U R U' R2 F' R U' R U2' R'",
-                  "marks": []
+                  "alg": "y U2 F' L F L2 U' L U L F' L' F L' U' L",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C39-4",
@@ -7204,10 +6122,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 39-4",
               "lines": [
                 {
-                  "alg": "R2 U2 R' U' R U' R' U2 R'",
-                  "marks": []
+                  "alg": "y' R' U R U' R' U2 R U' R' U R",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }
@@ -7226,26 +6147,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 40-1",
               "lines": [
                 {
-                  "alg": "R U' R' U' R2 B' R' y R2 U2 R' F'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R' F' L' U' L U L' U' L F U R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2' R' Rw U' Rw' U M' U2' R U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "Rw' U' R2 U' R2' U2' Rw F' Rw' F2 Rw F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R D Rw' U Rw D' R2' U2' R U R'",
-                  "marks": []
+                  "alg": "R U R' U r U' r' U r R' U2 R U r'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C40-2",
@@ -7254,18 +6162,14 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 40-2",
               "lines": [
                 {
-                  "alg": "R2 U2 F R' F' U2 R' U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 Rw U R' U R U2 R' Rw'",
-                  "marks": []
-                },
-                {
                   "alg": "R U' R' U R U2 R2 F R F'",
-                  "marks": []
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C40-3",
@@ -7281,7 +6185,8 @@ window.ZBLS_DATA = {
                   "alg": "R U2' R' U R' F R2 U R' U' R' F' R",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C40-4",
@@ -7297,7 +6202,8 @@ window.ZBLS_DATA = {
                   "alg": "R U2 R' U R U' R' U R U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             }
           ]
         }
@@ -7320,14 +6226,15 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "Rw U' Rw' U2 Rw U Rw' R U R'",
+                  "alg": "r U' r' U2 r U r' R U R'",
                   "marks": []
                 },
                 {
                   "alg": "R' F R D R U R U' R2 D' F'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             },
             {
               "id": "C41-2",
@@ -7348,10 +6255,11 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "F2 Rw U Rw' F U2' R U R'",
+                  "alg": "F2 r U r' F U2' R U R'",
                   "marks": []
                 }
-              ]
+              ],
+              "learned": false
             }
           ]
         }
@@ -7371,17 +6279,12 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "R U' R' F' L' U2 L F",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' Rw U' Rw' U2 Rw U Rw'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' M' U' Rw' U2 Rw U Rw'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             },
             {
               "id": "C42-2",
@@ -7390,22 +6293,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 42-2",
               "lines": [
                 {
-                  "alg": "R2 B U B' U' R' U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U F R U R' U' F' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U R' F U R U' R' F' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U R' U' R U' R' U2 F' U' F",
-                  "marks": []
+                  "alg": "R U' R' F' L' U L U F",
+                  "marks": [
+                    "连"
+                  ]
                 }
-              ]
+              ],
+              "learned": true
             }
           ]
         }

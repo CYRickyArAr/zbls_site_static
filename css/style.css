@@ -69,6 +69,12 @@ body:not(.zbls-ready):not(.zbls-has-snapshot) .main-content {
     visibility: hidden;
 }
 
+/* 快照也要等原版 Lato 就绪，避免正文和左上角先显示备用字体。 */
+html.fonts-loading .navbar,
+html.fonts-loading .main-content {
+    visibility: hidden;
+}
+
 html[data-render-snapshot="pending"] .navbar-center,
 html[data-render-snapshot="pending"] .navbar-right,
 html[data-render-snapshot="pending"] .main-content {
@@ -1021,8 +1027,8 @@ html[data-theme="dark"] .case-chip[aria-current="true"] {
     line-height: 1.5;
 }
 
-/* Keep pre-AUF distinct from the algorithm and from blue solver badges. */
-.formula-preauf {
+/* Keep pre-rotation distinct from the algorithm and from blue solver badges. */
+.formula-prerotation {
     display: inline-block;
     padding: 0 .25em;
     margin-right: .2em;
@@ -1033,7 +1039,7 @@ html[data-theme="dark"] .case-chip[aria-current="true"] {
     vertical-align: baseline;
 }
 
-html:not([data-theme="dark"]) .formula-preauf {
+html:not([data-theme="dark"]) .formula-prerotation {
     background: #edf0f3;
 }
 
