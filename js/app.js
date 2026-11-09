@@ -72,7 +72,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v16';
+    var renderSnapshotKey = 'zbls_render_snapshot_v17';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
@@ -780,7 +780,7 @@
             newImages.forEach(function (image, index) {
                 var old = oldImages[index];
                 if (!old) return;
-                ['src', 'alt', 'class', 'data-thumb', 'data-category', 'data-subcategory'].forEach(function (attr) {
+                ['src', 'alt', 'class', 'data-thumb', 'data-category', 'data-subcategory', 'data-case-image'].forEach(function (attr) {
                     var value = image.getAttribute(attr);
                     if (value === null) old.removeAttribute(attr);
                     else if (old.getAttribute(attr) !== value || (attr === 'src' && old.complete && !old.naturalWidth)) old.setAttribute(attr, value);
