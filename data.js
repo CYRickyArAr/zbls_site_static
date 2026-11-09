@@ -4999,7 +4999,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 32-6",
               "lines": [
                 {
-                  "alg": "y U R U' R' U R U' R2 F R F'",
+                  "alg": "U R U' R' U R U' R2 F R F'",
                   "marks": [
                     "耿"
                   ]
@@ -5931,7 +5931,7 @@ window.ZBLS_DATA = {
                   "marks": []
                 },
                 {
-                  "alg": "U' R F U R U' R' F' U' R'",
+                  "alg": "R F U R U' R' F' U' R'",
                   "marks": []
                 },
                 {
