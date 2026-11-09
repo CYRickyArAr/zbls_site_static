@@ -61,8 +61,8 @@
 
     var CAT_BADGE = {};
     [
-        [1, 8, 'bg-primary'], [9, 16, 'bg-danger'], [17, 24, 'bg-warning text-dark'],
-        [25, 32, 'bg-success'], [33, 36, 'bg-orange'], [37, 42, 'bg-dark']
+        [1, 4, 'bg-primary'], [5, 10, 'bg-danger'], [11, 16, 'bg-warning text-dark'],
+        [17, 24, 'bg-success'], [25, 30, 'bg-orange'], [31, 36, 'bg-dark'], [37, 42, 'bg-secondary']
     ].forEach(function (group) {
         for (var n = group[0]; n <= group[1]; n++) CAT_BADGE['C' + n] = group[2];
     });
@@ -75,7 +75,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v18';
+    var renderSnapshotKey = 'zbls_render_snapshot_v19';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
