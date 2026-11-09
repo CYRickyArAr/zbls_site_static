@@ -372,6 +372,12 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿"
                   ]
+                },
+                {
+                  "alg": "y2 U2 L U2 L'",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             }
@@ -509,7 +515,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U' F R U R' F'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -688,6 +695,12 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿"
                   ]
+                },
+                {
+                  "alg": "F' U' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             }
@@ -814,6 +827,12 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿"
                   ]
+                },
+                {
+                  "alg": "U' F' U2 F U R U' R'",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -842,6 +861,12 @@ window.ZBLS_DATA = {
                   "alg": "y F U F'",
                   "marks": [
                     "耿"
+                  ]
+                },
+                {
+                  "alg": "R U R'",
+                  "marks": [
+                    "连"
                   ]
                 }
               ]
@@ -921,15 +946,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 5-5",
               "lines": [
                 {
-                  "alg": "y U l' U L U' L' U' l",
-                  "marks": [
-                    "耿"
-                  ]
-                },
-                {
                   "alg": "y U R' F r U' r' F' R",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -1053,7 +1073,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U L' U' L U' L F' L' F",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 },
                 {
@@ -1604,6 +1625,12 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿"
                   ]
+                },
+                {
+                  "alg": "U F R' F' R U2 R U' R'",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -1667,28 +1694,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 10-6",
               "lines": [
                 {
-                  "alg": "U' B' R' F R B F2 U F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U' r' U' R U R2 r U R",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F' U' F r U' r' U' r U r'",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D2 r U' r2' D r D2 R",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F R F' U2' R U R' U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' r' D' r U' r' D r2 U' r' U' r U r'",
-                  "marks": []
+                  "alg": "y U' R' F' r U R r2 F r",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -1699,20 +1708,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 10-7",
               "lines": [
                 {
-                  "alg": "R' F' U' F U R F' U F",
-                  "marks": []
-                },
-                {
-                  "alg": "y F' L' U' L U F L' U L",
-                  "marks": []
-                },
-                {
                   "alg": "F R' F' R U R' F R F' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "r' D' r U r' D R r U R'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -2035,7 +2034,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "U2 F' L' U L U' L' U2 L F",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -2228,19 +2228,9 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "U' R' U' F' U F R2 U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' F R2 U R' U' R2 F' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "F' r U' r' F2 U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R U' R' U' r U' r' U' r U r'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -2415,24 +2405,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 15-5",
               "lines": [
                 {
-                  "alg": "L R F U F' U' R' L'",
-                  "marks": []
-                },
-                {
-                  "alg": "F' U L' U L U L' U L F",
-                  "marks": []
-                },
-                {
-                  "alg": "R' D' R U' R' D F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R' F R F' R U R' U2' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y' R2' F R F' R U2' R' U R",
-                  "marks": []
+                  "alg": "y U' F' U' L' U L F L' U' L",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -2697,20 +2673,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 17-4",
               "lines": [
                 {
-                  "alg": "U2 R2 U2 F R F' U2 R2",
-                  "marks": []
-                },
-                {
                   "alg": "R U2 r' U' R U R2 r",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' R' r U' R' U' R U r'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U' M' U' R' U' R U r'",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -2789,7 +2755,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U F R U2 R' U F' U L' U' L",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 },
                 {
@@ -3023,7 +2990,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U' F U R U R' U' R U2 R' F'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -3221,7 +3189,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "U F R' F' R2 U' R' U R U R'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -3249,7 +3218,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y F R U2 R' F'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -3377,6 +3347,12 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿"
                   ]
+                },
+                {
+                  "alg": "y U2 L' U' L U' F R U R' F'",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -3486,24 +3462,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 23-1",
               "lines": [
                 {
-                  "alg": "U' F' L' B' U' B U' L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y L' U' L U2 F R U2 R' U F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' R' F R F' U2' R U' R' U R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U F R' F' R2 r' U R U R' U' M'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' F2 r U r' U' r' F' r2 U' r' F2",
-                  "marks": []
+                  "alg": "U' F' U' L' U L U' F R U R'",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -3545,7 +3507,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "U F R' F' R U R U R'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -3827,20 +3790,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 25-3",
               "lines": [
                 {
-                  "alg": "B' R2 U' R' U R2 B",
-                  "marks": []
-                },
-                {
-                  "alg": "U r U r' U R U R' r U r'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 r U' r' R U' R' U' r U' r'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 F' L' U' L U R U R' U' R' F R",
-                  "marks": []
+                  "alg": "y R' F2 U' F' U F2 R",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -3853,7 +3806,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U2 F U2 R U2 R' U2 F'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -4026,20 +3980,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-5",
               "lines": [
                 {
-                  "alg": "U R U R' U' F' U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "x U' R' L U' L' U R U x'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U R' U' y' R' U' R",
-                  "marks": []
-                },
-                {
-                  "alg": "F U' r U M U' R' U F'",
-                  "marks": []
+                  "alg": "y U F U F' U' L' U' L",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -4131,7 +4075,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U2 F U R U R' U F'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 },
                 {
@@ -4489,7 +4434,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U F' L F L2 U' L",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -4710,6 +4656,12 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿"
                   ]
+                },
+                {
+                  "alg": "y U2 L' U L F U F'",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -4750,20 +4702,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 31-1",
               "lines": [
                 {
-                  "alg": "y' R2 F R F2 U' F R",
-                  "marks": []
-                },
-                {
                   "alg": "U' R' F R F' U' R' F R F'",
-                  "marks": []
-                },
-                {
-                  "alg": "F2 r U r' U2 F R U' R'",
-                  "marks": []
-                },
-                {
-                  "alg": "x U2 L U L2 x' U' L F",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -4868,7 +4810,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U L F' L' F L' U L",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -5043,7 +4986,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "U R U' R' U R U' R' U R U' R'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -5703,6 +5647,12 @@ window.ZBLS_DATA = {
                 },
                 {
                   "alg": "U F' U F U' R U2 R' U R' F R F'",
+                  "marks": [
+                    "连"
+                  ]
+                },
+                {
+                  "alg": "y F U' F' U L' U2 L U' L F' L' F",
                   "marks": [
                     "连"
                   ]
