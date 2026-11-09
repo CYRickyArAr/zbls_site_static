@@ -4624,7 +4624,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 30-2",
               "lines": [
                 {
-                  "alg": "y U U L' U L U2 F U R U' R' U' F'",
+                  "alg": "y U2 L' U L U2 F U R U' R' U' F'",
                   "marks": [
                     "耿"
                   ]
