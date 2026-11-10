@@ -2749,7 +2749,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "U2 R U R' F' L' U2 L F",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "懿"
                   ]
                 },
                 {
@@ -2928,6 +2929,7 @@ window.ZBLS_DATA = {
                 {
                   "alg": "R U2 r' U' R U R2 r",
                   "marks": [
+                    "懿",
                     "连"
                   ]
                 }
@@ -3509,6 +3511,12 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿",
                     "连"
+                  ]
+                },
+                {
+                  "alg": "U2 R U R' U S' R U' R' S",
+                  "marks": [
+                    "懿"
                   ]
                 }
               ]
@@ -4197,7 +4205,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "U R2 D r' U r D' R' U' R'",
                   "marks": [
-                    "Tymon"
+                    "Tymon",
+                    "懿"
                   ]
                 }
               ]
@@ -4604,6 +4613,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 27-5",
               "lines": [
                 {
+                  "alg": "F' U2 F R U2 R'",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
+                },
+                {
                   "alg": "R U' r' U R U' R' U' M'",
                   "marks": [
                     "Tymon"
@@ -4613,12 +4629,6 @@ window.ZBLS_DATA = {
                   "alg": "R U' R' U S' R U' R' S",
                   "marks": [
                     "杜"
-                  ]
-                },
-                {
-                  "alg": "F' U2 F R U2 R'",
-                  "marks": [
-                    "连"
                   ]
                 }
               ]
@@ -4749,6 +4759,7 @@ window.ZBLS_DATA = {
                   "alg": "y L' U L U' F R U R' F'",
                   "marks": [
                     "Tymon",
+                    "懿",
                     "连"
                   ]
                 }
