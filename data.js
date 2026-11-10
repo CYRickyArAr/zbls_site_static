@@ -4422,20 +4422,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-1",
               "lines": [
                 {
-                  "alg": "U R U R D L' B' L D' R2",
-                  "marks": []
-                },
-                {
-                  "alg": "y' r' U2 R U' R' r U2 r' U r",
-                  "marks": []
-                },
-                {
-                  "alg": "r U2 R' U R U' r' U2 r U' r'",
-                  "marks": []
-                },
-                {
-                  "alg": "U R U R D r' U' r D' R2'",
-                  "marks": []
+                  "alg": "U R U R D r' U' r D' R2",
+                  "marks": [
+                    "Park"
+                  ]
                 }
               ]
             },
@@ -5504,28 +5494,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 32-2",
               "lines": [
                 {
-                  "alg": "U2 R U' B U B' U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "y U2 F U' R U R' U F'",
-                  "marks": []
-                },
-                {
-                  "alg": "U2 R U' f R f' U R'",
-                  "marks": []
-                },
-                {
                   "alg": "U' F R' F' R U' R U R'",
-                  "marks": []
-                },
-                {
-                  "alg": "U' r U r' R' F R F' r U' r'",
-                  "marks": []
-                },
-                {
-                  "alg": "r U' R2 U' R U' R' U2 R2 U r'",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
               ]
             },
