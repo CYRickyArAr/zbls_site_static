@@ -316,7 +316,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U F R U' R' F'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 },
                 {
@@ -1337,7 +1338,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U' F' L F L2 U2 L U' L F' L' F",
                   "marks": [
-                    "Tymon"
+                    "Tymon",
+                    "连"
                   ]
                 }
               ]
@@ -2010,7 +2012,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "R U' R' U R U' R2 F R F' R U' R'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 },
                 {
@@ -2516,6 +2519,12 @@ window.ZBLS_DATA = {
                   "alg": "y U l' U L U L' l U2 l' U' l",
                   "marks": [
                     "Tymon"
+                  ]
+                },
+                {
+                  "alg": "U' F' U L' U2 L F R U R'",
+                  "marks": [
+                    "连"
                   ]
                 }
               ]
@@ -3065,7 +3074,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y U L' U L U2 L' U2 L2 F' L' F",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 }
               ]
@@ -4733,19 +4743,9 @@ window.ZBLS_DATA = {
               "lines": [
                 {
                   "alg": "U2 F' U' L' U' L U' F",
-                  "marks": []
-                },
-                {
-                  "alg": "y' U' r R2 U R U' r' U R",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2 R' U R2 D r' U r D' R2'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U R' F R U R' U' F2 U' F",
-                  "marks": []
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
@@ -5276,7 +5276,8 @@ window.ZBLS_DATA = {
                 {
                   "alg": "y F U' R U' R' F' L' U2 L",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "连"
                   ]
                 },
                 {
@@ -5592,7 +5593,8 @@ window.ZBLS_DATA = {
                   "alg": "U' F R' F' R2 U2 R2 F R F'",
                   "marks": [
                     "耿",
-                    "Tymon"
+                    "Tymon",
+                    "连"
                   ]
                 },
                 {
