@@ -1195,6 +1195,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 6-5",
               "lines": [
                 {
+                  "alg": "U' r U' R' U R U r'",
+                  "marks": [
+                    "耿",
+                    "Tymon"
+                  ]
+                },
+                {
                   "alg": "y U2 L F' L' F U2 F U F'",
                   "marks": [
                     "耿",
@@ -1203,12 +1210,6 @@ window.ZBLS_DATA = {
                 },
                 {
                   "alg": "y U L' U' L U2 S L' U L S'",
-                  "marks": [
-                    "Tymon"
-                  ]
-                },
-                {
-                  "alg": "U' r U' R' U R U r'",
                   "marks": [
                     "Tymon"
                   ]
@@ -3511,16 +3512,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 20-4",
               "lines": [
                 {
-                  "alg": "U' F' L' U2 L F U' R U R'",
-                  "marks": []
-                },
-                {
                   "alg": "F' L' U L U' L' U2 L U2 F",
-                  "marks": []
-                },
-                {
-                  "alg": "R' F2 R U' F U R' F2 R",
-                  "marks": []
+                  "marks": [
+                    "耿"
+                  ]
                 }
               ]
             },
@@ -5461,6 +5456,12 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 31-4",
               "lines": [
                 {
+                  "alg": "U F R' F' R U F R' F' R",
+                  "marks": [
+                    "耿"
+                  ]
+                },
+                {
                   "alg": "y U L F' L' F U L F' L' F",
                   "marks": [
                     "Tymon",
@@ -6577,16 +6578,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 39-2",
               "lines": [
                 {
-                  "alg": "R U2 R U2 F R F' U2 R2",
-                  "marks": []
-                },
-                {
-                  "alg": "U r R U2 R' U' R U' r' U2 R'",
-                  "marks": []
-                },
-                {
-                  "alg": "F R' F' R2 U2' R' U' R U R'",
-                  "marks": []
+                  "alg": "F R' F' R2 U2 R' U' R U R'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
               ]
             },
