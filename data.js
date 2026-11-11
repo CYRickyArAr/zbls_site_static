@@ -4534,12 +4534,16 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-6",
               "lines": [
                 {
-                  "alg": "U R U' R' U' F' U F",
-                  "marks": []
+                  "alg": "U R U' R' y U' L' U L",
+                  "marks": [
+                    "王"
+                  ]
                 },
                 {
-                  "alg": "U F' U2 L' U' L U2 F",
-                  "marks": []
+                  "alg": "y U F U' F' U' L' U L",
+                  "marks": [
+                    "王"
+                  ]
                 }
               ]
             },
@@ -6324,8 +6328,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 37-1",
               "lines": [
                 {
-                  "alg": "R U2 R2 F R F' U2 R' F R F'",
-                  "marks": []
+                  "alg": "F U R U' R' F' U' F R U R' U' F'",
+                  "marks": [
+                    "耿"
+                  ]
                 }
               ]
             },
