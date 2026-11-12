@@ -6694,12 +6694,10 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 40-3",
               "lines": [
                 {
-                  "alg": "y F R U2 R' U R U2 R' U F'",
-                  "marks": []
-                },
-                {
-                  "alg": "R U2' R' U R' F R2 U R' U' R' F' R",
-                  "marks": []
+                  "alg": "y U L' U L U L' U' L U' L F' L' F",
+                  "marks": [
+                    "连"
+                  ]
                 }
               ]
             },
