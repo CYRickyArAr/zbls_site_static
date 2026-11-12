@@ -15,7 +15,7 @@
     <link rel="preload" href="fonts/lato-900.ttf" as="font" type="font/ttf" crossorigin>
     <link href="css/fonts.css?v=1" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css?v=278" rel="stylesheet">
+    <link href="css/style.css?v=279" rel="stylesheet">
     <link rel="preload" href="images/image-library.json.gz?v=f6385c3655ecd6df" as="fetch" crossorigin>
     <script defer src="js/image-library.js?v=1" data-bundle="images/image-library.json.gz?v=f6385c3655ecd6df" data-fallback="images/image-library.json?v=f6385c3655ecd6df"></script>
     <script>
@@ -41,7 +41,7 @@
                 var hasAnchor = !!localStorage.getItem(key + '_anchor');
                 var y = parseInt(localStorage.getItem(key), 10) || 0;
                 if (hasAnchor || y > 0) document.documentElement.setAttribute('data-scroll-restore', 'pending');
-                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v20');
+                var snapshotRaw = sessionStorage.getItem('zbls_render_snapshot_v21');
                 if (snapshotRaw) {
                     var snapshot = JSON.parse(snapshotRaw);
                     if (snapshot && snapshot.language === ZBLS_I18N.language() && snapshot.hash === hash && snapshot.appHtml) {
@@ -163,7 +163,7 @@
         (function () {
             try {
                 ZBLS_I18N.translate(document);
-                var raw = sessionStorage.getItem('zbls_render_snapshot_v20');
+                var raw = sessionStorage.getItem('zbls_render_snapshot_v21');
                 if (!raw) return;
                 var snapshot = JSON.parse(raw);
                 var hash = location.hash || '#/';
@@ -265,6 +265,6 @@
     <!-- 数据 + 逻辑 -->
     <script defer src="data.js?v=1099f2406712"></script>
     <script defer src="js/workspace.js?v=22"></script>
-    <script defer src="js/app.js?v=197"></script>
+    <script defer src="js/app.js?v=198"></script>
 </body>
 </html>

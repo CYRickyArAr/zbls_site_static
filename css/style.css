@@ -13,7 +13,8 @@
     --modal-backdrop: rgba(0, 0, 0, .55);
     --author-icon-brightness: 1;
     --author-icon-hover-brightness: 1.08;
-    --progress-fill: #198754;
+    --progress-fill: #0d6efd;
+    --progress-complete: #198754;
     --progress-track: #e9ecef;
     --nav-height: 60px;
 }
@@ -32,7 +33,8 @@ html[data-theme="dark"] {
     --shadow: 0 2px 10px rgba(0, 0, 0, 0.32);
     --author-icon-brightness: .6;
     --author-icon-hover-brightness: 1;
-    --progress-fill: #65b883;
+    --progress-fill: #6ea8fe;
+    --progress-complete: #65b883;
     --progress-track: #37414b;
 }
 
@@ -555,6 +557,7 @@ html[data-zbls-filter="unlearned"] .sortable-item:has(.formula-card.learned) {
 }
 
 .learning-progress {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -582,6 +585,27 @@ html[data-zbls-filter="unlearned"] .sortable-item:has(.formula-card.learned) {
     white-space: nowrap;
 }
 .learning-progress-count strong { color: inherit; font-weight: 700; }
+.learning-progress.is-complete {
+    --progress-fill: var(--progress-complete);
+    border-color: var(--progress-complete);
+}
+.learning-progress.is-complete .learning-progress-count { color: var(--progress-complete); }
+.learning-progress-complete {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    display: grid;
+    place-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--surface);
+    color: var(--progress-complete);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    pointer-events: none;
+}
 .learning-progress-track {
     display: block;
     width: 100%;

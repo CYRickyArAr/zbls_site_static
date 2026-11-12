@@ -75,7 +75,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v20';
+    var renderSnapshotKey = 'zbls_render_snapshot_v21';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
@@ -638,8 +638,10 @@
     function renderLearnedProgress(learned, total, label, className, scope) {
         total = Math.max(0, Number(total) || 0);
         learned = Math.min(total, Math.max(0, Number(learned) || 0));
+        var complete = total > 0 && learned === total;
         var scopeText = scope === '全部情况' ? t(scope) : t('{category} 分类', { category: scope });
-        return '<div class="learning-progress ' + escapeHtml(className) + '">' +
+        return '<div class="learning-progress ' + escapeHtml(className) + (complete ? ' is-complete' : '') + '">' +
+            (complete ? '<span class="learning-progress-complete" aria-hidden="true">✓</span>' : '') +
             '<div class="learning-progress-meta"><span class="learning-progress-label">' + tx(label) + '</span>' +
             '<span class="learning-progress-count"><strong>' + learned + '</strong><span>/' + total + '</span></span></div>' +
             '<progress class="learning-progress-track" value="' + learned + '" max="' + (total || 1) + '"' + ta('aria-label', '{scope}学习进度', { scope: scopeText }) + ta('aria-valuetext', '已学习 {learned}/{total}个情况', { learned: learned, total: total }) + '></progress></div>';
