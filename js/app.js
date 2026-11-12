@@ -214,6 +214,12 @@
         wcaMap['耿'] = '2023GENG02';
         wcaMap['连'] = '2025LIAN01';
         wcaMap['余'] = '2023YUHA01';
+        wcaMap['Tymon'] = '2016KOLA02';
+        wcaMap['杜'] = '2023DUYU01';
+        wcaMap['藩'] = '2021ZHAN01';
+        wcaMap['懿'] = '2026SHEN01';
+        wcaMap['王'] = '2019WANY36';
+        wcaMap['Park'] = '2012PARK03';
         (data.categories || []).forEach(function (cat) {
             (cat.subcategories || []).forEach(function (sub) {
                 (sub.formulas || []).forEach(function (formula) {
