@@ -695,14 +695,60 @@ html[data-zbls-filter="unlearned"] .sortable-item:has(.formula-card.learned) {
 .category-card .card-text {
     margin: 6px 0 6px;
 }
-
-/* 首页分类范围徽章统一宽度，避免 Pi/AS 等较长名称把框撑宽 */
-.category-card .badge {
-    display: inline-block;
-    width: var(--category-summary-width);
-    margin-right: 0;
-    text-align: center;
-    white-space: nowrap;
+@media (min-width: 992px) {
+    .container.home-categories {
+        width: 100%;
+        max-width: none;
+        padding-inline: clamp(32px, 4vw, 80px);
+    }
+    .category-grid {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, max-content));
+        gap: 12px 8px;
+        max-width: none;
+    }
+    .category-card {
+        --home-thumb-size: 114px;
+        --category-summary-width: 92px;
+        zoom: 1.06;
+        width: 100%;
+        max-width: calc(var(--home-thumb-size) + var(--category-summary-width) + 40px);
+        margin-inline: auto;
+    }
+    .category-card-body {
+        grid-template-columns: minmax(0, 1fr) max-content;
+        gap: 10px;
+        min-height: 0;
+        padding: 12px 18px 12px 10px;
+        width: 100%;
+    }
+    .category-thumb {
+        width: var(--home-thumb-size);
+        height: auto;
+        aspect-ratio: 1;
+        max-width: 100%;
+        padding: 0;
+        justify-self: center;
+    }
+    .category-card .card-title { font-size: 1.5rem; margin-bottom: 4px; }
+    .category-learning-progress { width: var(--category-summary-width); padding: 6px 6px 16px; margin: 5px auto 0; }
+    .category-learning-progress .learning-progress-meta { font-size: .75rem; gap: 3px; }
+    .category-learning-progress .learning-progress-track {
+        position: absolute;
+        left: 6px;
+        bottom: 6px;
+        width: calc(100% - 12px);
+    }
+}
+@media (min-width: 992px) and (max-height: 1080px) {
+    .category-card { --home-thumb-size: 92px; }
+}
+@media (min-width: 992px) and (max-width: 1599px) {
+    .category-card {
+        --category-summary-width: 80px;
+        max-width: calc(var(--home-thumb-size) + var(--category-summary-width) + 22px);
+    }
+    .category-card-body { gap: 6px; padding: 12px 9px 12px 5px; }
 }
 
 /* 选手公式数统计框 */

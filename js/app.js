@@ -59,13 +59,6 @@
         return;
     }
 
-    var CAT_BADGE = {};
-    [
-        [1, 4, 'bg-primary'], [5, 10, 'bg-danger'], [11, 16, 'bg-warning text-dark'],
-        [17, 24, 'bg-success'], [25, 30, 'bg-orange'], [31, 36, 'bg-dark'], [37, 42, 'bg-secondary']
-    ].forEach(function (group) {
-        for (var n = group[0]; n <= group[1]; n++) CAT_BADGE['C' + n] = group[2];
-    });
     function solverText(mark) { return '<span data-solver-label="' + escapeHtml(mark) + '">' + escapeHtml(I18N.mark(mark)) + '</span>'; }
     function solverBadge(mark) {
         return '<span class="formula-marks" data-solver-title="' + escapeHtml(mark) + '" title="' + escapeHtml(I18N.fullName(mark)) + '">' + solverText(mark) + '</span>';
@@ -75,7 +68,7 @@
     var themeKey = 'zbls_theme';
     var filterKey = 'zbls_filter';
     var selectedWorkspaceKey = 'zbls_selected_workspace';
-    var renderSnapshotKey = 'zbls_render_snapshot_v21';
+    var renderSnapshotKey = 'zbls_render_snapshot_v27';
     var workspaceProgressState = null;
     var workspaceExportController = null;
     var workspaceContextTarget = null;
@@ -604,12 +597,6 @@
         }
         return null;
     }
-    function subcatRange(cat) {
-        if (!cat.subcategories || !cat.subcategories.length) return '';
-        var first = cat.subcategories[0].id;
-        var last = cat.subcategories[cat.subcategories.length - 1].id;
-        return first === last ? first : first + '-' + last;
-    }
     function displayFormulaId(sub, formula) {
         // Case identity is independent of its current position in a personal library.
         return formula.id || formula.name || formula.uid || sub.id;
@@ -660,7 +647,7 @@
                 learnedCases += sub.formulas.filter(function (formula) { return formula.learned; }).length;
             });
         });
-        var html = '<div class="container mt-5">';
+        var html = '<div class="container home-categories mt-5">';
         if (usesLearnedStats()) html += '<div class="index-title-wrap"><h1 class="text-center mb-5">' + tx('ZBLS 公式库') + '</h1>' + renderLearnedProgress(learnedCases, totalCases, '已学习', 'index-learning-progress', '全部情况') + '</div>';
         else html += '<h1 class="text-center mb-5">' + tx('ZBLS 公式库') + '</h1>';
         html += '<div class="player-stats">';
@@ -679,7 +666,6 @@
             var learned = 0;
             (cat.subcategories || []).forEach(function (sub) { learned += sub.formulas.filter(function (formula) { return formula.learned; }).length; });
             html += usesLearnedStats() ? renderLearnedProgress(learned, total, '已学习', 'category-learning-progress', cat.id) : '<p class="card-text">' + tx('{count}个情况', { count: total }) + '</p>';
-            html += '<span class="badge ' + (CAT_BADGE[cat.id] || 'bg-secondary') + '">' + escapeHtml(subcatRange(cat)) + '</span>';
             html += '</div></div></div></a></div>';
         });
         html += '</div></div>';
