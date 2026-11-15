@@ -1689,26 +1689,16 @@ window.ZBLS_DATA = {
                 {
                   "alg": "r U r' U' R U' R' r U r'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "昆"
                   ]
                 },
                 {
-                  "alg": "y r R' U R r' U2 R' F R",
+                  "alg": "y M' U M U2 R' F R",
                   "marks": [
                     "耿",
+                    "Tymon",
                     "连"
-                  ]
-                },
-                {
-                  "alg": "y M' U r' R U2 R' F R",
-                  "marks": [
-                    "Tymon"
-                  ]
-                },
-                {
-                  "alg": "r U r' U' R U' M' U r'",
-                  "marks": [
-                    "昆"
                   ]
                 }
               ]
@@ -2018,22 +2008,17 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 9-6",
               "lines": [
                 {
+                  "alg": "U r U R' U' r' R2 U' R'",
+                  "marks": [
+                    "耿",
+                    "Tymon",
+                    "连"
+                  ]
+                },
+                {
                   "alg": "y L F' L' F U2 L' U' L U L' U' L",
                   "marks": [
                     "耿"
-                  ]
-                },
-                {
-                  "alg": "U M' R U R' U' r' R2 U' R'",
-                  "marks": [
-                    "耿"
-                  ]
-                },
-                {
-                  "alg": "U r U R' U' M R U' R'",
-                  "marks": [
-                    "Tymon",
-                    "连"
                   ]
                 },
                 {
@@ -2427,12 +2412,6 @@ window.ZBLS_DATA = {
                   "alg": "U' R U2 R' U F' U' F",
                   "marks": [
                     "耿",
-                    "杜"
-                  ]
-                },
-                {
-                  "alg": "U' R U2 R' U y' R' U' R",
-                  "marks": [
                     "杜"
                   ]
                 },
@@ -5481,12 +5460,6 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿",
                     "杜"
-                  ]
-                },
-                {
-                  "alg": "U R U' R' y U' L' U L",
-                  "marks": [
-                    "王"
                   ]
                 },
                 {
