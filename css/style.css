@@ -695,6 +695,23 @@ html[data-zbls-filter="unlearned"] .sortable-item:has(.formula-card.learned) {
 .category-card .card-text {
     margin: 6px 0 6px;
 }
+@media (max-width: 768px) {
+    .category-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+    .category-card-body {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 4px;
+        min-height: 0;
+        padding: 8px;
+    }
+    .category-thumb { width: 72px; height: 72px; justify-self: center; }
+    .category-card .card-title { font-size: 1.15rem; margin-bottom: 4px; }
+    .category-learning-progress { margin: 0 auto; padding: 4px; gap: 4px; }
+    .category-learning-progress .learning-progress-meta { font-size: .75rem; }
+}
 @media (min-width: 992px) {
     .container.home-categories {
         width: 100%;
@@ -966,6 +983,12 @@ html[data-theme="dark"] .case-chip[aria-current="true"] {
 
 @media (max-width: 768px) {
     .case-bar { padding: 5px; }
+    .case-bar-categories .case-bar-scroll {
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        overflow-x: hidden;
+        overflow-y: auto;
+        touch-action: pan-y pinch-zoom;
+    }
 }
 
 @media (max-width: 660px) {
