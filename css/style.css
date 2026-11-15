@@ -981,7 +981,7 @@ html[data-theme="dark"] .case-chip[aria-current="true"] {
     .case-bar-subcategories { --case-thumb: 36px; --case-pad: 7px; --case-font: .86rem; --case-gap: 5px; }
 }
 
-@media (max-width: 768px), (hover: none) and (pointer: coarse) {
+@media (max-width: 768px), (max-width: 1000px) and (max-height: 500px) and (hover: none) and (pointer: coarse) {
     .case-bar { padding: 4px 5px; }
     .case-bar-categories { --case-thumb: 20px; --case-font: .8rem; }
     .case-bar-categories .case-bar-scroll {
