@@ -442,7 +442,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 2-1",
               "lines": [
                 {
-                  "alg": "r U r' U2 r R' U r' R",
+                  "alg": "r U r' U2 M' U M",
                   "marks": [
                     "耿"
                   ]
