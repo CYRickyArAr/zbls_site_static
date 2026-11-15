@@ -209,6 +209,7 @@
         wcaMap['余'] = '2023YUHA01';
         wcaMap['Tymon'] = '2016KOLA02';
         wcaMap['杜'] = '2023DUYU01';
+        wcaMap['昆'] = '2024LIZH03';
         wcaMap['藩'] = '2021ZHAN01';
         wcaMap['懿'] = '2026SHEN01';
         wcaMap['王'] = '2019WANY36';
