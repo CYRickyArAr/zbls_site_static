@@ -982,17 +982,22 @@ html[data-theme="dark"] .case-chip[aria-current="true"] {
 }
 
 @media (max-width: 768px) {
-    .case-bar { padding: 5px; }
+    .case-bar { padding: 4px 5px; }
+    .case-bar-categories { --case-thumb: 20px; --case-font: .8rem; }
     .case-bar-categories .case-bar-scroll {
-        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(84px, 1fr));
+        grid-auto-rows: 30px;
+        height: 66px;
+        gap: 2px;
         overflow-x: hidden;
         overflow-y: auto;
         touch-action: pan-y pinch-zoom;
     }
+    .case-bar-categories .case-bar-scroll > .case-chip { padding-inline: 3px; gap: 3px; }
+    .case-bar-categories .case-chip small { display: inline; min-width: 0; font-size: .68rem; }
 }
 
 @media (max-width: 660px) {
-    .case-bar-categories { --case-thumb: 24px; --case-pad: 6px; --case-font: .84rem; }
     .case-bar-subcategories { --case-thumb: 30px; --case-pad: 5px; --case-font: .84rem; --case-gap: 4px; }
 }
 
