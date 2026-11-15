@@ -1502,18 +1502,6 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 7-1",
               "lines": [
                 {
-                  "alg": "r R' U' R r' U2 r U' r'",
-                  "marks": [
-                    "耿"
-                  ]
-                },
-                {
-                  "alg": "L R' F' L' R U2 L F' L'",
-                  "marks": [
-                    "耿"
-                  ]
-                },
-                {
                   "alg": "M' U' M U2 r U' r'",
                   "marks": [
                     "耿",
