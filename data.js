@@ -2120,7 +2120,7 @@ window.ZBLS_DATA = {
                   ]
                 },
                 {
-                  "alg": "y U2 U' L' U L U' F U2 R U' R' F'",
+                  "alg": "y U L' U L U' F U2 R U' R' F'",
                   "marks": [
                     "耿"
                   ]
@@ -7186,7 +7186,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 34-7",
               "lines": [
                 {
-                  "alg": "y U2 U' L' U L U2 L' U' L U2 L F' L' F",
+                  "alg": "y U L' U L U2 L' U' L U2 L F' L' F",
                   "marks": [
                     "耿"
                   ]
