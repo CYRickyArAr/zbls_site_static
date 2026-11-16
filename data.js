@@ -3138,12 +3138,6 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 15-2",
               "lines": [
                 {
-                  "alg": "R U B' R B R' U2 R'",
-                  "marks": [
-                    "耿"
-                  ]
-                },
-                {
                   "alg": "R U2 R2 F R F' U' R U2 R'",
                   "marks": [
                     "耿"
