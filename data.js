@@ -5542,7 +5542,7 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 26-5",
               "lines": [
                 {
-                  "alg": "U R U' R' U' L F' L' U L F L'",
+                  "alg": "U R U' R' U' r U' r' U r U r'",
                   "marks": [
                     "Tymon"
                   ]
