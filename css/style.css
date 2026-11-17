@@ -1004,7 +1004,7 @@ html[data-theme="dark"] .case-chip[aria-current="true"] {
         grid-auto-rows: calc(var(--case-thumb) + 10px);
         height: calc((var(--case-thumb) + 10px) * 2 + 6px);
     }
-    .case-bar-categories .case-bar-scroll > .case-chip { padding-inline: 2px; gap: 2px; justify-content: space-evenly; }
+    .case-bar-categories .case-bar-scroll > .case-chip { padding-inline: 0; gap: 4px; }
 }
 
 @media (max-width: 660px) {
