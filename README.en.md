@@ -49,13 +49,13 @@ In a personal library, click **Edit** on a case card:
 - **Images and notes**: replace, clear, or restore an image, and add notes. Notes support multiple lines while editing; when browsing, they appear on one line with an ellipsis for overflow.
 - **Save / Cancel**: click **Save** to keep your edits, or **Cancel** to discard them.
 
-Use the round check button at the lower-right of a card to toggle learned status. Drag the handle at the upper-right to reorder cases without changing their identifiers (for example, C31-2 always remains C31-2). You can also click one algorithm per case to keep it highlighted; click it again to clear the selection. Selecting an algorithm does not change its order.
+Use the round check button at the lower-right of a card to toggle learned status. Drag the handle at the upper-right to reorder cases without changing their identifiers (for example, C31-2 always remains C31-2).
 
 Learning progress in a website personal library is stored independently in the current browser and does not sync with the local database's learning progress.
 
 ### Backups and transfers
 
-Click **Save** after editing, then export a `.zbls` file from the personal library's menu. The file includes your algorithms and marks, each case's pro-algorithm visibility settings, images, notes, learned status, ordering, and algorithm selections.
+Click **Save** after editing, then export a `.zbls` file from the personal library's menu. The file includes your algorithms and marks, each case's pro-algorithm visibility settings, images, notes, learned status, and ordering.
 
 On another browser or device, open library management and choose **Import .zbls** to restore the file as a separate personal library.
 

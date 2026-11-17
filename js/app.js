@@ -884,14 +884,8 @@
             html += renderLineEditor(formula, subId);
         } else if (formula.lines && formula.lines.length) {
             html += '<div class="formula-lines">';
-            var canSelectLine = isWorkspace();
-            var selectedLineIndex = canSelectLine ? selectedFormulaLineIndex(formula) : -1;
-            formula.lines.forEach(function (line, lineIndex) {
-                var cardKey = catId + '::' + subId + '::' + uid;
-                var lineKey = catId + '::' + subId + '::' + uid + '::' + lineIndex;
-                var selected = canSelectLine && selectedLineIndex === lineIndex;
-                var lineAttrs = canSelectLine ? ' data-category="' + escapeHtml(catId) + '" data-subcategory="' + escapeHtml(subId) + '" data-uid="' + escapeHtml(uid) + '" data-formula-card-key="' + escapeHtml(cardKey) + '" data-formula-line-key="' + escapeHtml(lineKey) + '" data-formula-line-index="' + lineIndex + '" role="button" tabindex="0" aria-selected="' + (selected ? 'true' : 'false') + '"' : '';
-                html += '<div class="formula-line' + (canSelectLine ? ' selectable' : '') + (selected ? ' selected' : '') + '"' + lineAttrs + '><span class="formula-line-alg">' + renderAlgorithm(line.alg) + '</span>';
+            formula.lines.forEach(function (line) {
+                html += '<div class="formula-line"><span class="formula-line-alg">' + renderAlgorithm(line.alg) + '</span>';
                 if (line.origin === 'custom' && !isLocalLibrary()) html += '<span class="formula-origin">' + tx('我的') + '</span>';
                 if (line.marks && line.marks.length) {
                     html += '<span class="formula-marks-group">';
@@ -919,41 +913,6 @@
         return html;
     }
 
-    function selectFormulaLine(line) {
-        if (workspaceWritePending || !line || line.closest('.inline-editing')) return;
-        if (!isWorkspace()) {
-            ensureEditableData().catch(operationError);
-            return;
-        }
-        var cardKey = line.getAttribute('data-formula-card-key') || '';
-        var lineKey = line.getAttribute('data-formula-line-key') || null;
-        var lineIndex = parseInt(line.getAttribute('data-formula-line-index'), 10);
-        if (!cardKey || !lineKey) return;
-        var ref = findFormula(line.getAttribute('data-category'), line.getAttribute('data-subcategory'), line.getAttribute('data-uid'));
-        if (!ref || !Number.isInteger(lineIndex) || lineIndex < 0 || lineIndex >= (ref.formula.lines || []).length) return;
-        var lineId = ref.formula.lines[lineIndex].id;
-        var previousSelection = ref.formula.selectedLineId;
-        var shouldClear = previousSelection === lineId;
-        if (shouldClear) delete ref.formula.selectedLineId;
-        else ref.formula.selectedLineId = lineId;
-        var card = line.closest('.formula-card');
-        (card || document).querySelectorAll('.formula-line.selected').forEach(function (item) {
-            item.classList.remove('selected');
-            item.setAttribute('aria-selected', 'false');
-        });
-        var saveResult = persistCurrentData();
-        if (saveResult && typeof saveResult.catch === 'function') saveResult.catch(function (error) {
-            if (previousSelection) ref.formula.selectedLineId = previousSelection; else delete ref.formula.selectedLineId;
-            if (card && card.isConnected) card.querySelectorAll('.formula-line').forEach(function (el, index) {
-                var selected = ref.formula.lines[index].id === previousSelection;
-                el.classList.toggle('selected', selected); el.setAttribute('aria-selected', String(selected));
-            });
-            operationError(error);
-        });
-        if (shouldClear) return;
-        line.classList.add('selected');
-        line.setAttribute('aria-selected', 'true');
-    }
     var sortableInstances = [];
     var sortableLoadPromise = null;
     var sortableBindToken = 0;
@@ -1765,8 +1724,6 @@
             }
             return;
         }
-        var formulaLine = e.target.closest('.formula-line');
-        if (formulaLine) { selectFormulaLine(formulaLine); return; }
         if (e.target.closest('.drag-handle') && !activeWorkspace) {
             promptDefaultPublicDrag();
             return;
@@ -1798,13 +1755,6 @@
         }
         if (!e.target.classList.contains('inline-image-input') || !e.target.files || !e.target.files[0]) return;
         updateInlineImage(e.target.files[0], e.target.closest('.inline-image-drop'));
-    });
-    document.addEventListener('keydown', function (e) {
-        if (e.key !== 'Enter' && e.key !== ' ') return;
-        var formulaLine = e.target.closest('.formula-line');
-        if (!formulaLine || formulaLine.closest('.inline-editing')) return;
-        e.preventDefault();
-        selectFormulaLine(formulaLine);
     });
     document.addEventListener('keydown', function (e) {
         if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].indexOf(e.key) === -1) return;

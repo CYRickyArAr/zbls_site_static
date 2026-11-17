@@ -1109,7 +1109,6 @@ html[data-theme="dark"] .case-chip[aria-current="true"] {
     border-radius: 6px;
     padding: 6px 8px;
     background: #ffffff;
-    cursor: pointer;
     transition: border-color 0.12s, background 0.12s;
 }
 
@@ -1120,17 +1119,6 @@ html[data-theme="dark"] .case-chip[aria-current="true"] {
 .formula-line:hover {
     background: #f8f9fa;
     border-color: #dee2e6;
-}
-
-.formula-line.selected,
-.formula-line.selected:hover {
-    background: #f0f7ff;
-    border-color: #007bff;
-}
-
-.formula-line:focus-visible {
-    outline: 2px solid #0d6efd;
-    outline-offset: 2px;
 }
 
 .formula-line-alg {
@@ -1270,12 +1258,6 @@ html[data-theme="dark"] .formula-line {
 html[data-theme="dark"] .formula-line:hover {
     background: #272d34;
     border-color: #3e4853;
-}
-
-html[data-theme="dark"] .formula-line.selected,
-html[data-theme="dark"] .formula-line.selected:hover {
-    background: var(--line-hover);
-    border-color: #4e9cff;
 }
 
 html[data-theme="dark"] .player-stat-box,
