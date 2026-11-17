@@ -413,6 +413,13 @@ window.ZBLS_DATA = {
                   ]
                 },
                 {
+                  "alg": "y U F U' F'",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
+                },
+                {
                   "alg": "y U2 F U2 F'",
                   "marks": [
                     "连"
@@ -640,6 +647,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 2-8",
               "lines": [
                 {
+                  "alg": "U' F' U F",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
+                },
+                {
                   "alg": "y U' L' U L",
                   "marks": [
                     "耿",
@@ -857,6 +871,13 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 3-8",
               "lines": [
                 {
+                  "alg": "F' U' F",
+                  "marks": [
+                    "耿",
+                    "连"
+                  ]
+                },
+                {
                   "alg": "y L' U' L",
                   "marks": [
                     "耿",
@@ -869,12 +890,6 @@ window.ZBLS_DATA = {
                   "marks": [
                     "耿",
                     "Tymon"
-                  ]
-                },
-                {
-                  "alg": "F' U' F",
-                  "marks": [
-                    "连"
                   ]
                 }
               ]
@@ -1065,15 +1080,17 @@ window.ZBLS_DATA = {
               "notes": "ZBLS 4-8",
               "lines": [
                 {
-                  "alg": "y F U F'",
+                  "alg": "R U R'",
                   "marks": [
-                    "耿"
+                    "耿",
+                    "Tymon",
+                    "连"
                   ]
                 },
                 {
-                  "alg": "R U R'",
+                  "alg": "y F U F'",
                   "marks": [
-                    "Tymon",
+                    "耿",
                     "连"
                   ]
                 }
