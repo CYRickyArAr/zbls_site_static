@@ -940,7 +940,7 @@ html[data-zbls-filter="unlearned"] .sortable-item:has(.formula-card.learned) {
     min-width: 4.8ch;
     text-align: center;
 }
-.case-bar-categories { --case-thumb: 38px; --case-pad: 13px; --case-font: 1.05rem; --case-gap: 8px; }
+.case-bar-categories { --case-thumb: 38px; --case-row-height: 40px; --case-pad: 13px; --case-font: 1.05rem; --case-gap: 8px; }
 /* 不显示分类图时（行上没有 has-thumb），胶囊按纯文字高度排版。 */
 .case-bar-categories:not(.has-thumb) .case-chip { min-height: 34px; padding: 0 14px; }
 /* 标签宽度按最宽的子分类标签（AS1/Pi1）对齐：字形宽窄不再影响胶囊宽度，
@@ -965,20 +965,28 @@ html[data-theme="dark"] .case-chip[aria-current="true"] {
 
 @media (max-width: 1200px) {
     /* 中等宽度：图降一档。 */
-    .case-bar-categories { --case-thumb: 34px; --case-pad: 9px; --case-font: .95rem; --case-gap: 5px; }
+    .case-bar-categories { --case-thumb: 34px; --case-row-height: 38px; --case-pad: 9px; --case-font: .95rem; --case-gap: 5px; }
     .case-bar-subcategories { --case-thumb: 48px; --case-pad: 9px; --case-font: .92rem; --case-gap: 5px; }
 }
 
 @media (max-width: 1000px) {
-    .case-bar-categories { --case-thumb: 30px; --case-pad: 8px; --case-font: .9rem; --case-gap: 5px; }
+    .case-bar-categories { --case-thumb: 30px; --case-row-height: 36px; --case-pad: 8px; --case-font: .9rem; --case-gap: 5px; }
     .case-bar-subcategories { --case-thumb: 38px; --case-pad: 8px; --case-font: .88rem; --case-gap: 5px; }
 }
 
 @media (max-width: 870px) {
     /* 隐去计数：低于此宽度带图胶囊已无法一行放下 */
     .case-chip small { display: none; }
-    .case-bar-categories { --case-thumb: 30px; --case-pad: 7px; --case-font: .88rem; --case-gap: 4px; }
+    .case-bar-categories { --case-thumb: 30px; --case-row-height: 36px; --case-pad: 7px; --case-font: .88rem; --case-gap: 4px; }
     .case-bar-subcategories { --case-thumb: 36px; --case-pad: 7px; --case-font: .86rem; --case-gap: 5px; }
+}
+
+@media (min-width: 769px) {
+    .case-bar-categories .case-bar-scroll {
+        grid-auto-rows: var(--case-row-height);
+        height: calc(var(--case-row-height) * 2 + 8px);
+    }
+    .case-bar-categories .case-bar-scroll > .case-chip { min-height: 0; }
 }
 
 @media (max-width: 768px), (max-width: 1000px) and (max-height: 500px) and (hover: none) and (pointer: coarse) {
